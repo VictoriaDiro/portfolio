@@ -1,0 +1,18 @@
+.form__container {
+  margin-top: 50px;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input__item {
+  margin: 10px;
+}
+
+.sumit__button {
+  width: 80px;
+}

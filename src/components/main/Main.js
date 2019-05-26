@@ -1,13 +1,13 @@
 import React from 'react';
-// import VictoriaDiro from './images/VictoriaDiroPhoto.jpeg';
-// import GoogleAnalytics from './skills_icons/google-analytics.png';
+import VictoriaDiro from './VictoriaDiroPhoto.jpeg';
+// import Analytics from './skills_icons/google-analytics.png';
 import './Main.css';
 
 class Main extends React.Component {
   render () {
     return (
       <div className="main__container">
-        {/* <div className="avatar" style={{ backgroundImage: `url(${VictoriaDiro})` }} alt=""></div> */}
+        <div className="avatar" style={{ backgroundImage: `url(${VictoriaDiro})` }} alt=""></div>
 
         <p className="description">Enamorada del mundo cinematográfico luché mucho por hacerme un hueco en cualquier rodaje que llegara a mis oídos, trabajando de sol a sol. 
       
