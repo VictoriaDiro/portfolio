@@ -1,3 +1,8 @@
+.footer__container {
+  display: flex;
+  justify-content: center;
+}
+
 .make__with {
   position: fixed;
   bottom: 0;
