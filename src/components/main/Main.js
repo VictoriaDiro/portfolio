@@ -46,7 +46,7 @@ class Main extends React.Component {
           </div>
           
           <h2 className="proyects">Mis Proyectos</h2>
-          <div class="projects__container">
+          <div className="projects__container">
 
             <div style={{ backgroundImage: `url(${"https://via.placeholder.com/250x150/0000FF/808080?Text=hola"})` }} alt="" className="project__item-1"/>
             <div style={{ backgroundImage: `url(${"https://via.placeholder.com/250x150/0000FF/808080?Text=hola"})` }} alt="" className="project__item-1"/>
