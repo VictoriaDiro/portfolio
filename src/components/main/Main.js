@@ -1,7 +1,24 @@
 import React from 'react';
 import VictoriaDiro from './VictoriaDiroPhoto.jpeg';
-// import Analytics from './skills_icons/google-analytics.png';
-import './Main.css';
+import adobeIllustrator from './skills-icons/adobe-illustrator.png';
+import adobePhotoshop from './skills-icons/adobe-photoshop.png';
+import adobePremiere from './skills-icons/adobe-premiere.png';
+import analytics from './skills-icons/analytics.png';
+import css3 from './skills-icons/css3.png';
+import github from './skills-icons/github.png';
+import gitlab from './skills-icons/gitlab.png';
+import googleAdwords from './skills-icons/google-adwords.png';
+import html5 from './skills-icons/html5.png';
+import javascript from './skills-icons/javascript.png';
+import microsofOffice from './skills-icons/microsoft-office.png';
+import prestashop from './skills-icons/prestashop.png';
+import react from './skills-icons/react.png';
+import slack from './skills-icons/slack.jpg';
+import trello from './skills-icons/trello.png';
+import wordpress from './skills-icons/wordpress.png';
+
+
+import './Main.scss';
 
 class Main extends React.Component {
   render () {
@@ -19,41 +36,47 @@ class Main extends React.Component {
           <h2 className="skills__title">Mis Habilidades</h2>
           <div className="skills__container">
 
-            {/* <!--MARKETING--> */}
-            {/* <div className="analytics" style={{ backgroundImage: `url(${Analytics})` }} alt=""></div> */}
-            {/* <div className="adwords" style={{ backgroundImage: `url(${Adwords})` }} alt=""></div> */}
-            {/* <div className="wordpress" style={{ backgroundImage: `url(${Wordpress})` }} alt=""></div> */}
-            {/* <div className="pestashop" style={{ backgroundImage: `url(${Prestashop})` }} alt=""></div> */}
+            <h3>Marketing</h3>
+            <img className="skill-item" src={analytics} alt="Google Analytics" />
+            <img className="skill-item" src={googleAdwords} alt="Google Adwords" />
+            <img className="skill-item" src={wordpress} alt="Wordpress" />
+            <img className="skill-item" src={prestashop} alt="Prestashop" />
 
-            {/* <!--AUDIOVISUALES--> */}
-            {/* <div className="office" style={{ backgroundImage: `url(${Office})` }} alt=""></div> */}
-            {/* <div className="photoshop" style={{ backgroundImage: `url(${Photoshop})` }} alt=""></div> */}
-            {/* <div className="illustrator" style={{ backgroundImage: `url(${Illustrator})` }} alt=""></div> */}
-            {/* <div className="premiere" style={{ backgroundImage: `url(${Premiere})` }} alt=""></div> */}
+            <h3>Audiovisuales</h3>
+            <img className="skill-item" src={adobeIllustrator} alt="Adobe Illustrator" />
+            <img className="skill-item" src={adobePhotoshop} alt="Adobe Photoshop" />
+            <img className="skill-item" src={adobePremiere} alt="Adobe Premiere" />
 
-            {/* <!--PROGRAMACIÓN--> */}
-            {/* <img className="skills__item html5" src="img/skills_icons/html5.png" alt="html5"/>
-            <img className="skills__item css3" src="img/skills_icons/css3.png" alt="css3"/>
-            <img className="skills__item javascript" src="img/skills_icons/javascript.png" alt="javascript"/>
-            <img className="skills__item react" src="img/skills_icons/react.png" alt="react"/> */}
+            <h3>Programación</h3>
+            <img className="skill-item" src={html5} alt="HTLM5" />
+            <img className="skill-item" src={css3} alt="CSS·" />
+            <img className="skill-item" src={javascript} alt="JavaScript" />
+            <img className="skill-item" src={react} alt="React" />
 
-            {/* <!--COMUNICACIÓN--> */}
-            {/* <img class="skills__item slack" src="img/skills_icons/slack.png" alt="slack"/>
-            <img className="skills__item trello" src="img/skills_icons/trello.png" alt="trello"/>
-            <img className="skills__item github" src="img/skills_icons/github.png" alt="github"/>
-            <img className="skills__item gitlab" src="img/skills_icons/gitlab.png" alt="gitlab"/> */}
+            <h3>Comunicación y gestión</h3>
+            <img className="skill-item" src={microsofOffice} alt="Microsoft Office" />
+            <img className="skill-item" src={slack} alt="Slack" />
+            <img className="skill-item" src={trello} alt="Trello" />
+            <img className="skill-item" src={github} alt="Github" />
+            <img className="skill-item" src={gitlab} alt="Gitlab" />
+
+
+            {/* Jira */}
  
           </div>
           
           <h2 className="proyects">Mis Proyectos</h2>
           <div className="projects__container">
 
-            <div style={{ backgroundImage: `url(${"https://via.placeholder.com/250x150/0000FF/808080?Text=hola"})` }} alt="" className="project__item-1"/>
-            <div style={{ backgroundImage: `url(${"https://via.placeholder.com/250x150/0000FF/808080?Text=hola"})` }} alt="" className="project__item-1"/>
-            <div style={{ backgroundImage: `url(${"https://via.placeholder.com/250x150/0000FF/808080?Text=hola"})` }} alt="" className="project__item-1"/>
-            <div style={{ backgroundImage: `url(${"https://via.placeholder.com/250x150/0000FF/808080?Text=hola"})` }} alt="" className="project__item-1"/>
-            <div style={{ backgroundImage: `url(${"https://via.placeholder.com/250x150/0000FF/808080?Text=hola"})` }} alt="" className="project__item-1"/>
-            <div style={{ backgroundImage: `url(${"https://via.placeholder.com/250x150/0000FF/808080?Text=hola"})` }} alt="" className="project__item-1"/>
+
+          <img className="skill-item" src="https://via.placeholder.com/300/fabada/808080" alt="project-icon" />
+          <img className="skill-item" src="https://via.placeholder.com/300/fabada/808080" alt="project-icon" />
+          <img className="skill-item" src="https://via.placeholder.com/300/fabada/808080" alt="project-icon" />
+          <img className="skill-item" src="https://via.placeholder.com/300/fabada/808080" alt="project-icon" />
+          <img className="skill-item" src="https://via.placeholder.com/300/fabada/808080" alt="project-icon" />
+          <img className="skill-item" src="https://via.placeholder.com/300/fabada/808080" alt="project-icon" />
+          <img className="skill-item" src="https://via.placeholder.com/300/fabada/808080" alt="project-icon" />
+          <img className="skill-item" src="https://via.placeholder.com/300/fabada/808080" alt="project-icon" />
         
           </div>
         </div>
