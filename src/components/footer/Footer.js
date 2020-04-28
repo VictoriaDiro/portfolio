@@ -1,11 +1,11 @@
 import React from 'react';
-import './Footer.css';
+import './Footer.scss';
 
 class Footer extends React.Component {
   render () {
     return (
       <footer className="footer__container">
-        <h4 className="make__with">Make with <i className="fas fa-heart"></i> by Victoria Diro</h4>
+        <h4 className="footer__text">Make with <i className="fas fa-heart"></i> by DiroVic</h4>
       </footer>
     )
   }

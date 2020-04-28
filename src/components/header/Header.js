@@ -6,7 +6,7 @@ class Header extends React.Component {
   render () {
     return (
       <header className="header__container">
-        <Link to="/" className="header-title">Victoria Díaz</Link>
+        <Link to="/" className="header-title">DiroVic</Link>
           <nav className="header-navbar">
             <ul className="header-navbar__list">
               <li className="header-navbar__item moreinfo">

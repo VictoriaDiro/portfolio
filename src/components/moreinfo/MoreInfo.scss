@@ -1,0 +1,38 @@
+.moreinfo__container {
+  margin-top: 150px;
+  display: flex;
+  .work__experience {
+    .work__experience__item {
+      margin: 20px;
+      list-style: none;
+      .work__title {
+        margin: 0;
+        font-size: 1.5rem;
+      }
+      .work__company {
+        margin: 0;
+        font-size: 1rem;
+        a {
+          margin-left: 5px;
+        }
+      }
+    }
+  }
+  .education__container {
+    .education__item {
+      margin: 20px;
+      list-style: none;
+      .education__title {
+        margin: 0;
+        font-size: 1.5rem;
+      }
+      .education__school {
+        margin: 0;
+        font-size: 1rem;
+        a {
+          margin-left: 5px;
+        }
+      }
+    }
+  }
+}

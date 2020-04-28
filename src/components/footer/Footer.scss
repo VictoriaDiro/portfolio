@@ -1,0 +1,10 @@
+.footer__container {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: flex-end;
+  background-color: #ffffff25;
+  .footer__text {
+    margin: 0 40% 1% 40%;
+  }
+}

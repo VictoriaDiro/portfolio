@@ -1,82 +1,123 @@
 import React from 'react';
+import './MoreInfo.scss';
 
 class MoreInfo extends React.Component {
   render () {
     return (
       <div className="moreinfo__container">
 
-          <h2 className="work__experience-title">Experiencia Laboral</h2>
-          <ul className="work__experience">
-            <li className="work__experience-item">2018_Auxiliar Administrativo y Atención al Cliente: 24studioLAB (Madrid) – 4 meses</li>
-            <li className="work__experience-item">2013· 2018_Administrativo Contable: Triburbana Hip Hop Store & Montana Shop Madrid (Madrid) – 5 años y 10 meses
+          <ul className="work__experience"><h2 className="work__title">Laboral</h2>
+            <li className="work__experience__item">
+              <h4 className="work__title">Maquetadora Web</h4>
+              <h5 className="work__company">Telefónica Edicación Digital</h5>
+              <span className="work__time">mar. 2020 - ACTUALIDAD</span>
+              <div className="work__skills">
+                <ul className="work__skills__list">
+                  <li className="work__skills__list__item">HTML, CSS, Sass, Javascript</li>
+                  <li className="work__skills__list__item">LifeRay</li>
+                  <li className="work__skills__list__item">Scrum, Agile, Redmine</li>
+                  <li className="work__skills__list__item">Eclipse</li>
+                </ul>
+              </div>
             </li>
-            <li className="work__experience-item">2010· 2018_Equipo de Cámara y Edición en el Sector Audiovisual: Freelance (España) – 7 años y 2 meses
+
+            <li className="work__experience__item">
+              <h4 className="work__title">Desarrolladora Front End</h4>
+              <h5 className="work__company">Osoco</h5>
+              <span className="work__time">jul. 2019 - feb. 2020</span>
+              <div className="work__skills">
+                <ul className="work__skills__list">
+                  <li className="work__skills__list__item">HTML, CSS, Sass, Bootstrap</li>
+                  <li className="work__skills__list__item">Javascript, ReactJs</li>
+                  <li className="work__skills__list__item">Git, GitHub, GitLab, Bitbucket, Phabricator</li>
+                  <li className="work__skills__list__item">Scrum, Agile, Redmine</li>
+                </ul>
+              </div>
             </li>
-            <li className="work__experience-item">2016_Diseño de páginas web (Wordpress): Freelance (Madrid) – 4 meses</li>
-            <li className="work__experience-item">2007· 2012_Gerente de tienda online (Prestashop): www.triburbanashop.com (Madrid) – 6 años y 9 meses</li>
-            <li className="work__experience-item">2006· 2010_Dependiente: Triburbana Hip Hop Store (Madrid) – 4 años y 3 meses</li>
+
+            <li className="work__experience__item">
+              <h4 className="work__title">Administrativo</h4>
+              <h5 className="work__company">24Studio</h5>
+              <span className="work__time">ago. 2018 - ene. 2019</span>
+              <div className="work__skills">
+                <ul className="work__skills__list">
+                  <li className="work__skills__list__item">Microsoft Excel, Wrod, PowerPoint</li>
+                  <li className="work__skills__list__item">Gestión de alumnado</li>
+                  <li className="work__skills__list__item">Balance de ingresos, gastos</li>
+                  <li className="work__skills__list__item">Gestión de web corporativa en Wordpress</li>
+                </ul>
+              </div>
+            </li>
+
+            <li className="work__experience__item">
+              <h4 className="work__title">Administrativo</h4>
+              <h5 className="work__company">Montana Shop Madrid</h5>
+              <span className="work__time">ene. 2015 - dic. 2018</span>
+              <div className="work__skills">
+                <ul className="work__skills__list">
+                  <li className="work__skills__list__item">Microsoft Excel, Wrod, PowerPoint</li>
+                  <li className="work__skills__list__item">Listados de facturación</li>
+                  <li className="work__skills__list__item">Balance de ingresos, gastos</li>
+                  <li className="work__skills__list__item">Contacto con proveedores, banco</li>
+                </ul>
+              </div>
+            </li>
+
+            <li className="work__experience__item">
+              <h4 className="work__title">Equipo de cámara y edición de vídeo y fotografía</h4>
+              <h5 className="work__company">VD Photo<a className="work__link" href="http://victoriadiazphotography.com/" target="_blank">[Web]</a></h5>
+              <span className="work__time">dic. 2010 - ene. 2018</span>
+              <div className="work__skills">
+                <ul className="work__skills__list">
+                  <li className="work__skills__list__item">Cámaras de cine, vídeo, réflex</li>
+                  <li className="work__skills__list__item">Operadora, ayudante de cámara</li>
+                  <li className="work__skills__list__item">Adobe Premiere, Adobe Photoshop, Adobe Bridge, Final Cut</li>
+                  <li className="work__skills__list__item">Creación de páginas web en Wordpress</li>
+                </ul>
+              </div>
+            </li>
+
+            <li className="work__experience__item">
+              <h4 className="work__title">Gerente en comercio electrónico</h4>
+              <h5 className="work__company">Telefónica Edicación Digital</h5>
+              <span className="work__time">abr. 2008 - dic. 2014</span>
+              <div className="work__skills">
+                <ul className="work__skills__list">
+                  <li className="work__skills__list__item">Gestión de comercio online en PrestaShop</li>
+                  <li className="work__skills__list__item">Gestión de pedidos y stock</li>
+                  <li className="work__skills__list__item">Atención al cliente</li>
+                  <li className="work__skills__list__item">Captura y edición de fotografía</li>
+                </ul>
+              </div>
+            </li>
+
+            <li className="work__experience__item">
+              <h4 className="work__title">Fotoperiodista</h4>
+              <h5 className="work__company">Teleprensa Madrid</h5>
+              <span className="work__time">abr. 2010 - may. 2011</span>
+              <div className="work__skills">
+                <ul className="work__skills__list">
+                  <li className="work__skills__list__item">Captura y edición de fotografía</li>
+                  <li className="work__skills__list__item">Redacción de artículos de prensa</li>
+                </ul>
+              </div>
+            </li>
           </ul>
 
-          <h2 className="education">Educación y Formación</h2>
-          <ul className="education__container">
-            <li className="education__item">ACTUALMENTE_Curso de desarrollo Front-End (50h.): Adalab, Google Campus Madrid</li>
-            <li className="education__item">2019_Curso de desarrollo Front-End “DesArrolladoras” (50h.): Universidad Politécnica de Madrid</li>
-            <li className="education__item">2018_Cursos de Fundamentos de HTML, CSS y JavaScript (14h.): Solo Learn</li>
-            <li className="education__item">2018_Certificado profesional en Actividades Administrativas y Relación con el Cliente (680h.): Móstoles Desarrollo, certificación por la Comunidad de Madrid</li>
-            <li className="education__item">2015_ Community Mánager en comercio electrónico (100h.): Rebeldes Marketing Online (Madrid)</li>
-            <li className="education__item">2014_Illustrator CC (14h.): La Casa Encendida (Madrid)</li>
-            <li className="education__item">2011· 2013_Dirección de Fotografía y Operador de Cámara (1440h.): Escuela Superior de Espectáculos TAI (Madrid)</li>
-            <li className="education__item">2009· 2011_Técnico en Laboratorio de Imagen (1400h.): I.E.S. Luis Buñuel (Madrid)</li>
-          </ul>
-
-          <h2 className="skills">Habilidades y conocimientos</h2>
-          <ul className="skills__container">
-            <li className="skills__item">EDICIÓN DE VÍDEO Y FOTOGRAFÍA
-              <ul className="video__skills-container">
-                <li className="video__skills-item">Lightroom, Photoshop, Premiere, Final Cut Pro</li>
-                <li className="video__skills-item">Illustrator, InDesingn, After Effects</li>
-              </ul>
-            </li>
-            <li className="skills__item">SOCIAL MEDIA
-              <ul className="socialmedia__skills-container">
-                <li className="socialmedia__skills-item">Google Analytics, Google Adwords, Facebook Ads, Twitter Ads, SEO, SEM</li>
-              </ul>
-            </li>
-            <li className="skills__item">COMERCIO ELECTRÓNICO
-              <ul className="ecommerce__skills-container">
-                <li className="ecommerce__skills-item">OsCommerce, Prestashop, mailing</li>
-              </ul>
-            </li>
-            <li className="skills__item">PÁGINAS WEB
-              <ul className="web__skills-container">
-                <li className="web__skills-item">Wordpress, Blogger</li>
-              </ul>
-            </li>
-            <li className="skills__item">PROGRAMACIÓN
-              <ul className="develoment__skills-container">
-                <li className="develoment__skills-item">HTML, CSS, Flexbox, Grid, SASS, JavaScript, React</li>
-              </ul>
-            </li>
-            <li className="skills__item">MICROSOFT OFFICE
-              <ul className="office__skills-container">
-                <li className="office__skills-item">PowerPoint, Word, Excel, Access, Power Point, Outlook, Publisher</li>
-              </ul>
-            </li>
-            <li className="skills__item">INTERNET Y REDES SOCIALES
-              <ul className="internetrrss__skills-ontainer">
-                <li className="internetrrss__skills-item">Navegadores, e-mail, Facebook, Instagram, Twitter
-                </li>
-              </ul>
-            </li>
-            <li className="skills__item">ENTORNO
-              <ul className="environment__skills-container">
-                <li className="environment__skills-item">Mac, PC</li>
-              </ul>
-            </li>
-            <li className="skills__item">CONTABILIDAD
-              <ul className="accounting__skills-container">
-                <li className="accounting__skills-item">Factusol</li>
-              </ul>
+          <ul className="education__container"><h2 className="education__title">Formación</h2>
+          <li className="education__item">
+              <h4 className="education__title">Desarrollo Front-End</h4>
+              <h5 className="education__school">Adalab</h5>
+              <span className="education__time">feb. 2019 - jun. 2019</span>
+              <div className="education__skills">
+                <ul className="education__skills__list">
+                  <li className="education__skills__list__item">HTML5, CSS3, Flexbox, CSS Grid, Responsive, SASS, Bootstrap, animaciones</li>
+                  <li className="education__skills__list__item">JavaScript, ES6 y SPAs con React</li>
+                  <li className="education__skills__list__item">Control de versiones con Git</li>
+                  <li className="education__skills__list__item">Metodologías ágiles</li>
+                  <li className="education__skills__list__item">Slack, Trello y GitHub</li>
+                </ul>
+              </div>
             </li>
           </ul>
 

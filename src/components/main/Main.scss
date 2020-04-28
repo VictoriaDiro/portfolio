@@ -1,4 +1,4 @@
-.main__container {
+.main-container {
   .main-content {
     .main-background {
       height: 100vh;
@@ -17,26 +17,39 @@
       font-size: 1.5rem;
     }
   }
-}
-
-
-
-
-.skills__project-container {
-  padding: 30px;
-  border-radius: 5px;
-}
-
-.skills__container {
-  height: 50%;
-  text-align: center;
-}
-
-.projects__container {
-  height: 50%;
-}
-
-.skill-item {
-  width: 8%;
-  margin: 1%;
+  .skills-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 200px 200px;
+    margin: 50px;
+    text-align: center;
+    .marketing-container,
+    .audiovisual-container,
+    .programming-container,
+    .communication-container {
+      margin: 30px;
+      border: 1px solid #ffffff;
+      h3 {
+        font-size: 2rem;
+        margin-top: 45px;
+      }
+      .skill-item {
+        display: none;
+      }
+    }
+    .marketing-container:hover,
+    .audiovisual-container:hover,
+    .programming-container:hover,
+    .communication-container:hover {
+      border: 3px solid;
+      h3 {
+        display: none;
+      }
+      .skill-item {
+        display: inline;
+        width: 8%;
+        margin: 45px 10px 0 10px;
+      }
+    }
+  }
 }
