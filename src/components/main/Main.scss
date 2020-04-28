@@ -1,11 +1,29 @@
-.description {
-  padding: 30px;
-  background-color: rgba(255, 255, 255, 0.8);
+.main__container {
+  .main-content {
+    .main-background {
+      height: 100vh;
+      background: url("../../images/main-image.jpg") center no-repeat;
+      background-size: cover;
+    }
+    .main-item {
+      position: absolute;
+      bottom: 50px;
+      padding-left: 50px;
+    }
+    .main-title {
+      font-size: 5rem;
+    }
+    .main-subtitle {
+      font-size: 1.5rem;
+    }
+  }
 }
+
+
+
 
 .skills__project-container {
   padding: 30px;
-  background-color: rgba(255, 255, 255, 0.8);
   border-radius: 5px;
 }
 

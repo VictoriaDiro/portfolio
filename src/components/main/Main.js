@@ -1,5 +1,4 @@
 import React from 'react';
-import VictoriaDiro from './VictoriaDiroPhoto.jpeg';
 import adobeIllustrator from './skills-icons/adobe-illustrator.png';
 import adobePhotoshop from './skills-icons/adobe-photoshop.png';
 import adobePremiere from './skills-icons/adobe-premiere.png';
@@ -24,13 +23,12 @@ class Main extends React.Component {
   render () {
     return (
       <div className="main__container">
-        <div className="avatar" style={{ backgroundImage: `url(${VictoriaDiro})` }} alt=""></div>
 
-        <p className="description">Enamorada del mundo cinematográfico luché mucho por hacerme un hueco en cualquier rodaje que llegara a mis oídos, trabajando de sol a sol. 
-      
-        Ahora, años después, he decidido reinventarme como Front-End Developer y aprovechar así, las competencias adquiridas como esfuerzo, adaptación a nuevos entornos y trabajo en equipo. 
-      
-        Además de esto, soy una persona muy organizada a la que le gusta la planificación de tareas y sociable.</p>
+        <div className="main-content">
+          <div className="main-background"></div>
+          <p className="main-item main-title">Maquetación web</p>
+          <p className="main-item main-subtitle">HTML, CSS, Sass, JavaScript, React</p>
+        </div>
 
         <div className="skills__project-container">
           <h2 className="skills__title">Mis Habilidades</h2>

@@ -1,9 +1,6 @@
 .footer__container {
+  position: absolute;
+  bottom: 0;
   display: flex;
   justify-content: center;
-}
-
-.make__with {
-  position: fixed;
-  bottom: 0;
 }
