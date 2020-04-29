@@ -12,6 +12,9 @@ class Header extends React.Component {
               <li className="header-navbar__item moreinfo">
                 <Link to="/more-info">Más información</Link>
               </li>
+              <li className="header-navbar__item other-courses">
+                <Link to="/other-courses">Más Cursos</Link>
+              </li>
               <li className="header-navbar__item contact">
                 <Link to="/contact">Contacto</Link>
               </li>

@@ -1,20 +1,20 @@
 import React from 'react';
-import adobeIllustrator from './skills-icons/adobe-illustrator.png';
-import adobePhotoshop from './skills-icons/adobe-photoshop.png';
-import adobePremiere from './skills-icons/adobe-premiere.png';
-import analytics from './skills-icons/analytics.png';
-import css3 from './skills-icons/css3.png';
-import github from './skills-icons/github.png';
-import gitlab from './skills-icons/gitlab.png';
-import googleAdwords from './skills-icons/google-adwords.png';
-import html5 from './skills-icons/html5.png';
-import javascript from './skills-icons/javascript.png';
-import microsofOffice from './skills-icons/microsoft-office.png';
-import prestashop from './skills-icons/prestashop.png';
-import react from './skills-icons/react.png';
-import slack from './skills-icons/slack.jpg';
-import trello from './skills-icons/trello.png';
-import wordpress from './skills-icons/wordpress.png';
+import adobeIllustrator from '../../images/skills-icons/adobe-illustrator.png';
+import adobePhotoshop from '../../images/skills-icons/adobe-photoshop.png';
+import adobePremiere from '../../images/skills-icons/adobe-premiere.png';
+import analytics from '../../images/skills-icons/analytics.png';
+import css3 from '../../images/skills-icons/css3.png';
+import github from '../../images/skills-icons/github.png';
+import gitlab from '../../images/skills-icons/gitlab.png';
+import googleAdwords from '../../images/skills-icons/google-adwords.png';
+import html5 from '../../images/skills-icons/html5.png';
+import javascript from '../../images/skills-icons/javascript.png';
+import microsofOffice from '../../images/skills-icons/microsoft-office.png';
+import prestashop from '../../images/skills-icons/prestashop.png';
+import react from '../../images/skills-icons/react.png';
+import slack from '../../images/skills-icons/slack.jpg';
+import trello from '../../images/skills-icons/trello.png';
+import wordpress from '../../images/skills-icons/wordpress.png';
 
 
 import './Main.scss';
