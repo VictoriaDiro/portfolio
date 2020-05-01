@@ -43,7 +43,7 @@
   }
 }
 
-@media (min-width: 320px)  {
+@media (max-width: 767px)  {
   .othercourses__container {
     grid-template-columns: 100%;
   }
