@@ -1,10 +1,10 @@
 import React from 'react';
-import Header from '../header/Header';
-import MoreInfo from '../moreinfo/MoreInfo';
-import OtherCouses from '../otherCourses/otherCourses';
-import Contact from '../contact/Contact';
-import Main from '../main/Main';
-import Footer from '../footer/Footer';
+import Header from '../Header/Header';
+import MoreInfo from '../Moreinfo/MoreInfo';
+import OtherCouses from '../OtherCourses/OtherCourses';
+import Contact from '../Contact/Contact';
+import Main from '../Main/Main';
+import Footer from '../Footer/Footer';
 import { Switch, Route } from 'react-router-dom';
 import './App.scss';
 
@@ -23,7 +23,7 @@ class App extends React.Component {
                 </div>
               }
             />
-            <Route path="/more-info" component={MoreInfo} />
+            <Route path="/more-info" component={MoreInfo } />
             <Route path="/other-courses" component={OtherCouses} />
             <Route path="/contact" component={Contact} />
           </Switch>

@@ -1,17 +1,19 @@
 .header__container {
   width: 93%;
-  padding: 10px 50px;
+  padding: 0px 50px;
   position: fixed;
   top: 0;
+  z-index: 1;
   display: flex;
   justify-content: space-between;
-  background-color: #ffffff2c;
+  background-color: #35007a;
   .header-title {
+    font-size: 3rem;
+    font-weight: 800;
+    padding-top: 6px;
     vertical-align: middle;
     text-decoration: none;
     color: #ffffff;
-    font-size: 3rem;
-    font-weight: 800;
   }
   .header-navbar {
     .header-navbar__list {
@@ -25,14 +27,17 @@
           text-decoration: none;
         }
         a:hover {
-          color: #ffffff;
+          color: #cecece;
+          border-bottom: 3px solid #ffffff;
+          padding-bottom: 25px;
         }
         a:visited {
           color: #ffffff;
         }
       }
-      .header-navbar__item.moreinfo {
-        margin-top: 5px;
+      .header-navbar__item.moreinfo,
+      .header-navbar__item.other-courses {
+        margin: 6px 0 0 20px;
       }
       .header-navbar__item.contact {
         margin-left: 40px;

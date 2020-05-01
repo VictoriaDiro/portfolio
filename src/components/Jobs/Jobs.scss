@@ -1,0 +1,18 @@
+.job__item {
+  margin: 20px;
+  list-style: none;
+  .job__title {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  .job__company {
+    margin: 0;
+    font-size: 1rem;
+  }
+  .job__time {
+  }
+  .job__skills {
+    .job__skills__item {
+    }
+  }
+}

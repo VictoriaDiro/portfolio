@@ -1,21 +1,19 @@
 .moreinfo__container {
-  margin-top: 150px;
+  margin-top: 80px;
   display: flex;
-  .work__experience {
-    .work__experience__item {
-      margin: 20px;
-      list-style: none;
-      .work__title {
-        margin: 0;
-        font-size: 1.5rem;
-      }
-      .work__company {
-        margin: 0;
-        font-size: 1rem;
-        a {
-          margin-left: 5px;
-        }
-      }
+  justify-content: center;
+  .jobs__container {
+    max-width: 500px;
+    .jobs__title {
+      margin: 60px 60px 0 60px;
+      font-size: 3rem;
+    }
+  }
+  .education__container {
+    max-width: 500px;
+    .education__title {
+      margin: 60px 60px 0 60px;
+      font-size: 3rem;
     }
   }
   .education__container {
