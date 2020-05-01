@@ -42,3 +42,9 @@
 
   }
 }
+
+@media (min-width: 320px)  {
+  .othercourses__container {
+    grid-template-columns: 100%;
+  }
+}

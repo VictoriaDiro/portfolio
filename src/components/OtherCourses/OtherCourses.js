@@ -1,5 +1,5 @@
 import React from 'react';
-import data from "../../services/more-courses.json";
+import data from "../../services/other-courses.json";
 import './OtherCourses.scss';
 
 class OtherCourses extends React.Component {
@@ -10,7 +10,7 @@ class OtherCourses extends React.Component {
         <li className="courses__item" key={index}>
           <h4 className="courses__title">{item.title}</h4>
           <h5 className="courses__school">{item.school}
-            <i class="fas fa-code"></i>
+            <i className="fas fa-code"></i>
             <span className="courses__time">{item.time}</span>
           </h5>
           <a className="courses__certificate" href={item.certificate} target="_blank">Certificado</a>

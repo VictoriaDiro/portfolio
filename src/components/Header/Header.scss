@@ -55,3 +55,25 @@
     }
   }
 }
+
+@media (min-width: 320px) {
+  .header__container {
+    width: 100%;
+    padding: 0;
+    flex-direction: column;
+  }
+  .header__container .header-title {
+    font-size: 2rem;
+  }
+  .header__container .header-navbar .header-navbar__list {
+    padding-left: 10px;
+}
+  .header__container .header-navbar .header-navbar__list .header-navbar__item.contact {
+    margin-left: 14px;
+    padding: 0px 20px;
+  }
+  .header__container .header-navbar .header-navbar__list .header-navbar__item a {
+    font-size: 1rem;
+  }
+}
+
