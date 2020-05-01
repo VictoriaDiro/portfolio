@@ -4,6 +4,11 @@ Página web con información sobre Victoria Diro
 
 Front-End Developer || => HTML | CSS (Flexbox, Grid, Bootstrap, SASS) | JavaScript | React | Git | Scrum | Agile
 
+## ReactJs
+
+## Json
+
+## Sass
 
 ## Uso de metodología BEM
 

@@ -25,14 +25,19 @@
         color: #ffffff;
         a {
           text-decoration: none;
+          color: #ffffff;
         }
         a:hover {
-          color: #cecece;
+          color: #ffffff;
           border-bottom: 3px solid #ffffff;
           padding-bottom: 25px;
         }
         a:visited {
           color: #ffffff;
+        }
+        a:active {
+          border-bottom: 3px solid #ffffff;
+          padding-bottom: 25px;
         }
       }
       .header-navbar__item.moreinfo,
@@ -43,6 +48,9 @@
         margin-left: 40px;
         padding: 8px 50px;
         border: 1px solid #ffffff;
+      }
+      .header-navbar__item.contact a:hover {
+        border-bottom: none;
       }
     }
   }

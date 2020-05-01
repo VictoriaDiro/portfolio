@@ -1,10 +1,10 @@
 {
-  "jobs":
-    [{
-      "title": "Maquetadora Web",
-      "company": "Telefónica Edicación Digital",
-      "time": "mar. 2020 - ACTUALIDAD",
-      "skills": ["HTML, CSS, Sass", "Javascript", "LifeRay", "Eclipse", "Scrum, Agile, Redmine"]
+  "jobs": [
+    {
+    "title": "Maquetadora Web",
+    "company": "Telefónica Edicación Digital",
+    "time": "mar. 2020 - ACTUALIDAD",
+    "skills": ["HTML, CSS, Sass", "Javascript", "LifeRay", "Eclipse", "Scrum, Agile, Redmine"]
     },
     {
       "title": "Desarrolladora Front End",
@@ -43,7 +43,7 @@
       "skills": ["Captura y edición de fotografía", "Redacción de artículos de prensa"]
     }
   ],
-  "education":[
+  "education": [
     {
       "title": "Desarrollo Front-End",
       "school": "Adalab",

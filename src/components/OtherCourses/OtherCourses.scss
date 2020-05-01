@@ -1,3 +1,44 @@
 .othercourses__container {
-  padding-top: 200px;
+  padding: 90px 40px 40px 40px;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  h3 {
+    font-size: 3rem;
+  }
+  .courses__item {
+    height: 130px;
+    position: relative;
+    margin: 20px;
+    list-style: none;
+    text-align: center;
+    border: 1px solid #ffffff;
+    padding: 10px 10px 30px 10px;
+    .courses__title {
+      font-size: 1.3rem;
+
+      margin: 0;
+    }
+    .courses__school {
+      font-size: 1rem;
+      margin: 0 0 18px 0;
+      .fa-code {
+        font-size: 1rem;
+        margin: 0 15px;
+      }
+    }
+    .courses__certificate {
+      position: absolute;
+      right: 35%;
+      bottom:10%;
+      padding: 9px;
+      text-decoration: none;
+      color: #ffffff;
+      border: 1px solid #ffffff;
+    }
+    .courses__certificate:hover {
+      color: #be7bfd;
+      border: 1px solid #be7bfd;
+    }
+
+  }
 }

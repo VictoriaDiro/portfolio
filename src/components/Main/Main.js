@@ -21,15 +21,11 @@ class Main extends React.Component {
   render () {
     return (
       <div className="main-container">
-
         <div className="main-content">
           <div className="main-background"></div>
           <p className="main-item main-title">Maquetación web</p>
           <p className="main-item main-subtitle">HTML, CSS, Sass, JavaScript, React</p>
         </div>
-
-        <p>Bienvenid@ a mi sitio web. Soy Victoria Díaz, especializada en el mundo de maquetación web y formándome en UI/UX</p>
-
         <div className="skills-container">
           <div className="programming-container">
             <h3>Programación</h3>
@@ -63,7 +59,7 @@ class Main extends React.Component {
         </div>
 
         <div className="download-cv">
-          <a href="../../images/background.png" target="_blank">Descarga mi CV</a>
+          <a href="#" target="_blank">Descarga mi CV</a>
         </div>
 
 
