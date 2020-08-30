@@ -1,15 +1,15 @@
 .header__container {
-  width: 93%;
-  padding: 0px 50px;
+  width: 100%;
   position: fixed;
   top: 0;
   z-index: 1;
   display: flex;
   justify-content: space-between;
-  background-color: #35007a;
+  background-color: #333333;
+  color: #000000;
   .header-title {
-    font-size: 3rem;
-    font-weight: 800;
+    font-size: 2rem;
+    margin-left: 50px;
     padding-top: 6px;
     vertical-align: middle;
     text-decoration: none;
@@ -17,32 +17,34 @@
   }
   .header-navbar {
     .header-navbar__list {
+      margin: 10px 50px;
       list-style: none;
       display: flex;
+      .download-cv {
+        padding: 5px 15px;
+        border-radius: 5px;
+        background-color: #ffffff;
+        a {
+          color: #000000;
+          text-decoration: none;
+        }
+      }
       .header-navbar__item {
+        margin: 5px 0px 0px 20px;
         vertical-align: middle;
-        font-size: 1.5rem;
-        color: #ffffff;
+        font-size: 1rem;
         a {
           text-decoration: none;
+          color: #ffffff;
         }
         a:hover {
           color: #cecece;
-          border-bottom: 3px solid #ffffff;
-          padding-bottom: 25px;
+          border-bottom: 3px solid #f0f0f0;
+          padding-bottom: 15px;
         }
         a:visited {
           color: #ffffff;
         }
-      }
-      .header-navbar__item.moreinfo,
-      .header-navbar__item.other-courses {
-        margin: 6px 0 0 20px;
-      }
-      .header-navbar__item.contact {
-        margin-left: 40px;
-        padding: 8px 50px;
-        border: 1px solid #ffffff;
       }
     }
   }

@@ -45,26 +45,20 @@
   ],
   "education":[
     {
+      "title": "UX Design",
+      "school": "Platzi",
+      "time": "ago. 2020 - Actualidad",
+      "skills": ["Design Thinking", "Usabilidad", "Diseño de interfaces UI y UX", "Lean Ux", "User Research", "Arquitectura de la información", "Accesibilidad"]
+    },
+    {
       "title": "Desarrollo Front-End",
       "school": "Adalab",
       "time": "feb. 2019 - jun. 2019",
       "skills": ["HTML5, CSS3, Flexbox, CSS Grid, Responsive, SASS, Bootstrap, animaciones", "JavaScript, ES6 y SPAs con React", "Control de versiones con Git", "Slack, Trello y GitHub", "Metodologías ágiles"]
     },
     {
-      "title": "Desarrollo Front End",
-      "school": "Universidad de Alcalá",
-      "time": "jun. 2019 - sep. 2019",
-      "skills": ["HTML5, CSS3", "Javascript"]
-    },
-    {
-      "title": "Desarrollo Front-End con HTML5 y CSS3",
-      "school": "Universidad Politécnica de Madrid",
-      "time": "ene. 2019 - mar. 2019",
-      "skills": ["HTML5, CSS3"]
-    },
-    {
-      "title": "Certificación profesional: Administración y Relación con el Cliente",
-      "school": "CAM",
+      "title": "Administración y Relación con el Cliente",
+      "school": "Certificación profesional CAM",
       "time": "dic. 2017 - jun. 2018",
       "skills": ["Microsoft Excel, Wrod, PowerPoint", "Inglés para negocios", "Balance de ingresos, gastos con Factusol", "Administración de empresas"]
     },
@@ -75,16 +69,16 @@
       "skills": ["Optimización del proceso de venta", "Analítica web", "SEO, Adwords, Facebook Marketing, e-mailing", "Marketing de contenido"]
     },
     {
-      "title": "Dirección de fotografía y operador de cámara",
+      "title": "Dir. de fotografía y operador de cámara",
       "school": "Escuela TAI",
       "time": "sep. 2011 - jun. 2013",
-      "skills": []
+      "skills": ["Toma de vídeo", "Edición de vídeo", "Iluminación escénica"]
     },
     {
       "title": "Técnico en Laboratorio de Image",
       "school": "I.E.S. Luis Buñuel",
       "time": "sep. 2009 - jun. 2011",
-      "skills": []
+      "skills": ["Toma de fotografía", "Edición de fotografía"]
     }
   ]
 }
