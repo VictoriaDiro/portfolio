@@ -1,19 +1,15 @@
 import React from 'react';
-import adobeIllustrator from '../../images/skills-icons/audiovisuals/adobe-illustrator.png';
 import adobePhotoshop from '../../images/skills-icons/audiovisuals/adobe-photoshop.png';
 import adobePremiere from '../../images/skills-icons/audiovisuals/adobe-premiere.png';
 import analytics from '../../images/skills-icons/marketing/analytics.png';
 import css3 from '../../images/skills-icons/programming/css3.png';
 import github from '../../images/skills-icons/communication/github.png';
 import gitlab from '../../images/skills-icons/communication/gitlab.png';
-import googleAdwords from '../../images/skills-icons/marketing/google-adwords.png';
 import html5 from '../../images/skills-icons/programming/html5.png';
 import javascript from '../../images/skills-icons/programming/javascript.png';
 import microsofOffice from '../../images/skills-icons/communication/microsoft-office.png';
 import prestashop from '../../images/skills-icons/marketing/prestashop.png';
 import react from '../../images/skills-icons/programming/react.png';
-import slack from '../../images/skills-icons/communication/slack.png';
-import trello from '../../images/skills-icons/communication/trello.png';
 import wordpress from '../../images/skills-icons/marketing/wordpress.png';
 import './Main.scss';
 
