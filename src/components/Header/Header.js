@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import PdfCV from '../../images/cv-victoria-diaz_cssed.pdf';
 import './Header.scss';
 
 class Header extends React.Component {
@@ -10,10 +11,10 @@ class Header extends React.Component {
           <nav className="header-navbar">
             <ul className="header-navbar__list">
               <li className="download-cv">
-                <a href="../../images/background.png" target="_blank">Descarga mi CV</a>
+                <a href={PdfCV} target="_blank">Descarga mi CV</a>
               </li>
               <li className="header-navbar__item moreinfo">
-                <Link to="/more-info">Más información</Link>
+                <Link to="/contact">Contacto</Link>
               </li>
             </ul>
           </nav>

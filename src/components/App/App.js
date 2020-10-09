@@ -1,7 +1,6 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Header from '../Header/Header';
-import MoreInfo from '../Moreinfo/MoreInfo';
 import Contact from '../Contact/Contact';
 import Main from '../Main/Main';
 import Footer from '../Footer/Footer';
@@ -22,7 +21,6 @@ class App extends React.Component {
                   </div>
                 }
               />
-              <Route path="/more-info" component={MoreInfo} />
               <Route path="/contact" component={Contact} />
             </Switch>
         </main>

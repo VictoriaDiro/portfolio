@@ -1,0 +1,15 @@
+.projects__container {
+  text-align: center;
+  .projects__item {
+    height: 300px;
+    width: 200px;
+    margin: 20px;
+    img {
+      border-radius: 8px;
+    }
+  }
+}
+
+.swiper-wrapper {
+  display: flex;
+}

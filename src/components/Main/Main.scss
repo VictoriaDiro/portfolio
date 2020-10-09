@@ -19,83 +19,6 @@
     }
   }
 
-  .skills-container {
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 200px;
-    text-align: center;
-    .programming-container,
-    .marketing-container,
-    .audiovisual-container,
-    .communication-container {
-      margin: 30px;
-      h3 {
-        font-size: 1.5rem;
-        margin: 55px 45px 35px 45px;
-      }
-      .skill__image__container {
-        .skill-item {
-          display: none;
-        }
-      }
-    }
-    .programming-container:hover,
-    .marketing-container:hover,
-    .audiovisual-container:hover,
-    .communication-container:hover {
-      h3 {
-        display: none;
-      }
-      .skill__image__container {
-        width: 100%;
-        margin: 40px 5px 40px 5px;
-        .skill-item {
-          display: inline;
-          width: 40px;
-          margin: 10px 10px 0 10px;
-        }
-      }
-    }
-    .marketing-container:hover,
-    .communication-container:hover,
-    .audiovisual-container:hover {
-      .skill__image__container {
-        width: 90%;
-      }
-    }
-    .programming-container {
-      background: url("../../images/skills-container/blue.png") no-repeat;
-      background-size: 250px;
-      background-position: center;
-    }
-    .marketing-container {
-      background: url("../../images/skills-container/green.png") no-repeat;
-      background-size: 250px;
-      background-position: center;
-    }
-    .audiovisual-container {
-      background: url("../../images/skills-container/pink.png") no-repeat;
-      background-size: 250px;
-      background-position: center;
-    }
-    .communication-container {
-      background: url("../../images/skills-container/yellow.png") no-repeat;
-      background-size: 250px;
-      background-position: center;
-    }
-  }
-
-  .projects__container {
-    text-align: center;
-    .projects__item {
-      height: 300px;
-      width: 200px;
-      margin: 20px;
-      img {
-        border-radius: 8px;
-      }
-    }
-  }
   .download-cv {
     width: 100%;
     height: 80px;
@@ -115,3 +38,6 @@
     }
   }
 }
+
+
+
