@@ -2,20 +2,19 @@
   display: flex;
   justify-content: center;
   .jobs__container {
-    max-width: 500px;
+    width: 100%;
     .jobs__title {
       margin: 100px 60px 0 60px;
       font-size: 2rem;
     }
   }
+
   .education__container {
-    max-width: 500px;
+    width: 100%;
     .education__title {
       margin: 100px 60px 0 60px;
       font-size: 2rem;
     }
-  }
-  .education__container {
     .education__item {
       margin: 20px;
       list-style: none;

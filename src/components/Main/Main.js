@@ -5,8 +5,6 @@ import './Main.scss';
 
 import Skills from '../Skills/Skills';
 import Projects from '../Projects/Projects';
-import Education from '../Education/Education';
-import Jobs from '../Jobs/Jobs';
 import CV from '../CV/CV';
 
 class Main extends React.Component {
