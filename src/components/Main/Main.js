@@ -10,13 +10,11 @@ import CV from '../CV/CV';
 class Main extends React.Component {
   render () {
     return (
-      <div className="main-container">
-        <div className="main-content">
-          <div className="main-background"></div>
-          <p className="main-item main-title">Maquetación web & UX/UI</p>
-          <p className="main-item main-subtitle">HTML, CSS, Sass, JavaScript, React</p>
+      <div className="main__container">
+        <div className="main__content">
+          <div className="main__background"></div>
+          <p className="main__title">Maquetación web & UX/UI</p>
         </div>
-
         <Skills />
         <Projects />
         <CV />

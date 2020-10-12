@@ -10,6 +10,10 @@ body {
   background-image: cover;
   background-size: cover;
   font-family: 'Montserrat', sans-serif;
+  main {
+    width: 100%;
+    overflow-x: hidden;
+  }
 }
 .othercourses__container {
   margin: 0px 50px;

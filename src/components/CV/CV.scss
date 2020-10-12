@@ -1,34 +1,14 @@
-.moreinfo__container {
+.cv__container {
+  margin: 20px;
   display: flex;
   justify-content: center;
-  .jobs__container {
-    width: 100%;
-    .jobs__title {
-      margin: 100px 60px 0 60px;
-      font-size: 2rem;
+  .jobs__container, .education__container {
+    width: 99%;
+    .jobs__title, .education__title {
+      text-align: center;
     }
-  }
-
-  .education__container {
-    width: 100%;
-    .education__title {
-      margin: 100px 60px 0 60px;
-      font-size: 2rem;
-    }
-    .education__item {
-      margin: 20px;
-      list-style: none;
-      .education__title {
-        margin: 0;
-        font-size: 1.5rem;
-      }
-      .education__school {
-        margin: 0;
-        font-size: 1rem;
-        a {
-          margin-left: 5px;
-        }
-      }
+    .jobs__list, .education__list {
+      padding: 0;
     }
   }
 }

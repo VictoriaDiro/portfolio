@@ -1,11 +1,26 @@
 .projects__container {
+  position: relative;
   text-align: center;
+  padding: 40px 20px 0px 20px;
+  background-color: #ececec;
+  &:hover {
+    background-color: #2e2e2e;
+    color: #cccccc;
+  }
+  .arrow__container {
+    font-size: 3rem;
+    position: absolute;
+    top: -28px;
+    right: 22px;
+    color: #808080;
+    z-index: 1;
+  }
   .projects__item {
     height: 300px;
     width: 200px;
     margin: 20px;
     img {
-      border-radius: 8px;
+      border-radius: 10px;
     }
   }
 }

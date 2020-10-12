@@ -1,40 +1,30 @@
-.main-container {
-  .main-content {
-    .main-background {
+.main__container {
+  .main__content {
+    .main__background {
       height: 100vh;
-      background: url("../../images/background-color.jpg") center no-repeat;
+      background: url("../../assets/images/background-color.jpg") center no-repeat;
       background-size: cover;
+      @media (max-width: 930px) {
+        height: 80vh;
+      }
+      @media (max-width: 774px) {
+        height: 60vh;
+      }
     }
-    .main-item {
+    .main__title {
       position: absolute;
       bottom: 50px;
       padding-left: 50px;
-    }
-    .main-title {
       font-size: 4rem;
       margin-bottom: 30px;
-    }
-    .main-subtitle {
-      font-size: 1.5rem;
-    }
-  }
-
-  .download-cv {
-    width: 100%;
-    height: 80px;
-    background-color: #ffffff;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    a {
-      height: 50px;
-      width: 300px;
-      margin: 10px;
-      padding: 5px;
-      font-size: 2rem;
-      border: 1px solid #000000;
-      color: #000000;
-      text-decoration: none;
+      @media (max-width: 930px) {
+        bottom: 300px;
+        font-size: 3rem;;
+      }
+      @media (max-width: 774px) {
+        bottom: 500px;
+        font-size: 2rem;
+      }
     }
   }
 }

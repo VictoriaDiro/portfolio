@@ -1,5 +1,5 @@
 import React from 'react';
-import data from "../../services/more-info.json";
+import data from "../../services/cv.json";
 import './Jobs.scss';
 
 class Jobs extends React.Component {
@@ -8,7 +8,7 @@ class Jobs extends React.Component {
 
     function handleClick(e) {
       e.preventDefault();
-      e.target.parentNode.parentNode.childNodes[1].classList.toggle("hidden-class");
+      e.target.parentNode.childNodes[1].classList.toggle("hidden-class");
     }
 
     return (
@@ -16,19 +16,18 @@ class Jobs extends React.Component {
       <div className="jobs__container">
       {data.jobs.map((item, index) => (
 
-      <div id={index} className="education__item" key={index}>
+      <div id={index} className="job__item" key={index}>
 
-        <div className="card-header" id={`headingJob${index}`}>
-          <button className="jobs__button" type="button" onClick={handleClick}>
-            {item.title}
-          </button>
+        <div className="job__header" id={`headingJob${index}`} onClick={handleClick}>
+        <span><i class="fas fa-angle-double-down"></i></span>
+          {item.title}
         </div>
 
-        <div className="card-body">
-          <h5 className="education__company">{item.company}</h5>
-          <span className="education__time">{item.time}</span>
-          <ul className="education__skills">
-            {item.skills.map((value, id) => <li className="education__skills__item" key={id}>{value}</li>)}
+        <div className="job__body hidden-class">
+          <h5 className="job__company">{item.company}</h5>
+          <span className="job__time">{item.time}</span>
+          <ul className="job__skills">
+            {item.skills.map((value, id) => <li className="job__skills__item" key={id}>{value}</li>)}
           </ul>
         </div>
       </div>

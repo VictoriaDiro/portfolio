@@ -1,22 +1,42 @@
-.education__item {
-  margin: 20px;
-  list-style: none;
-  .education__title {
-    margin: 0 !important;
-    font-size: 1.2rem;
-    .btn.btn-link {
-      padding-left: 0 !important;
-      text-align: start;
+@import '../../assets/variables';
+
+.education__container {
+  .education__item {
+    padding: 5px 0px;
+    .education__header {
+      width: 97%;
+      padding: 10px;
+      position: relative;
+      border-radius: 6px;
+      border: none;
+      background-color: #e0e0e0;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1.1rem;
+      cursor: pointer;
+      &:hover {
+        background-color: #2e2e2e;
+        color: #e0e0e0;
+      }
+      &:focus {
+        border: none;
+      }
+      .fa-angle-double-down {
+        position: absolute;
+        right: 15px;
+      }
+    }
+    .eduction__body {
+      margin: 10px 30px;
+      .education__company {
+        font-size: 1.1rem;
+      }
     }
   }
-  .education__company {
-    margin: 0;
-    font-size: 1rem;
-  }
-  .education__time {
-  }
-  .education__skills {
-    .education__skills__item {
-    }
-  }
+}
+
+.hidden-class {
+  display:none;
+}
+.rotate-class {
+  transform: rotate(180deg);
 }

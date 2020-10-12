@@ -1,20 +1,37 @@
 @import '../../assets/variables';
 
-.job__item {
-  margin: 20px;
-  list-style: none;
-  background-color: $colorFabada;
-  .job__title {
-    margin: 0;
-    font-size: 1.5rem;
-    color: $colorFabada;
-  }
-  .job__company {
-    margin: 0;
-    font-size: 1rem;
+.jobs__container {
+  .job__item {
+    padding: 5px 0px;
+    .job__header {
+      width: 95%;
+      padding: 10px;
+      position: relative;
+      border-radius: 6px;
+      background-color: #e0e0e0;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1.1rem;
+      cursor: pointer;
+      &:hover {
+        background-color: #2e2e2e;
+        color: #e0e0e0;
+      }
+      &:focus {
+        border: none;
+      }
+      .fa-angle-double-down {
+        position: absolute;
+        right: 15px;
+      }
+    }
+    .job__body {
+      margin: 10px 30px;
+      .job__company {
+        font-size: 1.1rem;
+      }
+    }
   }
 }
-
 .hidden-class{
   display:none;
 }

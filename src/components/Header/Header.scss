@@ -5,28 +5,45 @@
   z-index: 1;
   display: flex;
   justify-content: space-between;
-  background-color: #333333;
-  color: #000000;
+  background-color: #333333ab;
   .header-title {
     font-size: 2rem;
     margin-left: 50px;
     padding-top: 6px;
-    vertical-align: middle;
     text-decoration: none;
     color: #ffffff;
+    @media (max-width: 572px) {
+      margin-left: 30px;
+    }
+    @media (max-width: 512px) {
+      font-size: 1.5rem;
+      padding-top: 10px;
+    }
   }
   .header-navbar {
     .header-navbar__list {
       margin: 10px 50px;
       list-style: none;
       display: flex;
+      @media (max-width: 572px) {
+        margin: 10px 30px;
+      }
       .download-cv {
         padding: 5px 15px;
         border-radius: 5px;
         background-color: #ffffff;
-        button {
-          color: #000000;
-          text-decoration: none;
+        cursor: pointer;
+        .download__text {
+          @media (max-width: 512px) {
+            display: none;
+          }
+        }
+        .fa-download {
+          display: none;
+          @media (max-width: 512px) {
+            display: inline-block;
+            color: #7d7d7d;
+          }
         }
       }
       .header-navbar__item {
@@ -37,41 +54,7 @@
           text-decoration: none;
           color: #ffffff;
         }
-        a:hover {
-          color: #cecece;
-          border-bottom: 3px solid #f0f0f0;
-          padding-bottom: 15px;
-        }
-        a:visited {
-          color: #ffffff;
-        }
-        a:active {
-          border-bottom: 3px solid #ffffff;
-          padding-bottom: 25px;
-        }
       }
     }
   }
 }
-
-@media (max-width: 767px) {
-  .header__container {
-    width: 100%;
-    padding: 0;
-    flex-direction: column;
-  }
-  .header__container .header-title {
-    font-size: 2rem;
-  }
-  .header__container .header-navbar .header-navbar__list {
-    padding-left: 10px;
-}
-  .header__container .header-navbar .header-navbar__list .header-navbar__item.contact {
-    margin-left: 14px;
-    padding: 0px 20px;
-  }
-  .header__container .header-navbar .header-navbar__list .header-navbar__item a {
-    font-size: 1rem;
-  }
-}
-

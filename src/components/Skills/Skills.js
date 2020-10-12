@@ -3,55 +3,36 @@ import './Skills.scss';
 
 // LOGOS
 
-import adobePhotoshop from '../../images/skills-icons/audiovisuals/adobe-photoshop.png';
-import adobePremiere from '../../images/skills-icons/audiovisuals/adobe-premiere.png';
-import analytics from '../../images/skills-icons/marketing/analytics.png';
-import css3 from '../../images/skills-icons/programming/css3.png';
-import github from '../../images/skills-icons/communication/github.png';
-import gitlab from '../../images/skills-icons/communication/gitlab.png';
-import html5 from '../../images/skills-icons/programming/html5.png';
-import javascript from '../../images/skills-icons/programming/javascript.png';
-import microsofOffice from '../../images/skills-icons/communication/microsoft-office.png';
-import prestashop from '../../images/skills-icons/marketing/prestashop.png';
-import react from '../../images/skills-icons/programming/react.png';
-import wordpress from '../../images/skills-icons/marketing/wordpress.png';
-
+import prestashop from '../../assets/images/skills-icons/prestashop.png';
+import adobePhotoshop from '../../assets/images/skills-icons/adobe-photoshop.png';
+import adobePremiere from '../../assets/images/skills-icons/adobe-premiere.png';
+import adobeXD from '../../assets/images/skills-icons/adobe-xd.png';
+import figma from '../../assets/images/skills-icons/figma.png';
+import zeplin from '../../assets/images/skills-icons/zeplin.png';
 
 class Skills extends React.Component {
   render () {
     return (
-      <div className="skills-container">
-        <div className="programming-container">
-          <h3>Programación</h3>
-          <div className="skill__image__container">
-            <img className="skill-item" src={html5} alt="HTLM5" />
-            <img className="skill-item" src={css3} alt="CSS·" />
-            <img className="skill-item" src={javascript} alt="JavaScript" />
-            <img className="skill-item" src={react} alt="React" />
-          </div>
-        </div>
-        <div className="marketing-container">
-          <h3>Marketing</h3>
-          <div className="skill__image__container">
-            <img className="skill-item" src={wordpress} alt="Wordpress" />
-            <img className="skill-item" src={prestashop} alt="Prestashop" />
-            <img className="skill-item" src={analytics} alt="Google Analytics" />
-          </div>
-        </div>
-        <div className="audiovisual-container">
-          <h3>Audiovisuales</h3>
-          <div className="skill__image__container">
-            <img className="skill-item" src={adobePhotoshop} alt="Adobe Photoshop" />
-            <img className="skill-item" src={adobePremiere} alt="Adobe Premiere" />
-          </div>
-        </div>
-        <div className="communication-container">
-          <h3>Gestión</h3>
-          <div className="skill__image__container">
-            <img className="skill-item" src={microsofOffice} alt="Microsoft Office" />
-            <img className="skill-item" src={github} alt="Github" />
-            <img className="skill-item" src={gitlab} alt="Gitlab" />
-          </div>
+      <div className="skills__container">
+        <div className="skills__content">
+
+          <i class="fab fa-html5 skill__item-fa"></i>
+          <i class="fab fa-css3-alt skill__item-fa"></i>
+          <i class="fab fa-sass skill__item-fa"></i>
+          <i class="fab fa-less skill__item-fa"></i>
+          <i class="fab fa-bootstrap skill__item-fa"></i>
+          <i class="fab fa-js-square skill__item-fa"></i>
+          <i class="fab fa-react skill__item-fa"></i>
+          <i class="fab fa-angular skill__item-fa"></i>
+          <i class="fab fa-wordpress skill__item-fa"></i>
+
+          <img className="skill__item" src={prestashop} alt="Prestashop" />
+          <img className="skill__item" src={adobePhotoshop} alt="Adobe Photoshop" />
+          <img className="skill__item" src={adobePremiere} alt="Adobe Premiere" />
+          <img className="skill__item" src={adobeXD} alt="Adobe XD" />
+          <img className="skill__item" src={figma} alt="Adobe XD" />
+          <img className="skill__item" src={zeplin} alt="Adobe XD" />
+
         </div>
       </div>
     )

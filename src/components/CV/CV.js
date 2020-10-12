@@ -6,7 +6,7 @@ import './CV.scss';
 class CV extends React.Component {
   render () {
       return (
-      <div className="moreinfo__container">
+      <div className="cv__container">
         <div className="jobs__container">
           <h2 className="jobs__title">Laboral</h2>
           <ul className="jobs__list">
