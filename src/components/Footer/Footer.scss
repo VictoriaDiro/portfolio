@@ -1,10 +1,12 @@
+@import '../../assets/variables';
+
 .footer__container {
   width: 100%;
-  height: 50px;
-  margin-top: 70px;
+  height: 60px;
+  margin-top: 20px;
   display: flex;
   justify-content: space-evenly;
-  background-color: #ffffff25;
+  background-color: $lightGrey;
   .footer__text {
     font-size: 1rem;
   }

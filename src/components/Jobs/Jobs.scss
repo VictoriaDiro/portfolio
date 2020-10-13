@@ -8,26 +8,31 @@
       padding: 10px;
       position: relative;
       border-radius: 6px;
-      background-color: #e0e0e0;
       font-family: 'Montserrat', sans-serif;
       font-size: 1.1rem;
+      background-color: $lightGrey;
+//      background: $lightGrey url('../../assets/icons/angle-down-solid.svg') no-repeat right;
+      color: $darkGrey;
       cursor: pointer;
+      @media (max-width: 460px) {
+        font-size: 1rem;
+      }
       &:hover {
-        background-color: #2e2e2e;
-        color: #e0e0e0;
+        background-color: $darkGrey;
+        color: $lightGrey;
       }
       &:focus {
         border: none;
       }
-      .fa-angle-double-down {
-        position: absolute;
-        right: 15px;
-      }
     }
     .job__body {
-      margin: 10px 30px;
+      margin: 10px 30px 30px 30px;
       .job__company {
         font-size: 1.1rem;
+        margin: 15px 0px;
+      }
+      .job__skills {
+        margin-top: 15px;
       }
     }
   }

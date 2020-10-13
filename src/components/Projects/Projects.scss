@@ -1,18 +1,21 @@
+@import '../../assets/variables';
+
 .projects__container {
+  min-width: 1000px;
   position: relative;
   text-align: center;
   padding: 40px 20px 0px 20px;
-  background-color: #ececec;
+  background-color: $lightGrey;
   &:hover {
-    background-color: #2e2e2e;
-    color: #cccccc;
+    background-color: $darkGrey;
+    color: $lightGrey;
   }
   .arrow__container {
     font-size: 3rem;
     position: absolute;
     top: -28px;
     right: 22px;
-    color: #808080;
+    color: $mediumGrey;
     z-index: 1;
   }
   .projects__item {

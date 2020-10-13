@@ -19,7 +19,6 @@ class Jobs extends React.Component {
       <div id={index} className="job__item" key={index}>
 
         <div className="job__header" id={`headingJob${index}`} onClick={handleClick}>
-        <span><i class="fas fa-angle-double-down"></i></span>
           {item.title}
         </div>
 

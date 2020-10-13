@@ -16,15 +16,15 @@ class Skills extends React.Component {
       <div className="skills__container">
         <div className="skills__content">
 
-          <i class="fab fa-html5 skill__item-fa"></i>
-          <i class="fab fa-css3-alt skill__item-fa"></i>
-          <i class="fab fa-sass skill__item-fa"></i>
-          <i class="fab fa-less skill__item-fa"></i>
-          <i class="fab fa-bootstrap skill__item-fa"></i>
-          <i class="fab fa-js-square skill__item-fa"></i>
-          <i class="fab fa-react skill__item-fa"></i>
-          <i class="fab fa-angular skill__item-fa"></i>
-          <i class="fab fa-wordpress skill__item-fa"></i>
+          <i className="fab fa-html5 skill__item-fa"></i>
+          <i className="fab fa-css3-alt skill__item-fa"></i>
+          <i className="fab fa-sass skill__item-fa"></i>
+          <i className="fab fa-less skill__item-fa"></i>
+          <i className="fab fa-bootstrap skill__item-fa"></i>
+          <i className="fab fa-js-square skill__item-fa"></i>
+          <i className="fab fa-react skill__item-fa"></i>
+          <i className="fab fa-angular skill__item-fa"></i>
+          <i className="fab fa-wordpress skill__item-fa"></i>
 
           <img className="skill__item" src={prestashop} alt="Prestashop" />
           <img className="skill__item" src={adobePhotoshop} alt="Adobe Photoshop" />

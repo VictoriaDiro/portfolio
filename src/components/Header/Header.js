@@ -21,7 +21,7 @@ class Header extends React.Component {
             <ul className="header-navbar__list">
               <li className="download-cv" onClick={openNewWindow}>
                 <span className="download__text">Descarga mi CV</span>
-                <i class="fas fa-download"></i>
+                <i className="fas fa-download"></i>
               </li>
               <li className="header-navbar__item moreinfo">
                 <Link to="/contact">Contacto</Link>

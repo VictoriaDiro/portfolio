@@ -9,6 +9,7 @@ import phoneCompany from '../../assets/images/projects/phone-company.png';
 import gris from '../../assets/images/projects/gris.png';
 import patientManager from '../../assets/images/projects/patient-manager.png';
 import kairectorio from '../../assets/images/projects/kairectorio.png';
+import wildcards from '../../assets/images/projects/wildcards.png';
 import anonymousProxy from '../../assets/images/projects/anonymous-proxy.png';
 
 class Projects extends React.Component {
@@ -17,7 +18,7 @@ class Projects extends React.Component {
     return (
       <div className="projects__container">
         <div className="arrow__container">
-          <i class="fas fa-angle-double-right" />
+          <i className="fas fa-angle-double-right" />
         </div>
         <Swiper
           className="swiper__container"
@@ -54,6 +55,12 @@ class Projects extends React.Component {
           <SwiperSlide>
             <a className="projects__item" target="_black" href="https://kairectorio.netlify.app/#/">
               <img src={kairectorio} alt="Kairectorio" />
+            </a>
+            <p>HTML, Sass, ReactJs</p>
+          </SwiperSlide>
+          <SwiperSlide>
+            <a className="projects__item" target="_black" href="beta.adalab.es/fairfax-m2-wildcards/">
+              <img src={wildcards} alt="Wildcards" />
             </a>
             <p>HTML, Sass, ReactJs</p>
           </SwiperSlide>

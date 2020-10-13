@@ -19,7 +19,7 @@ class Education extends React.Component {
       <div id={index} className="education__item" key={index}>
 
         <div className="education__header" id={`headingJob${index}`} onClick={handleClick}>
-          {item.title} <span><i class="fas fa-angle-double-down"></i></span>
+          {item.title}
         </div>
 
         <div className="eduction__body hidden-class">

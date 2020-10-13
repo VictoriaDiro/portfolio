@@ -1,7 +1,9 @@
+@import '../../assets/variables';
+
 body {
   margin: 0;
-  background-color: #ffffff;
-  color: #333333;
+  background-color: $colorWhite;
+  color: $darkGrey;
 }
 
 .App {

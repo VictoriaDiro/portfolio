@@ -1,0 +1,34 @@
+@import '../../assets/variables';
+
+.courses__container {
+  min-width: 1000px;
+  position: relative;
+  text-align: center;
+  padding: 20px;
+  background-color: $lightGrey;
+
+  .courses__item {
+    height: 145px;
+    width: 215px;
+    margin: 5px;
+    padding: 10px;
+    list-style: none;
+    background-color: $mediumGrey;
+    border-radius: 10px;
+    cursor: pointer;
+
+    .courses__title,
+    .courses__company {
+      font-size: 1rem;
+      margin: 18px 0px;
+    }
+    a {
+      margin: 0px 5px;
+      i.fa-download {
+        text-decoration: none;
+        color: $darkGrey;
+      }
+    }
+  }
+}
+

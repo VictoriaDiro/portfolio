@@ -1,3 +1,5 @@
+@import '../../assets/variables';
+
 .form-container {
   height: 100%;
   width: 70%;
@@ -19,7 +21,7 @@
       margin: 10px;
       padding: 10px;
       border-radius: 5px;
-      border: 1px solid #aaaaaa;
+      border: 1px solid $mediumGrey;
     }
     .sumit__button {
       width: 80px;

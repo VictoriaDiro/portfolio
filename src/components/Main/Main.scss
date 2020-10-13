@@ -1,3 +1,5 @@
+@import '../../assets/variables';
+
 .main__container {
   .main__content {
     .main__background {
@@ -8,7 +10,7 @@
         height: 80vh;
       }
       @media (max-width: 774px) {
-        height: 60vh;
+        height: 50vh;
       }
     }
     .main__title {
