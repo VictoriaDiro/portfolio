@@ -26,7 +26,7 @@ class Courses extends React.Component {
                 <h4 className="courses__title">{item.title}</h4>
                 <h5 className="courses__company">{item.school}</h5>
                 <span className="courses__time">{item.time}</span>
-                <a href={item.certificate} target="_blank">
+                <a href={item.certificate}>
                   <i className="fas fa-download"></i>
                 </a>
               </li>
