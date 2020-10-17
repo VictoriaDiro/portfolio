@@ -2,10 +2,24 @@
 
 .courses__container {
   min-width: 1000px;
+  margin-bottom: 30px;
+  padding: 20px;
   position: relative;
   text-align: center;
-  padding: 20px;
   background-color: $lightGrey;
+  &:hover {
+    background-color: $darkGrey;
+    color: $lightGrey;
+  }
+
+  .arrow__container {
+    font-size: 3rem;
+    position: absolute;
+    top: -28px;
+    right: 22px;
+    color: $mediumGrey;
+    z-index: 1;
+  }
 
   .courses__item {
     height: 145px;
@@ -15,18 +29,32 @@
     list-style: none;
     background-color: $mediumGrey;
     border-radius: 10px;
-    cursor: pointer;
 
     .courses__title,
     .courses__company {
       font-size: 1rem;
       margin: 18px 0px;
     }
-    a {
-      margin: 0px 5px;
-      i.fa-download {
-        text-decoration: none;
-        color: $darkGrey;
+    .courses__title {
+      height: 40px;
+      color: $darkGrey;
+    }
+    .courses__company {
+      color: $lightGrey;
+
+    }
+    .button__text {
+      display: flex;
+      justify-content: center;
+      div {
+        height: 40px;
+        width: 40px;
+        margin: 0px 5px;
+        cursor: pointer;
+        i.fa-download {
+          text-decoration: none;
+          color: $darkGrey;
+        }
       }
     }
   }

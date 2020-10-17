@@ -9,6 +9,9 @@
   background-color: $lightGrey;
   .footer__text {
     font-size: 1rem;
+    @media (max-width: 600px) {
+      display: none;
+    }
   }
   .footer__info {
     font-size: 1rem;

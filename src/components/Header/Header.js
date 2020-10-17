@@ -23,9 +23,6 @@ class Header extends React.Component {
                 <span className="download__text">Descarga mi CV</span>
                 <i className="fas fa-download"></i>
               </li>
-              <li className="header-navbar__item moreinfo">
-                <Link to="/contact">Contacto</Link>
-              </li>
             </ul>
           </nav>
       </header>

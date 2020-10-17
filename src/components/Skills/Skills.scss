@@ -1,13 +1,12 @@
 @import '../../assets/variables';
 
 .skills__container {
-  height: 290px;
+  height: 100%;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   .skills__content {
-    height: 180px;
     width: 100%;
     margin: 0% 10%;
     display: flex;

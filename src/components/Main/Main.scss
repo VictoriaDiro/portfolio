@@ -29,4 +29,32 @@
       }
     }
   }
+
+  .main__title__container {
+    height: 100px;
+    width: 100%;
+    margin: 20px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p {
+      font-size: 2rem;
+      margin: 40px 20px;
+      @media (max-width: 900px) {
+        font-size: 1.5rem;
+      }
+      @media (max-width: 621px) {
+        font-size: 1.1rem;
+      }
+    }
+    .left__line, .right__line {
+      height: 1px;
+      width: 20%;
+      background-color: $darkGrey;
+      @media (max-width: 350px) {
+        width: 10%;
+      }
+    }
+  }
+
 }
