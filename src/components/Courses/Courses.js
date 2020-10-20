@@ -31,15 +31,15 @@ class Courses extends React.Component {
 
           {data.courses.map((item, index) => (
 
-            <SwiperSlide>
+            <SwiperSlide key={index}>
 
-              <li className="courses__item" key={index}>
+              <li className="courses__item">
                 <h4 className="courses__title">{item.title}</h4>
                 <h5 className="courses__company">{item.school}</h5>
                 <div className="button__text">
                   <span className="courses__time">{item.time}</span>
                   <div onClick={() => openNewWindow(item.certificate)}>
-                    <i className="fas fa-download"></i>
+                    <i className="far fa-eye"></i>
                   </div>
                 </div>
               </li>

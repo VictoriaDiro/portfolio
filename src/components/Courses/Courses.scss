@@ -44,12 +44,12 @@
 
     }
     .button__text {
+      margin-left: 10px;
       display: flex;
-      justify-content: center;
+      justify-content: space-between;
       div {
         height: 40px;
         width: 40px;
-        margin: 0px 5px;
         cursor: pointer;
         i.fa-download {
           text-decoration: none;

@@ -6,14 +6,17 @@
     .education__header {
       width: 97%;
       padding: 10px;
-      position: relative;
+      display: flex;
+      justify-content: space-between;
       border-radius: 6px;
       border: none;
       background-color: $lightGrey;
-      //      background: $lightGrey url('../../assets/icons/angle-down-solid.svg') no-repeat right;
       font-family: 'Montserrat', sans-serif;
       font-size: 1.1rem;
       cursor: pointer;
+      &::after {
+        content: "▼";
+      }
       @media (max-width: 460px) {
         font-size: 1rem;
       }

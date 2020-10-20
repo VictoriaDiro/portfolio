@@ -15,12 +15,20 @@ import anonymousProxy from '../../assets/images/projects/anonymous-proxy.png';
 class Projects extends React.Component {
   render () {
 
+    /* const projectsSwiper = new Swiper('.swiper__container', {
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });*/
+
     return (
       <div className="projects__container">
         <div className="arrow__container">
           <i className="fas fa-angle-double-right" />
         </div>
         <Swiper
+          navigation=""
           className="swiper__container"
           spaceBetween={20}
           slidesPerView={3}
@@ -59,7 +67,7 @@ class Projects extends React.Component {
             <p>HTML, Sass, ReactJs</p>
           </SwiperSlide>
           <SwiperSlide>
-            <a className="projects__item" target="_black" href="beta.adalab.es/fairfax-m2-wildcards/">
+            <a className="projects__item" target="_black" href="http://beta.adalab.es/fairfax-m2-wildcards/">
               <img src={wildcards} alt="Wildcards" />
             </a>
             <p>HTML, Sass, ReactJs</p>
@@ -70,6 +78,8 @@ class Projects extends React.Component {
             </a>
             <p>HTML, CSS</p>
           </SwiperSlide>
+          <div className="swiper-button-next"></div>
+          <div className="swiper-button-prev"></div>
         </Swiper>
       </div>
     )
