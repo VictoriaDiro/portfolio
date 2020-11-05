@@ -1,0 +1,53 @@
+@import '../../assets/variables';
+
+#swiper-wrapper {
+  margin-bottom: 30px;
+  padding: 20px;
+  position: relative;
+  text-align: center;
+  background-color: $lightGrey;
+  &:hover {
+    background-color: $darkGrey;
+    color: $lightGrey;
+  }
+}
+
+  .courses__item {
+    height: 145px;
+    width: 215px;
+    margin: 5px;
+    padding: 10px;
+    list-style: none;
+    background-color: $mediumGrey;
+    border-radius: 10px;
+
+    .courses__title,
+    .courses__company {
+      font-size: 1rem;
+      margin: 18px 0px;
+    }
+    .courses__title {
+      height: 40px;
+      color: $darkGrey;
+    }
+    .courses__company {
+      color: $lightGrey;
+
+    }
+    .button__text {
+      margin-left: 10px;
+      display: flex;
+      justify-content: space-between;
+      div {
+        height: 40px;
+        width: 40px;
+        cursor: pointer;
+        i.fa-download {
+          text-decoration: none;
+          color: $darkGrey;
+        }
+      }
+    }
+  }
+
+

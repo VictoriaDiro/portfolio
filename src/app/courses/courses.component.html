@@ -1,0 +1,14 @@
+<swiper [config]="SWIPER_HORIZONTAL" #swiper>
+
+  <li className="courses__item" *ngFor="let item of courses">
+    <h4 className="courses__title">{{ item.title }}</h4>
+    <h5 className="courses__company">{{ item.school }}</h5>
+    <div className="button__text">
+      <span className="courses__time">{{ item.time }}</span>
+      <div>
+        <i className="far fa-eye"></i>
+      </div>
+    </div>
+  </li>
+
+</swiper>
