@@ -1,0 +1,45 @@
+@import '../../assets/variables';
+
+.jobs__container {
+  .job__item {
+    padding: 5px 0px;
+    .job__header {
+      width: 95%;
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+      border-radius: 6px;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1.1rem;
+      background-color: $lightGrey;
+      color: $darkGrey;
+      cursor: pointer;
+      &::after {
+        content: "▼";
+      }
+      @media (max-width: 460px) {
+        font-size: 1rem;
+      }
+      &:hover {
+        background-color: $darkGrey;
+        color: $lightGrey;
+      }
+      &:focus {
+        border: none;
+      }
+    }
+    .job__body {
+      margin: 10px 30px 30px 30px;
+      .job__company {
+        font-size: 1.1rem;
+        margin: 15px 0px;
+      }
+      .job__skills {
+        margin-top: 15px;
+      }
+    }
+  }
+}
+.hidden-class{
+  display:none;
+}

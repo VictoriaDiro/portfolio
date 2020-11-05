@@ -1,0 +1,17 @@
+.cv__container {
+  margin: 0px 20px 20px 20px;
+  display: flex;
+  justify-content: center;
+  @media (max-width: 875px) {
+    flex-direction: column;
+  }
+  .jobs__container, .education__container {
+    width: 99%;
+    .jobs__title, .education__title {
+      text-align: center;
+    }
+    .jobs__list, .education__list {
+      padding: 0;
+    }
+  }
+}

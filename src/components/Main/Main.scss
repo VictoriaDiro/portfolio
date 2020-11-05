@@ -1,0 +1,60 @@
+@import '../../assets/variables';
+
+.main__container {
+  .main__content {
+    .main__background {
+      height: 100vh;
+      background: url("../../assets/images/background-color.jpg") center no-repeat;
+      background-size: cover;
+      @media (max-width: 930px) {
+        height: 80vh;
+      }
+      @media (max-width: 774px) {
+        height: 50vh;
+      }
+    }
+    .main__title {
+      position: absolute;
+      bottom: 50px;
+      padding-left: 50px;
+      font-size: 4rem;
+      margin-bottom: 30px;
+      @media (max-width: 930px) {
+        bottom: 300px;
+        font-size: 3rem;;
+      }
+      @media (max-width: 774px) {
+        bottom: 500px;
+        font-size: 2rem;
+      }
+    }
+  }
+
+  .main__title__container {
+    height: 100px;
+    width: 100%;
+    margin: 20px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p {
+      font-size: 2rem;
+      margin: 40px 20px;
+      @media (max-width: 900px) {
+        font-size: 1.5rem;
+      }
+      @media (max-width: 621px) {
+        font-size: 1.1rem;
+      }
+    }
+    .left__line, .right__line {
+      height: 1px;
+      width: 20%;
+      background-color: $darkGrey;
+      @media (max-width: 350px) {
+        width: 10%;
+      }
+    }
+  }
+
+}

@@ -1,0 +1,62 @@
+@import '../../assets/variables';
+
+.header__container {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  background-color: $mediumGreyAlfa;
+  .header-title {
+    font-size: 2rem;
+    margin-left: 50px;
+    padding-top: 6px;
+    text-decoration: none;
+    color: $colorWhite;
+    @media (max-width: 572px) {
+      margin-left: 30px;
+    }
+    @media (max-width: 512px) {
+      font-size: 1.5rem;
+      padding-top: 10px;
+    }
+  }
+  .header-navbar {
+    .header-navbar__list {
+      margin: 10px 50px;
+      list-style: none;
+      display: flex;
+      @media (max-width: 572px) {
+        margin: 10px 30px;
+      }
+      .download-cv {
+        padding: 5px 15px;
+        border-radius: 5px;
+        background-color: $colorWhite;
+        cursor: pointer;
+        .download__text {
+          @media (max-width: 512px) {
+            display: none;
+          }
+        }
+        .fa-download {
+          display: none;
+          @media (max-width: 512px) {
+            display: inline-block;
+            color: $mediumGrey;
+          }
+        }
+      }
+      .header-navbar__item {
+        margin: 5px 0px 0px 20px;
+        vertical-align: middle;
+        font-size: 1rem;
+        a {
+          text-decoration: none;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}
