@@ -12,10 +12,10 @@ class Footer extends React.Component {
           <p>¿Quieres ponerte en contacto conmigo?</p>
         </div>
         <div className="links">
-          <a className="linkedin" href="https://www.linkedin.com/in/victoriadiromaquetacion/" target="_blank">
+          <a className="linkedin" href="https://www.linkedin.com/in/victoriadiromaquetacion/">
             <img src={linkedin} alt="LinkedIn" title="LinkedIn" />
           </a>
-          <a className="github" href="https://github.com/VictoriaDiro" target="_blank">
+          <a className="github" href="https://github.com/VictoriaDiro">
             <img src={github} alt="Github" title="Github" />
           </a>
         </div>
