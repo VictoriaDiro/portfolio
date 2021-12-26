@@ -1,16 +1,22 @@
 @import '../../assets/variables';
 
 .courses__container {
-  min-width: 1000px;
-  margin-bottom: 30px;
-  padding: 20px;
-  position: relative;
-  text-align: center;
-  background-color: $lightGrey;
-  &:hover {
-    background-color: $darkGrey;
-    color: $lightGrey;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  p {
+    font-size: 20px;
   }
+}
+
+.courses__content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
 
   .arrow__container {
     font-size: 3rem;

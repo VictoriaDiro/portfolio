@@ -1,8 +1,8 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Header from '../Header/Header';
-import Contact from '../Contact/Contact';
 import Main from '../Main/Main';
+import Courses from '../Courses/Courses';
 import Footer from '../Footer/Footer';
 import './App.scss';
 
@@ -21,7 +21,7 @@ class App extends React.Component {
                   </div>
                 }
               />
-              <Route path="/contact" component={Contact} />
+              <Route path="/courses" component={Courses} />
             </Switch>
         </main>
         <Footer />

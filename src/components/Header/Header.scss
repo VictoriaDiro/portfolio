@@ -7,13 +7,13 @@
   z-index: 1;
   display: flex;
   justify-content: space-between;
-  background-color: $mediumGreyAlfa;
+  background-color: $colorWhite;
   .header-title {
     font-size: 2rem;
     margin-left: 50px;
     padding-top: 6px;
     text-decoration: none;
-    color: $colorWhite;
+    color: $mediumGreyAlfa;
     @media (max-width: 572px) {
       margin-left: 30px;
     }
@@ -24,27 +24,26 @@
   }
   .header-navbar {
     .header-navbar__list {
+      display: flex;
+      align-items: center;
       margin: 10px 50px;
       list-style: none;
-      display: flex;
       @media (max-width: 572px) {
         margin: 10px 30px;
+      }
+      .header-item {
+        padding: 0px 20px;
+        color: $mediumGrey;
+        text-decoration: none;
       }
       .download-cv {
         padding: 5px 15px;
         border-radius: 5px;
-        background-color: $colorWhite;
+        background-color: $lightGrey;
         cursor: pointer;
         .download__text {
           @media (max-width: 512px) {
             display: none;
-          }
-        }
-        .fa-download {
-          display: none;
-          @media (max-width: 512px) {
-            display: inline-block;
-            color: $mediumGrey;
           }
         }
       }

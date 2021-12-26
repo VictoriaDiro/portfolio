@@ -11,7 +11,7 @@
       border-radius: 6px;
       font-family: 'Montserrat', sans-serif;
       font-size: 1.1rem;
-      background-color: $lightGrey;
+      border: 1px solid $mediumGrey2;
       color: $darkGrey;
       cursor: pointer;
       &::after {
@@ -21,7 +21,7 @@
         font-size: 1rem;
       }
       &:hover {
-        background-color: $darkGrey;
+        background-color: $mediumGrey;
         color: $lightGrey;
       }
       &:focus {

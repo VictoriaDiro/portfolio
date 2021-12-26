@@ -30,6 +30,17 @@
     }
   }
 
+  .description__container {
+    h3 {
+      text-align: center;
+      font-weight: 700;
+    }
+    p {
+      padding: 20px 40px;
+      text-align: center;
+    }
+  }
+
   .main__title__container {
     height: 100px;
     width: 100%;
@@ -57,4 +68,20 @@
     }
   }
 
+  .enterprises__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    img {
+      padding: 20px 40px;
+      height: 30px;
+    }
+    img.telefonica__logo {
+      height: 40px;
+    }
+    img.vass__logo {
+      height: 20px;
+    }
+  }
 }

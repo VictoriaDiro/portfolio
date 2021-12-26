@@ -19,9 +19,9 @@ class Header extends React.Component {
         <Link to="/" className="header-title">DiroVic</Link>
           <nav className="header-navbar">
             <ul className="header-navbar__list">
+              <Link className="header-item" to="/courses">Más info</Link>
               <li className="download-cv" onClick={openNewWindow}>
                 <span className="download__text">Descarga mi CV</span>
-                <i className="fas fa-download"></i>
               </li>
             </ul>
           </nav>

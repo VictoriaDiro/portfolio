@@ -2,13 +2,41 @@
 
 .footer__container {
   width: 100%;
-  height: 60px;
-  margin-top: 20px;
+  margin-top: 50px;
   display: flex;
-  justify-content: space-evenly;
-  background-color: $lightGrey;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: $colorPurpleLight;
+  .footer__header {
+    position: absolute;
+    top: -30px;
+    padding: 10px 30px;
+    background-color: $colorPurpleMedium;
+    border-radius: 10px;
+  }
+  .links {
+    margin-top: 70px;
+    a {
+      padding: 10px;
+      img {
+        padding: 5px;
+        height: 40px;
+        border: 1px solid $mediumGrey;
+        border-radius: 50%;
+      }
+      &.github img {
+        padding: 7px;
+        height: 35px;
+      }
+    }
+  }
   .footer__text {
     font-size: 1rem;
+    .fa-heart {
+      color: red;
+    }
     @media (max-width: 600px) {
       display: none;
     }
