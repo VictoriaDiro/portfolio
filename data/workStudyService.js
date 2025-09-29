@@ -1,19 +1,19 @@
 export const data = {
     "jobs": [
         {
-            "title": "Maquetación Web",
+            "title": "Desarrollo Frontend",
             "company": "Vass",
             "time": "oct. 2021 - ACTUALIDAD",
             "skills": ["HTML, CSS, Less", "Javascript", "Adobe Experience Manager", "Visual Code Studio", "Scrum, Agile"]
         },
         {
-            "title": "Maquetación Web",
+            "title": "Desarrollo Frontend",
             "company": "Sygris",
             "time": "nov. 2020 - oct. 2021",
             "skills": ["HTML, CSS, Sass", "Javascript", "CMS", "Visual Code Studio"]
         },
         {
-            "title": "Maquetación Web",
+            "title": "Desarrollo Frontend",
             "company": "Telefónica Edicación Digital",
             "time": "mar. 2020 - jul. 2020",
             "skills": ["HTML, CSS, Sass", "Javascript", "LifeRay", "Eclipse", "Scrum, Agile, Redmine"]
