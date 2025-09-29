@@ -51,10 +51,23 @@ export const data = {
     ],
     "education": [
         {
-            "title": "UX Design",
-            "school": "Platzi",
-            "time": "ago. 2020 - Actualidad",
-            "skills": ["Design Thinking", "Usabilidad", "Diseño de interfaces UI y UX", "Lean Ux", "User Research", "Arquitectura de la información", "Accesibilidad"]
+            "title": "Desarrollo en Aplicaciones Web",
+            "school": "IES Arcipreste de Hita",
+            "time": "octubre. 2024 - Actualidad",
+            "skills": [
+                "Entornos de desarrollo", 
+                "Lencuaje de marcas",
+                "Sistemas informáticos",
+                "Bases de datos",
+                "Programación",
+                "Itinerario para la empleabilidad",
+                "Inglés profesional",
+                "Despliegue de aplicaciones",
+                "Desarrollo web en el entorno del cliente",
+                "Desarrollo web en el entorno del servidor",
+                "Diseño de interfaces web",
+                "Digitalización de empresas" 
+            ]
         },
         {
             "title": "Desarrollo Front-End",
@@ -89,154 +102,154 @@ export const data = {
     ],
     "courses": [
         {
-            "title": "Adobe XD",
-            "school": "Platzi",
-            "time": "Septiembre 2020",
-            "certificate": "/assets/pdf/20250617_uned_accesibilidad-tic.pdf"
+            "title": "Aplcación del Estándar Europeo del Accesibilidad TIC",
+            "school": "UNED",
+            "time": "Junio 2025",
+            "certificate": "../assets/pdf/courses/20250617_uned_accesibilidad-tic.pdf"
         },
         {
             "title": "Adobe XD",
             "school": "Platzi",
             "time": "Septiembre 2020",
-            "certificate": "/pdfs/20-09-10-adobe-xd.pdf"
+            "certificate": "../assets/pdf/courses/20200910_platzi_adobe-xd.pdf"
         },
         {
             "title": "Experiencia de usuario (UX) esencial",
             "school": "LinckedIn Learning",
             "time": "Mayo 2020",
-            "certificate": "/pdfs/20-05-01-experiencia-de-usuario-ux-esencial.pdf"
+            "certificate": "../assets/pdf/courses/20200501_linkedin_ux-esencial.pdf"
         },
         {
             "title": "Conviértete en desarrollador JavaScript",
             "school": "LinkedIn Learning",
             "time": "Mayo 2020",
-            "certificate": "/pdfs/20-05-01-conviertete-en-desarrollador-javascript.pdf"
+            "certificate": "../assets/pdf/courses/20200501_linkedin_conviertete-en-desarrollador-javascript.pdf"
         },
         {
             "title": "Fundamentos esenciales de la programación",
             "school": "LinkedIn Learning",
             "time": "Mayo 2020",
-            "certificate": "/pdfs/20-05-01-fundamentos-esenciales-de-la-programacion.pdf"
+            "certificate": "../assets/pdf/courses/20200501_linkedin_fundamentos-esenciales-de-la-programacion.pdf"
         },
         {
             "title": "Programación JavaScript y PHP",
             "school": "Core Networks",
             "time": "Abril 2020",
-            "certificate": "/pdfs/20-04-06-programacion-javascript-PHP.pdf"
+            "certificate": ""
         },
         {
             "title": "Novedades JavaScript versión ES6",
             "school": "LinkedIn Learning",
             "time": "Abril 2020",
-            "certificate": "/pdfs/20-04-30-novedades-javascript-version-es6.pdf"
+            "certificate": "../assets/pdf/courses/20200430_linkedin_novedades-javascript-version-es6.pdf"
         },
         {
             "title": "JavaScript avanzado: Buenas prácticas",
             "school": "LinkedIn Learning",
             "time": "Abril 2020",
-            "certificate": "/pdfs/20-04-27-javascript-avanzado-buenas-practicas.pdf"
+            "certificate": "../assets/pdf/courses/20200427_linkedin_javascript-avanzado-buenas-practicas.pdf"
         },
         {
             "title": "D3.js avanzado: Visualización de datos",
             "school": "LinkedIn Learning",
             "time": "Abril 2020",
-            "certificate": "/pdfs/20-04-20-d3js-avanzado-visualizacion-de-datos-en-tiempo-real.pdf"
+            "certificate": "../assets/pdf/courses/20200420_linkedin_d3js-avanzado-visualizacion-de-datos-en-tiempo-real.pdf"
         },
         {
             "title": "Herramientas para teletrabajo",
             "school": "LinkedIn Learning",
             "time": "Abril 2020",
-            "certificate": "/pdfs/20-04-10-herramientas-para-teletrabajo.pdf"
+            "certificate": "../assets/pdf/courses/20200410_linkedin_herramientas-para-teletrabajo.pdf"
         },
         {
             "title": "Deseño web con HTML5 + CSS3",
             "school": "Miríadax",
             "time": "Abril 2020",
-            "certificate": "/pdfs/20-04-10-diseño-web-html5-css.pdf"
+            "certificate": "../assets/pdf/courses/20200410_miriadax_diseño-web-html5-css.pdf"
         },
         {
             "title": "jQuery esencial",
             "school": "LinkedIn Learning",
             "time": "Abril 2020",
-            "certificate": "/pdfs/20-04-07-jquery-esencial.pdf"
+            "certificate": "../assets/pdf/courses/20200407_linkedin_jquery-esencial.pdf"
         },
         {
             "title": "JavaScript avanzado: Expresiones regulares",
             "school": "LinkedIn Learning",
             "time": "Abril 2020",
-            "certificate": "/pdfs/20-04-07-javaScript-avanzado-expresiones-regulares.pdf"
+            "certificate": "../assets/pdf/courses/20200407_linkedin_javascript-regex.pdf"
         },
         {
             "title": "Creatividad con un café",
             "school": "LinkedIn Learning",
             "time": "Abril 2020",
-            "certificate": "/pdfs/20-04-07-creatividad-con-un-cafe.pdf"
+            "certificate": "../assets/pdf/courses/20200407_linkedin_creatividad-con-un-cafe.pdf"
         },
         {
             "title": "Liferay Portal: Gestión de contenidos",
             "school": "Udemy",
             "time": "Abril 2020",
-            "certificate": "/pdfs/20-04-04-liferayportal-gestion-de-contenidos-y-administracion.pdf"
+            "certificate": "../assets/pdf/courses/20200404_udemy_liferayportal-cms-admin.pdf"
         },
         {
             "title": "JavaScript: Programación orientada a objetos",
             "school": "LinkedIn Learning",
             "time": "Febrero 2020",
-            "certificate": "/pdfs/20-02-13-javascript-programacion-orientada-a-objetos.pdf"
+            "certificate": "../assets/pdf/courses/20200213_linkedin_javascript-poo.pdf"
         },
         {
             "title": "Tecnologías web",
             "school": "LinkedIn Learning",
             "time": "Enero 2020",
-            "certificate": "/pdfs/20-01-13-fundamentos-del-desarrollo-web.pdf"
+            "certificate": ""
         },
         {
             "title": "JavaScript esencial",
             "school": "LinkedIn Learning",
             "time": "Enero 2020",
-            "certificate": "/pdfs/20-01-12-javascript-esencial.pdf"
+            "certificate": "../assets/pdf/courses/20200112_linkedin_javascript-esencial.pdf"
         },
         {
             "title": "Lógica Programación",
             "school": "Udemy",
             "time": "Enero 2020",
-            "certificate": "/pdfs/20-01-02-logica-en-programacion.pdf"
+            "certificate": "../assets/pdf/courses/20200102_udemy_logica-en-programacion.pdf"
         },
         {
             "title": "Fundamentos de programación con Java",
             "school": "Udemy",
             "time": "Agosto 2019",
-            "certificate": "/pdfs/19-08-05-fundamentos-de-programacion-con-java.pdf"
+            "certificate": "../assets/pdf/courses/20190805_udemy_fundamentos-de-programacion-con-java.pdf"
         },
         {
             "title": "JavaScript ES6",
             "school": "Udemy",
             "time": "Julio 2019",
-            "certificate": "/pdfs/19-07-01-javascript-es6.pdf"
-        },
-        {
-            "title": "Programa 'Progresa Digitalmente'",
-            "school": "GRI en colaboración con Facebook",
-            "time": "Enero 2019",
-            "certificate": "/pdfs/19-01-16-programa -progresa-digitalmente.pdf"
+            "certificate": "../assets/pdf/courses/20190701_udemy_javascript-es6.pdf"
         },
         {
             "title": "JavaScript course",
             "school": "Solo Learn",
             "time": "Enero 2019",
-            "certificate": "/pdfs/19-01-16-javascript-tutorial-course.pdf"
+            "certificate": "../assets/pdf/courses/20190116_sololearn_javascript-tutorial.pdf"
+        },
+        {
+            "title": "Programa 'Progresa Digitalmente'",
+            "school": "GRI en colaboración con Facebook",
+            "time": "Enero 2019",
+            "certificate": "../assets/pdf/courses/20190116_facebook_programa-progresa-digitalmente.pdf"
         },
         {
             "title": "CSS Fundamentals course",
             "school": "Solo Learn",
             "time": "Noviembre 2018",
-            "certificate": "/pdfs/18-11-24-css-fundamentals-course.pdf"
+            "certificate": "../assets/pdf/courses/20181124_sololearn_css-fundamentals.pdf"
         },
         {
             "title": "HTML Fundamentals course",
             "school": "Solo Learn",
             "time": "Octubre 2018",
-            "certificate": "/pdfs/18-10-12-html-fundamentals-course.pdf"
+            "certificate": "../assets/pdf/courses/20181012_sololearn_html-fundamentals.pdf"
         }
     ]
 }

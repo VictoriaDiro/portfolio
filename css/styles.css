@@ -1,0 +1,51 @@
+body {
+  background-color: #101010;
+  font-family: 'Montserrat', sans-serif;
+  color: #f7f7f7;
+}
+body header {
+  padding: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body header h1 {
+  margin: 0;
+}
+body header nav {
+  display: flex;
+  gap: 16px;
+}
+body header nav a {
+  color: white;
+}
+#courses-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+#courses-container .card.course-card {
+  margin: 16px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 250px;
+  border: 1px solid white;
+  border-radius: 8px;
+}
+#courses-container .card.course-card .course-information h3 {
+  margin-top: 0;
+}
+#courses-container .card.course-card .course-certificade {
+  display: flex;
+  justify-content: flex-end;
+  width: auto;
+}
+#courses-container .card.course-card .course-certificade a {
+  padding: 4px 8px;
+  background-color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+}

@@ -1,0 +1,62 @@
+body {
+    background-color: #101010;
+    font-family: 'Montserrat', sans-serif;
+    color: #f7f7f7;
+
+    header {
+        padding: 32px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h1 {
+            margin: 0;
+        }
+        nav {
+            display: flex;
+            gap: 16px;
+            a {
+                color: white; 
+            }
+        }
+    }
+}
+
+// Courses
+#courses-container {
+    display: flex;
+    flex-wrap: wrap;
+    .card.course-card {
+        margin: 16px;
+        padding: 16px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 250px;
+        border: 1px solid white;
+        border-radius: 8px;
+        .course-information {
+            h3 {
+                margin-top: 0;
+            }
+            .course-school {
+    
+            }
+            .course-time {
+    
+            }
+        }
+        .course-certificade {
+            display: flex;
+            justify-content: flex-end;
+            width: auto;
+            a {
+                padding: 4px 8px;
+                background-color: #fff;
+                border-radius: 4px;
+                text-decoration: none;
+                color: #000;
+                cursor: pointer;
+            }
+        }
+    }
+}

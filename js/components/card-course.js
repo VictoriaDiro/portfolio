@@ -3,10 +3,14 @@ export function CourseCard(course) {
     card.className = "card course-card";
 
     card.innerHTML = `
-        <h3>${course.title}</h3>
-        <p><strong>${course.school}</strong></p>
-        <p class="time">${course.time}</p>
-        ${course.certificate ? `<a href="${course.certificate}" target="_blank">Ver certificado</a>` : ""}
+        <div class="course-information">
+            <h3>${course.title}</h3>
+            <p class="course-school"><strong>${course.school}</strong></p>
+            <p class="course-time">${course.time}</p>
+        </div>
+        <div class="course-certificade">
+            ${course.certificate ? `<a href="${course.certificate}" target="_blank">Ver certificado</a>` : ""}
+        </div>
     `;
 
     return card;
