@@ -1,7 +1,8 @@
 body {
-  background-color: #101010;
+  padding: 32px;
+  background-color: #1f1f1f;
   font-family: 'Montserrat', sans-serif;
-  color: #f7f7f7;
+  color: #fff;
 }
 body header {
   padding: 32px;
@@ -17,24 +18,44 @@ body header nav {
   gap: 16px;
 }
 body header nav a {
-  color: white;
+  color: #fff;
+}
+body main section h2 {
+  margin: 32px 8px;
+  padding: 16px;
+  text-align: center;
+  color: #000;
+  background-color: #25ffed;
+}
+body main section h3 {
+  margin-top: 0;
+}
+#education-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+#education-container .card.education-card {
+  padding: 16px;
+  width: 45%;
+  background-color: #292929;
+  border-bottom: 2px solid #25ffed;
 }
 #courses-container {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
+  gap: 16px;
 }
 #courses-container .card.course-card {
-  margin: 16px;
   padding: 16px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 250px;
-  border: 1px solid white;
+  width: 28%;
+  border: 1px solid #25ffed;
   border-radius: 8px;
-}
-#courses-container .card.course-card .course-information h3 {
-  margin-top: 0;
 }
 #courses-container .card.course-card .course-certificade {
   display: flex;
@@ -43,9 +64,30 @@ body header nav a {
 }
 #courses-container .card.course-card .course-certificade a {
   padding: 4px 8px;
-  background-color: #fff;
+  background-color: #25ffed;
   border-radius: 4px;
   text-decoration: none;
   color: #000;
   cursor: pointer;
+}
+.skills-section .skills-list {
+  display: flex;
+}
+.skills-section .skills-list li {
+  list-style: none;
+}
+.skills-section .skills-list li img {
+  height: 80px;
+}
+#jobs-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+#jobs-container .card.job-card {
+  padding: 16px;
+  width: 45%;
+  background-color: #292929;
+  border-bottom: 2px solid #25ffed;
 }

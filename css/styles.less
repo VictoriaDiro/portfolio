@@ -1,8 +1,12 @@
+@import "./variables.less";
+@import "./mixins.less";
+
 // GENERAL
 body {
-    background-color: #101010;
-    font-family: 'Montserrat', sans-serif;
-    color: #f7f7f7;
+    padding: 32px;
+    background-color: @color-eerie-black;
+    font-family: @font-montserrat;
+    color: @color-white;
 
     header {
         padding: 32px;
@@ -16,47 +20,62 @@ body {
             display: flex;
             gap: 16px;
             a {
-                color: white; 
+                color: @color-white; 
+            }
+        }
+    }
+    main {
+        section {
+            h2 {
+                margin: 32px 8px;
+                padding: 16px;
+                text-align: center;
+                color: @color-black;
+                background-color: @color-turquoise;
+            }
+            h3 {
+                margin-top: 0;
             }
         }
     }
 }
 
-// COURSES SECTION
+// EDUCATION SECTION
+#education-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    .card.education-card {
+        padding: 16px;
+        width: 45%;
+        background-color: @color-dark-charcoal;
+        border-bottom: 2px solid @color-turquoise;
+    }
+}
 #courses-container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    gap: 16px;
     .card.course-card {
-        margin: 16px;
         padding: 16px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        width: 250px;
-        border: 1px solid white;
+        width: 28%;
+        border: 1px solid @color-turquoise;
         border-radius: 8px;
-        .course-information {
-            h3 {
-                margin-top: 0;
-            }
-            .course-school {
-    
-            }
-            .course-time {
-    
-            }
-        }
         .course-certificade {
             display: flex;
             justify-content: flex-end;
             width: auto;
             a {
                 padding: 4px 8px;
-                background-color: #fff;
+                background-color: @color-turquoise;
                 border-radius: 4px;
                 text-decoration: none;
-                color: #000;
+                color: @color-black;
                 cursor: pointer;
             }
         }
@@ -79,5 +98,14 @@ body {
     }
 }
 #jobs-container {
-    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    .card.job-card {
+        padding: 16px;
+        width: 45%;
+        background-color: @color-dark-charcoal;
+        border-bottom: 2px solid @color-turquoise;
+    }
 }

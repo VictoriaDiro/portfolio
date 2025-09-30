@@ -7,8 +7,7 @@ export function SkillsAndTechnologies(skills) {
         <ul class="skills-list">
             ${skills.map(skill => `
                 <li class="skill-item">
-                    <img src="${skill.icon}" alt="${skill.name} icon" />
-                    <span>${skill.name}</span>
+                    <img src="${skill.icon}" alt="${skill.name}" title="${skill.name}" />
                 </li>
             `).join("")}
         </ul>

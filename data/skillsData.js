@@ -24,7 +24,7 @@ export const skills = [
         icon: "./assets/icons/skills/" 
     },
     { 
-        name: "Git & GitHub", 
+        name: "Git", 
         icon: "./assets/icons/skills/" 
     },
     { 
@@ -33,7 +33,7 @@ export const skills = [
     },
     { 
         name: "Adobe XD", 
-        icon: "/assets/icons/adobexd.png" 
+        icon: "/assets/icons/adobe-xd.jpeg" 
     },
     { 
         name: "Zeplin", 
@@ -49,18 +49,18 @@ export const skills = [
     },
     { 
         name: "Liferay", 
-        icon: "./assets/icons/skills/" 
+        icon: "./assets/icons/skills/liferay.png" 
     },
     { 
         name: "Prestashop", 
-        icon: "./assets/icons/skills/" 
+        icon: "./assets/icons/skills/prestashop.png" 
     },
     { 
         name: "Adobe Photoshop", 
-        icon: "./assets/icons/skills/" 
+        icon: "./assets/icons/skills/adobe-photoshop.png" 
     },
     { 
         name: "Adobe Premiere", 
-        icon: "./assets/icons/skills/" 
+        icon: "./assets/icons/skills/adobe-premiere.png" 
     }   
 ];

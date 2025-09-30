@@ -1,13 +1,9 @@
-import { renderCourses } from "../views/courses.js";
+import { renderEducation } from "../views/education.js";
 import { renderJobs } from "../views/jobs.js";
 
-// const app = document.getElementById("app");
-// const skillsSection = SkillsAndTechnologies(skills);
-// app.appendChild(skillsSection);
-
 const routes = {
-	"/courses": renderCourses,
 	"/jobs": renderJobs,
+	"/education": renderEducation,
 };
 
 window.addEventListener("hashchange", render);
