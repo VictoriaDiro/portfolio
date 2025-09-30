@@ -1,11 +1,9 @@
 import { renderCourses } from "../views/courses.js";
 import { renderJobs } from "../views/jobs.js";
-import { SkillsAndTechnologies } from "./components/skills.js";
-import { skills } from "../data/skillsData.js";
 
-const app = document.getElementById("app");
-const skillsSection = SkillsAndTechnologies(skills);
-app.appendChild(skillsSection);
+// const app = document.getElementById("app");
+// const skillsSection = SkillsAndTechnologies(skills);
+// app.appendChild(skillsSection);
 
 const routes = {
 	"/courses": renderCourses,

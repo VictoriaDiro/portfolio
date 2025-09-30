@@ -108,16 +108,40 @@ export const data = {
             "certificate": "../assets/pdf/courses/20250617_uned_accesibilidad-tic.pdf"
         },
         {
+            "title": "Accesibilidad Web",
+            "school": "Udemy",
+            "time": "Diciembre 2024",
+            "certificate": "../assets/pdf/courses/20241210_udemy_accesibilidad-web.pdf"
+        },
+        {
+            "title": "Certified JavaScript Developer",
+            "school": "W3Schools",
+            "time": "Octubre 2024",
+            "certificate": "../assets/pdf/courses/20241016_w3chools_javascript-developer.pdf"
+        },
+        {
+            "title": "Desarrollo Frontend",
+            "school": "Samsung Desarrolladoras",
+            "time": "Febrero 2023",
+            "certificate": ""
+        },
+        {
+            "title": "Accesibilidad Web",
+            "school": "Platzi",
+            "time": "Febrero 2022",
+            "certificate": ""
+        },
+        {
             "title": "Adobe XD",
             "school": "Platzi",
             "time": "Septiembre 2020",
             "certificate": "../assets/pdf/courses/20200910_platzi_adobe-xd.pdf"
         },
         {
-            "title": "Experiencia de usuario (UX) esencial",
-            "school": "LinckedIn Learning",
-            "time": "Mayo 2020",
-            "certificate": "../assets/pdf/courses/20200501_linkedin_ux-esencial.pdf"
+            "title": "UX: Máster en Diseño Web y Experiencia de Usuario",
+            "school": "LinkedIn Learning",
+            "time": "Julio 2020",
+            "certificate": "../assets/pdf/courses/20200731_udemy_master-diseño-web-y-ux.pdf"
         },
         {
             "title": "Conviértete en desarrollador JavaScript",
@@ -132,10 +156,22 @@ export const data = {
             "certificate": "../assets/pdf/courses/20200501_linkedin_fundamentos-esenciales-de-la-programacion.pdf"
         },
         {
-            "title": "Programación JavaScript y PHP",
-            "school": "Core Networks",
-            "time": "Abril 2020",
-            "certificate": ""
+            "title": "Diseño de interfaz (UX) esencial",
+            "school": "LinckedIn Learning",
+            "time": "Mayo 2020",
+            "certificate": "../assets/pdf/courses/20200503_linkedin_ui.png"
+        },
+        {
+            "title": "Experiencia de usuario (UX) esencial",
+            "school": "LinckedIn Learning",
+            "time": "Mayo 2020",
+            "certificate": "../assets/pdf/courses/20200501_linkedin_ux-esencial.pdf"
+        },
+        {
+            "title": "UX y prototipado para web y dispositivos móviles",
+            "school": "LinkedIn Learning",
+            "time": "Mayo 2020",
+            "certificate": "../assets/pdf/20200502_linkedin_ux-y-prototipado-web.png"
         },
         {
             "title": "Novedades JavaScript versión ES6",
@@ -192,6 +228,12 @@ export const data = {
             "certificate": "../assets/pdf/courses/20200404_udemy_liferayportal-cms-admin.pdf"
         },
         {
+            "title": "Programación JavaScript y PHP",
+            "school": "Core Networks",
+            "time": "Febrero 2020",
+            "certificate": ""
+        },
+        {
             "title": "JavaScript: Programación orientada a objetos",
             "school": "LinkedIn Learning",
             "time": "Febrero 2020",
@@ -216,6 +258,12 @@ export const data = {
             "certificate": "../assets/pdf/courses/20200102_udemy_logica-en-programacion.pdf"
         },
         {
+            "title": "Progressive Web App",
+            "school": "Appcademy",
+            "time": "Diciembre 2019",
+            "certificate": ""
+        },
+        {
             "title": "Fundamentos de programación con Java",
             "school": "Udemy",
             "time": "Agosto 2019",
@@ -228,25 +276,25 @@ export const data = {
             "certificate": "../assets/pdf/courses/20190701_udemy_javascript-es6.pdf"
         },
         {
-            "title": "JavaScript course",
-            "school": "Solo Learn",
-            "time": "Enero 2019",
-            "certificate": "../assets/pdf/courses/20190116_sololearn_javascript-tutorial.pdf"
-        },
-        {
             "title": "Programa 'Progresa Digitalmente'",
             "school": "GRI en colaboración con Facebook",
             "time": "Enero 2019",
             "certificate": "../assets/pdf/courses/20190116_facebook_programa-progresa-digitalmente.pdf"
         },
         {
-            "title": "CSS Fundamentals course",
+            "title": "JavaScript Fundamentals",
+            "school": "Solo Learn",
+            "time": "Enero 2019",
+            "certificate": "../assets/pdf/courses/20190116_udemy_javascript-fundamentals.pdf"
+        },
+        {
+            "title": "CSS Fundamentals",
             "school": "Solo Learn",
             "time": "Noviembre 2018",
             "certificate": "../assets/pdf/courses/20181124_sololearn_css-fundamentals.pdf"
         },
         {
-            "title": "HTML Fundamentals course",
+            "title": "HTML Fundamentals",
             "school": "Solo Learn",
             "time": "Octubre 2018",
             "certificate": "../assets/pdf/courses/20181012_sololearn_html-fundamentals.pdf"
