@@ -5,7 +5,6 @@ import { renderEducation } from "../views/education.js";
 import { renderBlog } from "../views/blog.js";
 import { renderBlogPost } from "../views/blogPost.js";
 // import { renderAudiovisuales } from "../views/audiovisuales.js";
-import { renderContact } from "../views/contact.js";
 
 const routes = {
     "/": renderHome,
@@ -13,7 +12,6 @@ const routes = {
     "/education": renderEducation,
     "/blog": renderBlog,
     // "/audiovisuales": renderAudiovisuales,
-    "/contact": renderContact,
 };
 
 function render() {

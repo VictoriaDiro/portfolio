@@ -7,8 +7,8 @@ export async function renderJobs(container) {
     const data = await getWorkStudyData();
 
     // Skills
-    const skillsSection = SkillsAndTechnologies(data.skills);
-    container.appendChild(skillsSection);
+    // const skillsSection = SkillsAndTechnologies(data.skills);
+    // container.appendChild(skillsSection);
 
     // Jobs
     const section = document.createElement("section");

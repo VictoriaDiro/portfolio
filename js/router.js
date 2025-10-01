@@ -5,15 +5,14 @@ import { renderEducation } from "../views/education.js";
 import { renderCourses } from "../views/courses.js";
 import { renderBlog } from "../views/blog.js";
 import { renderBlogPost } from "../views/blogPost.js";
-import { renderContact } from "../views/contact.js";
 import { renderAudiovisuales } from "../views/audiovisuales.js";
 
 export async function router() {
     const app = document.getElementById("app");
-    app.innerHTML = ""; // Limpiamos el <main>
+    app.innerHTML = "";
 
-    const hash = window.location.hash.slice(1); // ej: "blog/20251001"
-    const parts = hash.split("/").filter(Boolean); // ["blog", "20251001"]
+    const hash = window.location.hash.slice(1);
+    const parts = hash.split("/").filter(Boolean);
 
     // --- Rutas dinámicas de blog ---
     if (parts[0] === "blog") {
@@ -38,13 +37,10 @@ export async function router() {
         case "courses":
             await renderCourses(app);
             break;
-        case "contact":
-            renderContact(app);
-            break;
         case "audiovisuales":
             renderAudiovisuales(app);
             break;
-        case "": // inicio
+        case "":
             renderHome(app);
             break;
         default:
