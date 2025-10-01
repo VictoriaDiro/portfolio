@@ -1,4 +1,4 @@
-import { data } from '../../data/workStudyService.js';
+import { data } from '../../data/dataService.js';
 
 export async function getWorkStudyData() {
     return data;

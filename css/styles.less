@@ -38,6 +38,39 @@ body {
             }
         }
     }
+    footer {
+        background-color: @color-turquoise;
+        position: absolute;
+        bottom: 0;
+    }
+}
+
+// JOBS SECTION
+.skills-section {
+    .skills-list {
+        display: flex;
+        li {
+            list-style: none;
+            img {
+                height: 80px;
+            }
+            span {
+
+            }
+        }
+    }
+}
+#jobs-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    .card.job-card {
+        padding: 16px;
+        width: 45%;
+        background-color: @color-dark-charcoal;
+        border-bottom: 2px solid @color-turquoise;
+    }
 }
 
 // EDUCATION SECTION
@@ -82,30 +115,26 @@ body {
     }
 }
 
-// JOBS SECTION
-.skills-section {
-    .skills-list {
-        display: flex;
-        li {
-            list-style: none;
-            img {
-                height: 80px;
-            }
-            span {
-
-            }
-        }
-    }
-}
-#jobs-container {
+// BLOG SECTION
+#blog-container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 16px;
-    .card.job-card {
+    article {
         padding: 16px;
         width: 45%;
         background-color: @color-dark-charcoal;
         border-bottom: 2px solid @color-turquoise;
+        h3 {
+            color: @color-white;
+        }
+    }
+}
+.blog-20251001 {
+    img {
+        padding: 16px;
+        background-color: @color-white;
+        border-radius: 62px;
     }
 }

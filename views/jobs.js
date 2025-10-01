@@ -1,11 +1,13 @@
 import { getWorkStudyData } from "../js/services/fetchService.js";
 import { JobCard } from "../js/components/card-job.js";
 import { SkillsAndTechnologies } from "../js/components/skills.js";
-import { skills } from "../data/skillsData.js";
 
 export async function renderJobs(container) {
+    // Traer todos los datos
+    const data = await getWorkStudyData();
+
     // Skills
-    const skillsSection = SkillsAndTechnologies(skills);
+    const skillsSection = SkillsAndTechnologies(data.skills);
     container.appendChild(skillsSection);
 
     // Jobs
@@ -13,7 +15,6 @@ export async function renderJobs(container) {
     section.innerHTML = "<h2>Experiencia laboral</h2><div id='jobs-container'></div>";
     container.appendChild(section);
 
-    const data = await getWorkStudyData();
     const jobsContainer = section.querySelector("#jobs-container");
 
     data.jobs.forEach(job => {
