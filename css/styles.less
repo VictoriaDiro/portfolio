@@ -8,7 +8,6 @@ body {
     background-color: @color-eerie-black;
     font-family: @font-montserrat;
     color: @color-white;
-
     header {
         padding: 16px 32px;
         display: flex;
@@ -29,17 +28,15 @@ body {
     }
     main {
         padding: 16px 32px;
-        section {
-            h2 {
-                margin: 32px 8px;
-                padding: 16px;
-                text-align: center;
-                color: @color-black;
-                background-color: @color-turquoise;
-            }
-            h3 {
-                margin-top: 0;
-            }
+        h2 {
+            margin: 32px 8px;
+            padding: 16px;
+            text-align: center;
+            color: @color-black;
+            background-color: @color-turquoise;
+        }
+        h3 {
+            margin-top: 0;
         }
     }
     // footer {
@@ -50,8 +47,8 @@ body {
 }
 
 // HOME SECTION
-.home {
-    .home__copy {
+.home__copy {
+    &--primary {
         display: flex;
         align-items: center;
         margin-bottom: 32px;
@@ -59,17 +56,16 @@ body {
         background-color: @color-dark-charcoal;
         border-bottom: 2px solid @color-turquoise;
         img {
-            height: 350px;
+            height: 350px; 
         }
     }
-    h2 {
-        margin: 96px 0 32px 0;
-        padding: 16px;
-        text-align: center;
-        color: @color-black;
-        background-color: @color-turquoise;
-    }
-    .contact__with-me {
+}
+.home__skills {
+    margin: 64px 0 32px 0;
+}
+.home__contact {
+    margin: 64px 0 32px 0;
+    > div {
         display: flex;
         justify-content: center;
         gap: 64px;
@@ -93,13 +89,13 @@ body {
 .skills-section {
     .skills-list {
         display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 16px;
         li {
             list-style: none;
             img {
                 height: 80px;
-            }
-            span {
-
             }
         }
     }
@@ -201,19 +197,5 @@ body {
     }
     img {
         width: -webkit-fill-available;;
-    }
-}
-
-// CONTACT SECTION
-.contact-container {
-    form {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        flex-wrap: wrap;
-        gap: 16px;
-        padding: 16px;
-        background-color: @color-dark-charcoal;
-        border-bottom: 2px solid @color-turquoise;
     }
 }

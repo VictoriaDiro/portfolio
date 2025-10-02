@@ -2,39 +2,39 @@ export const data = {
     "skills": [
         { 
             name: "HTML5", 
-            icon: "./assets/icons/skills/" 
+            icon: "./assets/icons/skills/html5.png" 
         },
         { 
             name: "CSS3", 
-            icon: "./assets/icons/skills/" 
+            icon: "./assets/icons/skills/css3.png" 
         },
         { 
             name: "Less", 
-            icon: "./assets/icons/skills/" 
+            icon: "./assets/icons/skills/less.png" 
         },
         { 
             name: "Sass", 
-            icon: "./assets/icons/skills/" 
+            icon: "./assets/icons/skills/sass.png" 
         },
         { 
             name: "JavaScript", 
-            icon: "./assets/icons/skills/" 
+            icon: "./assets/icons/skills/javascript.png" 
         },
         { 
             name: "React", 
-            icon: "./assets/icons/skills/" 
+            icon: "./assets/icons/skills/react.png" 
         },
         { 
             name: "Git", 
-            icon: "./assets/icons/skills/" 
+            icon: "./assets/icons/skills/git.png" 
         },
         { 
             name: "Scrum & Agile", 
-            icon: "./assets/icons/skills/"
+            icon: "./assets/icons/skills/scrum-agile.png"
         },
         { 
             name: "Adobe XD", 
-            icon: "/assets/icons/adobe-xd.jpeg" 
+            icon: "/assets/icons/skills/adobe-xd.png" 
         },
         { 
             name: "Zeplin", 
@@ -46,7 +46,7 @@ export const data = {
         },
         { 
             name: "Wordpress", 
-            icon: "./assets/icons/skills/" 
+            icon: "./assets/icons/skills/wordpress.png" 
         },
         { 
             name: "Liferay", 

@@ -26,17 +26,17 @@ body header nav a {
 body main {
   padding: 16px 32px;
 }
-body main section h2 {
+body main h2 {
   margin: 32px 8px;
   padding: 16px;
   text-align: center;
   color: #000;
   background-color: #25ffed;
 }
-body main section h3 {
+body main h3 {
   margin-top: 0;
 }
-.home .home__copy {
+.home__copy--primary {
   display: flex;
   align-items: center;
   margin-bottom: 32px;
@@ -44,36 +44,38 @@ body main section h3 {
   background-color: #292929;
   border-bottom: 2px solid #25ffed;
 }
-.home .home__copy img {
+.home__copy--primary img {
   height: 350px;
 }
-.home h2 {
-  margin: 96px 0 32px 0;
-  padding: 16px;
-  text-align: center;
-  color: #000;
-  background-color: #25ffed;
+.home__skills {
+  margin: 64px 0 32px 0;
 }
-.home .contact__with-me {
+.home__contact {
+  margin: 64px 0 32px 0;
+}
+.home__contact > div {
   display: flex;
   justify-content: center;
   gap: 64px;
   margin-bottom: 64px;
 }
-.home .contact__with-me div {
+.home__contact > div div {
   display: flex;
   align-items: center;
   gap: 16px;
 }
-.home .contact__with-me div img {
+.home__contact > div div img {
   height: 32px;
 }
-.home .contact__with-me div a {
+.home__contact > div div a {
   color: #fff;
   text-decoration: none;
 }
 .skills-section .skills-list {
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
 }
 .skills-section .skills-list li {
   list-style: none;
@@ -173,14 +175,4 @@ body main section h3 {
 }
 .blog__post img {
   width: -webkit-fill-available;
-}
-.contact-container form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 16px;
-  padding: 16px;
-  background-color: #292929;
-  border-bottom: 2px solid #25ffed;
 }
