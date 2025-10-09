@@ -24,10 +24,16 @@ body header nav a {
   color: #fff;
 }
 body main {
+  display: flex;
+  justify-content: center;
   padding: 16px 32px;
 }
+body main section,
+body main .view {
+  max-width: 1200px;
+}
 body main h2 {
-  margin: 32px 8px;
+  margin: 32px 0;
   padding: 16px;
   text-align: center;
   color: #000;
@@ -50,6 +56,22 @@ body main h3 {
 .home__skills {
   margin: 64px 0 32px 0;
 }
+.home__skills .skills-section .skills-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.home__skills .skills-section .skills-list li {
+  list-style: none;
+}
+.home__skills .skills-section .skills-list li img {
+  height: 80px;
+}
+.home__skills .skills-section .skills-list li[title="Less"] img {
+  height: 50px;
+}
 .home__contact {
   margin: 64px 0 32px 0;
 }
@@ -71,18 +93,6 @@ body main h3 {
   color: #fff;
   text-decoration: none;
 }
-.skills-section .skills-list {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 16px;
-}
-.skills-section .skills-list li {
-  list-style: none;
-}
-.skills-section .skills-list li img {
-  height: 80px;
-}
 #jobs-container {
   display: flex;
   justify-content: center;
@@ -91,9 +101,14 @@ body main h3 {
 }
 #jobs-container .card.job-card {
   padding: 16px;
-  width: 45%;
+  width: 46.6%;
   background-color: #292929;
   border-bottom: 2px solid #25ffed;
+}
+@media (max-width: 1256px) {
+  #jobs-container .card.job-card {
+    width: 100%;
+  }
 }
 #education-container {
   display: flex;
@@ -103,9 +118,14 @@ body main h3 {
 }
 #education-container .card.education-card {
   padding: 16px;
-  width: 45%;
+  width: 46.6%;
   background-color: #292929;
   border-bottom: 2px solid #25ffed;
+}
+@media (max-width: 1256px) {
+  #education-container .card.education-card {
+    width: 100%;
+  }
 }
 #courses-container {
   display: flex;
@@ -118,9 +138,14 @@ body main h3 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 28%;
+  width: 29.6%;
   border: 1px solid #25ffed;
   border-radius: 8px;
+}
+@media (max-width: 1256px) {
+  #courses-container .card.course-card {
+    width: 100%;
+  }
 }
 #courses-container .card.course-card .course-certificade {
   display: flex;
@@ -143,9 +168,14 @@ body main h3 {
 }
 #blog-container article {
   padding: 16px;
-  width: 45%;
+  width: 46.6%;
   background-color: #292929;
   border-bottom: 2px solid #25ffed;
+}
+@media (max-width: 1256px) {
+  #blog-container article {
+    width: 100%;
+  }
 }
 #blog-container article > div {
   display: flex;

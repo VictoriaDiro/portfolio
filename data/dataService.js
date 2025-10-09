@@ -168,6 +168,18 @@ export const data = {
     ],
     "courses": [
         {
+            "title": "Introducción a Java",
+            "school": "Solo Learn",
+            "time": "Octubre 2025",
+            "certificate": "../assets/pdf/courses/20251009_sololearn_introduccion-java.pdf"
+        },
+        {
+            "title": "Desarrollo con IA",
+            "school": "Big School",
+            "time": "Octubre 2025",
+            "certificate": "../assets/pdf/courses/20251006_bigschool_desarrollo-con-ia.pdf"
+        },
+        {
             "title": "Aplcación del Estándar Europeo del Accesibilidad TIC",
             "school": "UNED",
             "time": "Junio 2025",

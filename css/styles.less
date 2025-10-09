@@ -27,9 +27,14 @@ body {
         }
     }
     main {
+        display: flex;
+        justify-content: center;
         padding: 16px 32px;
+        section, .view {
+            max-width: 1200px;
+        }
         h2 {
-            margin: 32px 8px;
+            margin: 32px 0;
             padding: 16px;
             text-align: center;
             color: @color-black;
@@ -62,6 +67,24 @@ body {
 }
 .home__skills {
     margin: 64px 0 32px 0;
+    .skills-section {
+        .skills-list {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 16px;
+            li {
+                list-style: none;
+                img {
+                    height: 80px;
+                }
+            }
+            li[title="Less"] img {
+                height: 50px; 
+            }
+        }
+    }
 }
 .home__contact {
     margin: 64px 0 32px 0;
@@ -86,20 +109,6 @@ body {
 }
 
 // JOBS SECTION
-.skills-section {
-    .skills-list {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        gap: 16px;
-        li {
-            list-style: none;
-            img {
-                height: 80px;
-            }
-        }
-    }
-}
 #jobs-container {
     display: flex;
     justify-content: center;
@@ -107,9 +116,12 @@ body {
     gap: 16px;
     .card.job-card {
         padding: 16px;
-        width: 45%;
+        width: 46.6%;
         background-color: @color-dark-charcoal;
         border-bottom: 2px solid @color-turquoise;
+        @media (max-width: 1256px) {
+            width: 100%;
+        }
     }
 }
 
@@ -121,9 +133,12 @@ body {
     gap: 16px;
     .card.education-card {
         padding: 16px;
-        width: 45%;
+        width: 46.6%;
         background-color: @color-dark-charcoal;
         border-bottom: 2px solid @color-turquoise;
+        @media (max-width: 1256px) {
+            width: 100%;
+        }
     }
 }
 #courses-container {
@@ -136,9 +151,12 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        width: 28%;
+        width: 29.6%;
         border: 1px solid @color-turquoise;
         border-radius: 8px;
+        @media (max-width: 1256px) {
+            width: 100%;
+        }
         .course-certificade {
             display: flex;
             justify-content: flex-end;
@@ -163,9 +181,12 @@ body {
     gap: 16px;
     article {
         padding: 16px;
-        width: 45%;
+        width: 46.6%;
         background-color: @color-dark-charcoal;
         border-bottom: 2px solid @color-turquoise;
+        @media (max-width: 1256px) {
+            width: 100%;
+        }
         > div {
             display: flex;
             justify-content: flex-end;
