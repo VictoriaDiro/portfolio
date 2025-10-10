@@ -18,7 +18,7 @@ body header h1 a {
 }
 @media (max-width: 768px) {
   body header h1 a {
-    font-size: 36px;
+    font-size: 16px;
   }
 }
 body header nav {
@@ -30,7 +30,7 @@ body header nav a {
 }
 @media (max-width: 768px) {
   body header nav a {
-    font-size: 36px;
+    font-size: 16px;
   }
 }
 body main {
@@ -51,7 +51,7 @@ body main h2 {
 }
 @media (max-width: 768px) {
   body main h2 {
-    font-size: 36px;
+    font-size: 16px;
   }
 }
 body main h3 {
@@ -80,7 +80,7 @@ body main h3 {
 }
 @media (max-width: 768px) {
   .home__copy--primary p {
-    font-size: 36px;
+    font-size: 16px;
   }
 }
 .home__skills {
@@ -130,7 +130,7 @@ body main h3 {
 }
 @media (max-width: 768px) {
   .home__contact > div div a {
-    font-size: 36px;
+    font-size: 16px;
   }
 }
 #jobs-container {
@@ -154,7 +154,7 @@ body main h3 {
   #jobs-container .card.job-card h3,
   #jobs-container .card.job-card p,
   #jobs-container .card.job-card ul li {
-    font-size: 36px;
+    font-size: 16px;
   }
 }
 #education-container {
@@ -178,7 +178,7 @@ body main h3 {
   #education-container .card.education-card h3,
   #education-container .card.education-card p,
   #education-container .card.education-card ul li {
-    font-size: 36px;
+    font-size: 16px;
   }
 }
 #courses-container {
@@ -204,7 +204,7 @@ body main h3 {
 @media (max-width: 768px) {
   #courses-container .card.course-card .course-information h3,
   #courses-container .card.course-card .course-information p {
-    font-size: 36px;
+    font-size: 16px;
   }
 }
 #courses-container .card.course-card .course-certificade {
@@ -222,7 +222,7 @@ body main h3 {
 }
 @media (max-width: 768px) {
   #courses-container .card.course-card .course-certificade a {
-    font-size: 36px;
+    font-size: 16px;
   }
 }
 #blog-container {
@@ -250,7 +250,7 @@ body main h3 {
 @media (max-width: 768px) {
   #blog-container article > div h3,
   #blog-container article > div p {
-    font-size: 36px;
+    font-size: 16px;
   }
 }
 #blog-container article > div a {
@@ -263,12 +263,12 @@ body main h3 {
 }
 @media (max-width: 768px) {
   #blog-container article > div a {
-    font-size: 36px;
+    font-size: 16px;
   }
 }
 @media (max-width: 768px) {
   .blog__post {
-    max-width: 880px;
+    max-width: 680px;
   }
 }
 .blog__post .blog__main-image {
