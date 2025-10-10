@@ -16,12 +16,22 @@ body header h1 a {
   text-decoration: none;
   color: #fff;
 }
+@media (max-width: 768px) {
+  body header h1 a {
+    font-size: 36px;
+  }
+}
 body header nav {
   display: flex;
   gap: 16px;
 }
 body header nav a {
   color: #fff;
+}
+@media (max-width: 768px) {
+  body header nav a {
+    font-size: 36px;
+  }
 }
 body main {
   display: flex;
@@ -39,6 +49,11 @@ body main h2 {
   color: #000;
   background-color: #25ffed;
 }
+@media (max-width: 768px) {
+  body main h2 {
+    font-size: 36px;
+  }
+}
 body main h3 {
   margin-top: 0;
 }
@@ -50,8 +65,23 @@ body main h3 {
   background-color: #292929;
   border-bottom: 2px solid #25ffed;
 }
+@media (max-width: 768px) {
+  .home__copy--primary {
+    flex-direction: column-reverse;
+  }
+}
 .home__copy--primary img {
   height: 350px;
+}
+@media (max-width: 768px) {
+  .home__copy--primary img {
+    height: 550px;
+  }
+}
+@media (max-width: 768px) {
+  .home__copy--primary p {
+    font-size: 36px;
+  }
 }
 .home__skills {
   margin: 64px 0 32px 0;
@@ -81,6 +111,11 @@ body main h3 {
   gap: 64px;
   margin-bottom: 64px;
 }
+@media (max-width: 768px) {
+  .home__contact > div {
+    gap: 36px;
+  }
+}
 .home__contact > div div {
   display: flex;
   align-items: center;
@@ -92,6 +127,11 @@ body main h3 {
 .home__contact > div div a {
   color: #fff;
   text-decoration: none;
+}
+@media (max-width: 768px) {
+  .home__contact > div div a {
+    font-size: 36px;
+  }
 }
 #jobs-container {
   display: flex;
@@ -110,6 +150,13 @@ body main h3 {
     width: 100%;
   }
 }
+@media (max-width: 768px) {
+  #jobs-container .card.job-card h3,
+  #jobs-container .card.job-card p,
+  #jobs-container .card.job-card ul li {
+    font-size: 36px;
+  }
+}
 #education-container {
   display: flex;
   justify-content: center;
@@ -125,6 +172,13 @@ body main h3 {
 @media (max-width: 1256px) {
   #education-container .card.education-card {
     width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  #education-container .card.education-card h3,
+  #education-container .card.education-card p,
+  #education-container .card.education-card ul li {
+    font-size: 36px;
   }
 }
 #courses-container {
@@ -147,6 +201,12 @@ body main h3 {
     width: 100%;
   }
 }
+@media (max-width: 768px) {
+  #courses-container .card.course-card .course-information h3,
+  #courses-container .card.course-card .course-information p {
+    font-size: 36px;
+  }
+}
 #courses-container .card.course-card .course-certificade {
   display: flex;
   justify-content: flex-end;
@@ -159,6 +219,11 @@ body main h3 {
   text-decoration: none;
   color: #000;
   cursor: pointer;
+}
+@media (max-width: 768px) {
+  #courses-container .card.course-card .course-certificade a {
+    font-size: 36px;
+  }
 }
 #blog-container {
   display: flex;
@@ -182,6 +247,12 @@ body main h3 {
   justify-content: flex-end;
   width: auto;
 }
+@media (max-width: 768px) {
+  #blog-container article > div h3,
+  #blog-container article > div p {
+    font-size: 36px;
+  }
+}
 #blog-container article > div a {
   padding: 4px 8px;
   background-color: #25ffed;
@@ -189,6 +260,16 @@ body main h3 {
   text-decoration: none;
   color: #000;
   cursor: pointer;
+}
+@media (max-width: 768px) {
+  #blog-container article > div a {
+    font-size: 36px;
+  }
+}
+@media (max-width: 768px) {
+  .blog__post {
+    max-width: 880px;
+  }
 }
 .blog__post .blog__main-image {
   margin-bottom: 32px;
