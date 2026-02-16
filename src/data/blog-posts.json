@@ -1,26 +1,26 @@
 [
-  {
-    "id": "1",
-    "title": "Cómo optimizar el rendimiento de tu sitio web",
-    "date": "2026-01-15",
-    "excerpt": "Descubre las mejores prácticas para mejorar la velocidad de carga y la experiencia de usuario en tus proyectos web.",
-    "content": "El rendimiento web es crucial para retener usuarios y mejorar el SEO. En este artículo exploramos técnicas como lazy loading de imágenes, minificación de assets, uso de CDNs, y optimización del Critical Rendering Path.\n\nAlgunas estrategias clave incluyen:\n\n1. **Lazy Loading**: Cargar imágenes y recursos solo cuando son visibles en el viewport.\n2. **Minificación**: Reducir el tamaño de CSS y JavaScript eliminando espacios y comentarios.\n3. **Caché del navegador**: Configurar headers de caché para recursos estáticos.\n4. **Compresión Gzip/Brotli**: Comprimir respuestas del servidor.\n5. **Optimización de imágenes**: Usar formatos modernos como WebP y AVIF.\n\nImplementar estas técnicas puede reducir el tiempo de carga en más de un 50%.",
-    "tags": ["rendimiento", "optimización", "web"]
-  },
-  {
-    "id": "2",
-    "title": "Guía completa de CSS Grid Layout",
-    "date": "2025-12-20",
-    "excerpt": "Todo lo que necesitas saber sobre CSS Grid para crear layouts modernos y responsivos sin complicaciones.",
-    "content": "CSS Grid ha revolucionado la forma en que diseñamos layouts web. A diferencia de Flexbox, Grid nos permite trabajar en dos dimensiones simultáneamente.\n\nConceptos fundamentales:\n\n- **grid-template-columns/rows**: Define la estructura de la cuadrícula.\n- **grid-gap**: Espaciado entre celdas.\n- **grid-area**: Nombrar y posicionar áreas.\n- **fr units**: Unidades flexibles para distribución proporcional.\n- **minmax()**: Establecer rangos de tamaño.\n\nCSS Grid es especialmente útil para dashboards, galerías de imágenes y layouts complejos que antes requerían hacks con floats o tablas.",
-    "tags": ["css", "grid", "layout"]
-  },
-  {
-    "id": "3",
-    "title": "JavaScript moderno: ES2024 y más allá",
-    "date": "2025-11-08",
-    "excerpt": "Un repaso a las últimas características de JavaScript que deberías estar usando en tus proyectos.",
-    "content": "JavaScript sigue evolucionando con nuevas características que facilitan el desarrollo. Veamos algunas de las más relevantes:\n\n**Array Grouping**: Object.groupBy() permite agrupar arrays de forma nativa.\n\n**Promise.withResolvers()**: Crea promesas con resolvers externos, ideal para patrones avanzados.\n\n**Decorators**: Finalmente estandarizados, permiten modificar clases y métodos de forma declarativa.\n\n**Temporal API**: Una alternativa moderna a Date para manejo de fechas y horas.\n\nMantenerse actualizado con las nuevas características del lenguaje es esencial para escribir código más limpio, legible y eficiente.",
-    "tags": ["javascript", "es2024", "desarrollo"]
-  }
+	{
+		"id": "20251001",
+		"title": "Guía completa de Markdown",
+		"date": "2025-10-01",
+		"excerpt": "Markdown nació como herramienta de conversión de texto plano a HTML. Esta herramienta fue creada en 2004 por John Gruber, y se distribuye de manera gratuita bajo una licencia BSD. Markdown se ha convertido en un estándar de facto para la escritura en la web, utilizado en plataformas como GitHub, Reddit, y Stack Overflow. Su sintaxis sencilla permite a los usuarios centrarse en el contenido sin preocuparse por el formato, aunque también ofrece opciones avanzadas para personalizar la apariencia del texto.",
+		"content": "El rendimiento web es crucial para retener usuarios y mejorar el SEO. En este artículo exploramos técnicas como lazy loading de imágenes, minificación de assets, uso de CDNs, y optimización del Critical Rendering Path.\n\nAlgunas estrategias clave incluyen:\n\n1. **Lazy Loading**: Cargar imágenes y recursos solo cuando son visibles en el viewport.\n2. **Minificación**: Reducir el tamaño de CSS y JavaScript eliminando espacios y comentarios.\n3. **Caché del navegador**: Configurar headers de caché para recursos estáticos.\n4. **Compresión Gzip/Brotli**: Comprimir respuestas del servidor.\n5. **Optimización de imágenes**: Usar formatos modernos como WebP y AVIF.\n\nImplementar estas técnicas puede reducir el tiempo de carga en más de un 50%.",
+		"tags": ["markdown", "documentación", "web"]
+	},
+	{
+		"id": "2",
+		"title": "Guía completa de CSS Grid Layout",
+		"date": "2025-12-20",
+		"excerpt": "Todo lo que necesitas saber sobre CSS Grid para crear layouts modernos y responsivos sin complicaciones.",
+		"content": "CSS Grid ha revolucionado la forma en que diseñamos layouts web. A diferencia de Flexbox, Grid nos permite trabajar en dos dimensiones simultáneamente.\n\nConceptos fundamentales:\n\n- **grid-template-columns/rows**: Define la estructura de la cuadrícula.\n- **grid-gap**: Espaciado entre celdas.\n- **grid-area**: Nombrar y posicionar áreas.\n- **fr units**: Unidades flexibles para distribución proporcional.\n- **minmax()**: Establecer rangos de tamaño.\n\nCSS Grid es especialmente útil para dashboards, galerías de imágenes y layouts complejos que antes requerían hacks con floats o tablas.",
+		"tags": ["css", "grid", "layout"]
+	},
+	{
+		"id": "3",
+		"title": "JavaScript moderno: ES2024 y más allá",
+		"date": "2025-11-08",
+		"excerpt": "Un repaso a las últimas características de JavaScript que deberías estar usando en tus proyectos.",
+		"content": "JavaScript sigue evolucionando con nuevas características que facilitan el desarrollo. Veamos algunas de las más relevantes:\n\n**Array Grouping**: Object.groupBy() permite agrupar arrays de forma nativa.\n\n**Promise.withResolvers()**: Crea promesas con resolvers externos, ideal para patrones avanzados.\n\n**Decorators**: Finalmente estandarizados, permiten modificar clases y métodos de forma declarativa.\n\n**Temporal API**: Una alternativa moderna a Date para manejo de fechas y horas.\n\nMantenerse actualizado con las nuevas características del lenguaje es esencial para escribir código más limpio, legible y eficiente.",
+		"tags": ["javascript", "es2024", "desarrollo"]
+	}
 ]

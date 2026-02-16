@@ -4,6 +4,7 @@ import TechBanner from "@/components/TechBanner";
 import Experience from "@/components/Experience";
 import Education from "@/components/Education";
 import Blog from "@/components/Blog";
+import Photo from "@/components/Photo";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -16,6 +17,7 @@ const Index = () => {
         <Experience />
         <Education />
         <Blog />
+        <Photo />
       </main>
       <Footer />
     </div>
