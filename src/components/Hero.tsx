@@ -26,9 +26,9 @@ const Hero = () => {
 			{/* Social links */}
 			<div className="flex gap-4">
 				{[
-				{ icon: Github, href: "https://github.com", label: "GitHub" },
-				{ icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-				{ icon: Mail, href: "mailto:ana@example.com", label: "Email" },
+				{ icon: Github, href: "https://github.com/VictoriaDiro", label: "GitHub" },
+				{ icon: Linkedin, href: "https://www.linkedin.com/in/victoriadiro/", label: "LinkedIn" },
+				{ icon: Mail, href: "mailto:victoriadiro01@gmail.com", label: "Email" },
 				].map(({ icon: Icon, href, label }) => (
 				<a
 					key={label}
@@ -52,14 +52,13 @@ const Hero = () => {
 			className="space-y-4"
 			>
 			<SummaryCard title="Experiencia" items={[
-				"Frontend Developer — Agencia Creativa (2023–presente)",
-				"Maquetadora Web — Studio Digital (2021–2023)",
-				"Becaria Desarrollo — TechStart (2020–2021)",
+				"Desarrollo Frontend — Vass Company (2021 – presente)",
+				"Desarrollo Frontend — Sygris (2020 – 2021)",
+				"Desarrollo Frontend — Telefónica Edicación Digital (2020)",
 			]} />
 			<SummaryCard title="Formación" items={[
-				"Grado en Ingeniería Informática — Universidad de Madrid",
-				"Certificación Frontend — OpenWebinars",
-				"Curso avanzado JavaScript — Platzi",
+				"FP Superior de Desarrollo en Aplicaciones Web — IES Arcipreste de Hita",
+				"Desarrollo Front-End — Adalab",
 			]} />
 			</motion.div>
 		</div>

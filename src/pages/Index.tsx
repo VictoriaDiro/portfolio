@@ -16,8 +16,8 @@ const Index = () => {
         <TechBanner />
         <Experience />
         <Education />
-        <Blog />
-        <Photo />
+        {/* <Blog /> */}
+        {/* <Photo /> */}
       </main>
       <Footer />
     </div>
