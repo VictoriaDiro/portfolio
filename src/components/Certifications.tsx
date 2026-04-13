@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState } from "react"; 
 import { motion } from "framer-motion";
 import { Award, Calendar, Building2, Eye } from "lucide-react";
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from "@/components/ui/dialog";
