@@ -1,22 +1,38 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import { useLocation, useNavigate } from "react-router-dom";
 
 const navLinks = [
 	{ label: "Inicio", href: "#inicio" },
 	{ label: "Experiencia", href: "#experiencia" },
 	{ label: "Educación", href: "#educacion" },
+	{ label: "Certificaciones", href: "/certificaciones" },
 	// { label: "Blog", href: "#blog" },
 	// { label: "Photo", href: "#photo" },
 ];
 
 const Header = () => {
 	const [isOpen, setIsOpen] = useState(false);
+	const location = useLocation();
+	const navigate = useNavigate();
+
+	const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
+		if (href.startsWith("#")) {
+			e.preventDefault();
+			if (location.pathname !== "/") {
+				navigate("/" + href);
+			} else {
+				document.querySelector(href)?.scrollIntoView({ behavior: "smooth" });
+			}
+			setIsOpen(false);
+		}
+	};
 
 	return (
 		<header className="fixed top-0 left-0 right-0 z-50 border-b border-border/50 bg-background/80 backdrop-blur-xl">
 			<nav className="container mx-auto flex items-center justify-between px-6 py-4">
-				<a href="#inicio" className="font-['Space_Grotesk'] text-xl font-bold tracking-tight text-foreground">
+				<a href="/" onClick={(e) => { e.preventDefault(); navigate("/"); }} className="font-['Space_Grotesk'] text-xl font-bold tracking-tight text-foreground">
 					&lt;Dev /&gt;
 				</a>
 
@@ -25,10 +41,11 @@ const Header = () => {
 					{navLinks.map((link) => (
 						<li key={link.href}>
 							<a
-							href={link.href}
-							className="text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
+								href={link.href}
+								onClick={(e) => handleNavClick(e, link.href)}
+								className="text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
 							>
-							{link.label}
+								{link.label}
 							</a>
 						</li>
 					))}
@@ -39,35 +56,35 @@ const Header = () => {
 					onClick={() => setIsOpen(!isOpen)}
 					className="text-foreground md:hidden"
 					aria-label="Toggle menu"
-				>
+					>
 					{isOpen ? <X size={24} /> : <Menu size={24} />}
 				</button>
 			</nav>
 
 			{/* Mobile menu */}
 			<AnimatePresence>
-			{isOpen && (
+				{isOpen && (
 				<motion.div
-				initial={{ opacity: 0, height: 0 }}
-				animate={{ opacity: 1, height: "auto" }}
-				exit={{ opacity: 0, height: 0 }}
-				className="border-b border-border/50 bg-background/95 backdrop-blur-xl md:hidden"
+					initial={{ opacity: 0, height: 0 }}
+					animate={{ opacity: 1, height: "auto" }}
+					exit={{ opacity: 0, height: 0 }}
+					className="border-b border-border/50 bg-background/95 backdrop-blur-xl md:hidden"
 				>
-				<ul className="flex flex-col gap-1 px-6 py-4">
-					{navLinks.map((link) => (
-					<li key={link.href}>
-						<a
-							href={link.href}
-							onClick={() => setIsOpen(false)}
-							className="block rounded-md px-3 py-2 text-sm font-medium text-muted-foreground transition-colors hover:bg-secondary hover:text-foreground"
-						>
-							{link.label}
-						</a>
-					</li>
-					))}
-				</ul>
+					<ul className="flex flex-col gap-1 px-6 py-4">
+						{navLinks.map((link) => (
+							<li key={link.href}>
+								<a
+									href={link.href}
+									onClick={(e) => handleNavClick(e, link.href)}
+									className="block rounded-md px-3 py-2 text-sm font-medium text-muted-foreground transition-colors hover:bg-secondary hover:text-foreground"
+								>
+									{link.label}
+								</a>
+							</li>
+						))}
+					</ul>
 				</motion.div>
-			)}
+				)}
 			</AnimatePresence>
 		</header>
 	);
