@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "type": "photo",
+    "title": "Atardecer en la costa",
+    "description": "Fotografía de paisaje capturada durante la hora dorada en la costa mediterránea.",
+    "year": 2019,
+    "src": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80"
+  },
+  {
+    "id": 2,
+    "type": "video",
+    "title": "Documental urbano",
+    "description": "Cortometraje documental explorando la arquitectura moderna de Madrid.",
+    "year": 2020,
+    "youtubeId": "dQw4w9WgXcQ",
+    "thumbnail": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=800&q=80"
+  },
+  {
+    "id": 3,
+    "type": "photo",
+    "title": "Retrato artístico",
+    "description": "Sesión de retrato en estudio con iluminación dramática en blanco y negro.",
+    "year": 2018,
+    "src": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=800&q=80"
+  },
+  {
+    "id": 4,
+    "type": "video",
+    "title": "Timelapse nocturno",
+    "description": "Timelapse de la ciudad de Barcelona capturado durante una noche de verano.",
+    "year": 2019,
+    "youtubeId": "ScMzIvxBSi4",
+    "thumbnail": "https://images.unsplash.com/photo-1519681393784-d120267933ba?w=800&q=80"
+  },
+  {
+    "id": 5,
+    "type": "photo",
+    "title": "Naturaleza viva",
+    "description": "Macro fotografía de flora silvestre en los Pirineos.",
+    "year": 2020,
+    "src": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80"
+  },
+  {
+    "id": 6,
+    "type": "photo",
+    "title": "Arquitectura minimalista",
+    "description": "Líneas y formas geométricas en edificios modernos de Valencia.",
+    "year": 2021,
+    "src": "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&q=80"
+  }
+]
