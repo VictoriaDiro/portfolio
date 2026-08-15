@@ -1,34 +1,34 @@
 [
   {
     "id": 1,
-    "title": "E-commerce Boutique",
-    "description": "Tienda online responsive para una boutique de moda con carrito de compras y pasarela de pago.",
-    "preview": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80",
-    "url": "https://example.com",
+    "title": "Awesome Profile Cards",
+    "description": "Creador de tarjetas de contacto.",
+    "preview": "/projects-images/awesome-profile-cards.png",
+    "url": "https://awesome-profile-cards.netlify.app/",
     "tags": ["HTML", "CSS", "JavaScript"]
   },
   {
     "id": 2,
-    "title": "Dashboard Analytics",
-    "description": "Panel de control interactivo con gráficos en tiempo real y visualización de datos.",
-    "preview": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80",
-    "url": "https://example.com",
-    "tags": ["React", "TypeScript", "Tailwind"]
+    "title": "",
+    "description": "",
+    "preview": "",
+    "url": "",
+    "tags": [""]
   },
   {
     "id": 3,
-    "title": "Blog Gastronómico",
-    "description": "Blog de recetas con diseño editorial, búsqueda avanzada y sistema de categorías.",
-    "preview": "https://images.unsplash.com/photo-1476718406336-bb5a9690ee2a?w=800&q=80",
-    "url": "https://example.com",
-    "tags": ["HTML", "LESS", "JavaScript"]
+    "title": "",
+    "description": "",
+    "preview": "",
+    "url": "",
+    "tags": []
   },
   {
     "id": 4,
-    "title": "Landing SaaS",
-    "description": "Página de aterrizaje para producto SaaS con animaciones y formulario de suscripción.",
-    "preview": "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=800&q=80",
-    "url": "https://example.com",
-    "tags": ["React", "Framer Motion", "Tailwind"]
+    "title": "",
+    "description": "",
+    "preview": "",
+    "url": "",
+    "tags": []
   }
 ]
