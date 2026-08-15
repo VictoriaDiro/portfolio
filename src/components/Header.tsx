@@ -7,11 +7,12 @@ const navLinks = [
   { label: "Inicio", href: "#inicio" },
   { label: "Experiencia", href: "#experiencia" },
   { label: "Educación", href: "#educacion" },
-  { label: "Certificaciones", href: "/certificaciones" },
-  { label: "Proyectos", href: "/proyectos" },
-  { label: "Galería", href: "/galeria" },
-  { label: "Blog", href: "#blog" },
+  { label: "Certificaciones", href: "/certificaciones" }, 
 ];
+
+// { label: "Proyectos", href: "/proyectos" },
+// { label: "Galería", href: "/galeria" },
+// { label: "Blog", href: "#blog" },
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
