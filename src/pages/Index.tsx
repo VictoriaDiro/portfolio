@@ -12,26 +12,26 @@ import Footer from "@/components/Footer";
 const Index = () => {
   const location = useLocation();
 
-  useEffect(() => {
-    if (location.hash) {
-      setTimeout(() => {
-        document.querySelector(location.hash)?.scrollIntoView({ behavior: "smooth" });
-      }, 100);
-    }
-  }, [location.hash]);
-  return (
-    <div className="min-h-screen bg-background">
-      <Header />
-      <main>
-        <Hero />
-        <TechBanner />
-        <Experience />
-        <Education />
-        <Blog />
-      </main>
-      <Footer />
-    </div>
-  );
+	useEffect(() => {
+		if (location.hash) {
+		setTimeout(() => {
+			document.querySelector(location.hash)?.scrollIntoView({ behavior: "smooth" });
+		}, 100);
+		}
+	}, [location.hash]);
+	return (
+		<div className="min-h-screen bg-background">
+		<Header />
+		<main>
+			<Hero />
+			<TechBanner />
+			<Experience />
+			<Education />
+			{/* <Blog /> */}
+		</main>
+		<Footer />
+		</div>
+	);
 };
 
 export default Index;

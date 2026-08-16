@@ -1,34 +1,34 @@
 [
-  {
-    "id": 1,
-    "title": "Awesome Profile Cards",
-    "description": "Creador de tarjetas de contacto.",
-    "preview": "/projects-images/awesome-profile-cards.png",
-    "url": "https://awesome-profile-cards.netlify.app/",
-    "tags": ["HTML", "CSS", "JavaScript"]
-  },
-  {
-    "id": 2,
-    "title": "",
-    "description": "",
-    "preview": "",
-    "url": "",
-    "tags": [""]
-  },
-  {
-    "id": 3,
-    "title": "",
-    "description": "",
-    "preview": "",
-    "url": "",
-    "tags": []
-  },
-  {
-    "id": 4,
-    "title": "",
-    "description": "",
-    "preview": "",
-    "url": "",
-    "tags": []
-  }
+	{
+		"id": 1,
+		"title": "Awesome Profile Cards",
+		"description": "Creador de tarjetas de contacto.",
+		"preview": "/projects-images/awesome-profile-cards.png",
+		"url": "https://awesome-profile-cards.netlify.app/",
+		"tags": ["HTML", "CSS", "JavaScript"]
+	},
+	{
+		"id": 2,
+		"title": "",
+		"description": "",
+		"preview": "",
+		"url": "",
+		"tags": [""]
+	},
+	{
+		"id": 3,
+		"title": "",
+		"description": "",
+		"preview": "",
+		"url": "",
+		"tags": []
+	},
+	{
+		"id": 4,
+		"title": "",
+		"description": "",
+		"preview": "",
+		"url": "",
+		"tags": []
+	}
 ]

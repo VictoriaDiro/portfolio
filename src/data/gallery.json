@@ -1,52 +1,349 @@
-[
-  {
-    "id": 1,
-    "type": "photo",
-    "title": "Atardecer en la costa",
-    "description": "Fotografía de paisaje capturada durante la hora dorada en la costa mediterránea.",
-    "year": 2019,
-    "src": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80"
-  },
-  {
-    "id": 2,
-    "type": "video",
-    "title": "Documental urbano",
-    "description": "Cortometraje documental explorando la arquitectura moderna de Madrid.",
-    "year": 2020,
-    "youtubeId": "dQw4w9WgXcQ",
-    "thumbnail": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=800&q=80"
-  },
-  {
-    "id": 3,
-    "type": "photo",
-    "title": "Retrato artístico",
-    "description": "Sesión de retrato en estudio con iluminación dramática en blanco y negro.",
-    "year": 2018,
-    "src": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=800&q=80"
-  },
-  {
-    "id": 4,
-    "type": "video",
-    "title": "Timelapse nocturno",
-    "description": "Timelapse de la ciudad de Barcelona capturado durante una noche de verano.",
-    "year": 2019,
-    "youtubeId": "ScMzIvxBSi4",
-    "thumbnail": "https://images.unsplash.com/photo-1519681393784-d120267933ba?w=800&q=80"
-  },
-  {
-    "id": 5,
-    "type": "photo",
-    "title": "Naturaleza viva",
-    "description": "Macro fotografía de flora silvestre en los Pirineos.",
-    "year": 2020,
-    "src": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80"
-  },
-  {
-    "id": 6,
-    "type": "photo",
-    "title": "Arquitectura minimalista",
-    "description": "Líneas y formas geométricas en edificios modernos de Valencia.",
-    "year": 2021,
-    "src": "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&q=80"
-  }
-]
+{
+	"2016": [
+		{
+			"id": 20160402,
+			"type": "photo",
+			"title": "Iberian Festival Awards",
+			"description": "Fotografía de prensa.",
+			"year": 2016,
+			"src": "../src/assets/gallery/2016/20160402-01.jpg",
+			"images": [
+				"../src/assets/gallery/2016/20160402-01.jpg",
+				"../src/assets/gallery/2016/20160402-02.png",
+				"../src/assets/gallery/2016/20160402-03.jpg",
+				"../src/assets/gallery/2016/20160402-04.jpg"
+			]
+		},
+		{
+			"id": 20160302,
+			"type": "photo",
+			"title": "Festival flamenco: Chiara Marqués",
+			"description": "Fotografía analógica.",
+			"year": 2016,
+			"src": "../src/assets/gallery/2016/20160302-02.jpg",
+			"images": [
+				"../src/assets/gallery/2016/20160302-01.jpg",
+				"../src/assets/gallery/2016/20160302-02.jpg",
+				"../src/assets/gallery/2016/20160302-03.jpg",
+				"../src/assets/gallery/2016/20160302-04.jpg",
+				"../src/assets/gallery/2016/20160302-05.jpg"
+			]
+		}
+	],
+	"2015": [
+		{
+			"id": 20151210,
+			"type": "photo",
+			"title": "Concierto Skatalites",
+			"description": "Fotografía de eventos.",
+			"year": 2015,
+			"src": "../src/assets/gallery/2015/20151210-05.jpg",
+			"images": [
+				"../src/assets/gallery/2015/20151210-01.jpg",
+				"../src/assets/gallery/2015/20151210-02.jpg",
+				"../src/assets/gallery/2015/20151210-03.jpg",
+				"../src/assets/gallery/2015/20151210-04.jpg",
+				"../src/assets/gallery/2015/20151210-05.jpg",
+				"../src/assets/gallery/2015/20151210-06.jpg",
+				"../src/assets/gallery/2015/20151210-07.jpg",
+				"../src/assets/gallery/2015/20151210-08.jpg",
+				"../src/assets/gallery/2015/20151210-09.jpg"
+			]
+		},
+		{
+			"id": 20150724,
+			"type": "photo",
+			"title": "Iboga Summer Festival",
+			"description": "Fotografía de eventos.",
+			"year": 2015,
+			"src": "../src/assets/gallery/2015/20150724-14.jpg",
+			"images": [
+				"../src/assets/gallery/2015/20150724-01.jpg",
+				"../src/assets/gallery/2015/20150724-02.jpg",
+				"../src/assets/gallery/2015/20150724-03.jpg",
+				"../src/assets/gallery/2015/20150724-04.jpg",
+				"../src/assets/gallery/2015/20150724-05.jpg",
+				"../src/assets/gallery/2015/20150724-06.jpg",
+				"../src/assets/gallery/2015/20150724-07.jpg",
+				"../src/assets/gallery/2015/20150724-08.jpg",
+				"../src/assets/gallery/2015/20150724-09.jpg",
+				"../src/assets/gallery/2015/20150724-10.jpg",
+				"../src/assets/gallery/2015/20150724-11.jpg",
+				"../src/assets/gallery/2015/20150724-12.jpg",
+				"../src/assets/gallery/2015/20150724-13.jpg",
+				"../src/assets/gallery/2015/20150724-14.jpg",
+				"../src/assets/gallery/2015/20150724-15.jpg",
+				"../src/assets/gallery/2015/20150724-16.jpg"
+			]
+		},
+		{
+			"id": 20150703,
+			"type": "photo",
+			"title": "Lucky",
+			"description": "Fotografía animal.",
+			"year": 2015,
+			"src": "../src/assets/gallery/2015/20150703-03.jpg",
+			"images": [
+				"../src/assets/gallery/2015/20150703-03.jpg",
+				"../src/assets/gallery/2015/20150703-02.jpg",
+				"../src/assets/gallery/2015/20150703-01.jpg"
+			]
+		}
+	],
+	"2014": [
+		{
+			"id": 20141130,
+			"type": "photo",
+			"title": "Ansgar Fighting League",
+			"description": "Fotografía de eventos.",
+			"year": 2014,
+			"src": "../src/assets/gallery/2014/20141130-09.jpg",
+			"images": [
+				"../src/assets/gallery/2014/20141130-20.jpg",
+				"../src/assets/gallery/2014/20141130-19.jpg",
+				"../src/assets/gallery/2014/20141130-18.jpg",
+				"../src/assets/gallery/2014/20141130-17.jpg",
+				"../src/assets/gallery/2014/20141130-16.jpg",
+				"../src/assets/gallery/2014/20141130-15.jpg",
+				"../src/assets/gallery/2014/20141130-14.jpg",
+				"../src/assets/gallery/2014/20141130-13.jpg",
+				"../src/assets/gallery/2014/20141130-12.jpg",
+				"../src/assets/gallery/2014/20141130-11.jpg",
+				"../src/assets/gallery/2014/20141130-10.jpg",
+				"../src/assets/gallery/2014/20141130-09.jpg",
+				"../src/assets/gallery/2014/20141130-08.jpg",
+				"../src/assets/gallery/2014/20141130-07.jpg",
+				"../src/assets/gallery/2014/20141130-06.jpg",
+				"../src/assets/gallery/2014/20141130-05.jpg",
+				"../src/assets/gallery/2014/20141130-04.jpg",
+				"../src/assets/gallery/2014/20141130-03.jpg",
+				"../src/assets/gallery/2014/20141130-02.jpg",
+				"../src/assets/gallery/2014/20141130-01.jpg"
+			]
+		},
+		{
+			"id": 20140731,
+			"type": "photo",
+			"title": "Hip Hop Life: Supernafamacho para Kraken",
+			"description": "Fotografía de prensa.",
+			"year": 2014,
+			"src": "../src/assets/gallery/2014/20140731-01.jpg",
+			"images": [
+				"../src/assets/gallery/2014/20140731-01.jpg",
+				"../src/assets/gallery/2014/20140731-02.jpg"
+			]
+		},
+		{
+			"id": 20140315,
+			"type": "photo",
+			"title": "Festival flamenco: Chiara Marqués",
+			"description": "Fotografía de eventos.",
+			"year": 2014,
+			"src": "../src/assets/gallery/2014/20140315-01.jpg",
+			"images": [
+				"../src/assets/gallery/2014/20140315-01.jpg",
+				"../src/assets/gallery/2014/20140315-02.jpg",
+				"../src/assets/gallery/2014/20140315-03.jpg",
+				"../src/assets/gallery/2014/20140315-04.jpg",
+				"../src/assets/gallery/2014/20140315-05.jpg",
+				"../src/assets/gallery/2014/20140315-06.jpg",
+				"../src/assets/gallery/2014/20140315-07.jpg",
+				"../src/assets/gallery/2014/20140315-08.jpg",
+				"../src/assets/gallery/2014/20140315-09.jpg",
+				"../src/assets/gallery/2014/20140315-10.jpg",
+				"../src/assets/gallery/2014/20140315-11.jpg",
+				"../src/assets/gallery/2014/20140315-12.jpg",
+				"../src/assets/gallery/2014/20140315-13.jpg",
+				"../src/assets/gallery/2014/20140315-14.jpg"
+			]
+		}
+	],
+	"2013": [
+		{
+			"id": 20130222,
+			"type": "photo",
+			"title": "LaBelle",
+			"description": "Fotografía de eventos.",
+			"year": 2013,
+			"src": "../src/assets/gallery/2013/20130222-04.jpg",
+			"images": [
+				"../src/assets/gallery/2013/20130222-04.jpg",
+				"../src/assets/gallery/2013/20130222-03.jpg",
+				"../src/assets/gallery/2013/20130222-02.jpg",
+				"../src/assets/gallery/2013/20130222-01.jpg"
+			]
+		},
+		{
+			"id": 20130213,
+			"type": "photo",
+			"title": "Rodajes",
+			"description": "Fotografía fija.",
+			"year": 2013,
+			"src": "../src/assets/gallery/2013/20130213-01.jpg",
+			"images": [
+				"../src/assets/gallery/2013/20130213-01.jpg",
+				"../src/assets/gallery/2013/20130213-02.jpg",
+				"../src/assets/gallery/2013/20130213-03.jpg",
+				"../src/assets/gallery/2013/20130213-04.jpg",
+				"../src/assets/gallery/2013/20130213-05.jpg",
+				"../src/assets/gallery/2013/20130213-06.jpg",
+				"../src/assets/gallery/2013/20130213-07.jpg"
+			]
+		}
+	],
+	"2011": [
+		{
+			"id": 20110615,
+			"type": "photo",
+			"title": "Cielos",
+			"description": "Fotografía urbana.",
+			"year": 2005,
+			"src": "../src/assets/gallery/2011/20110615-02.jpg",
+			"images": [
+				"../src/assets/gallery/2011/20110615-02.jpg",
+				"../src/assets/gallery/2011/20110615-01.jpg"
+			]
+		},
+		{
+			"id": 20110319,
+			"type": "photo",
+			"title": "BMX",
+			"description": "Fotografía deportiva.",
+			"year": 2005,
+			"src": "../src/assets/gallery/2011/20110319.jpg",
+			"images": [
+				"../src/assets/gallery/2011/20110319.jpg"
+			]
+		}
+	],
+	"2010": [
+		{
+			"id": 20101213,
+			"type": "photo",
+			"title": "Estudio fotográfico",
+			"description": "Fotografía de objetos.",
+			"year": 2010,
+			"src": "../src/assets/gallery/2010/20101213-02.jpg",
+			"images": [
+				"../src/assets/gallery/2010/20101213-02.jpg",
+				"../src/assets/gallery/2010/20101213-01.jpg"
+			]
+		},
+		{
+			"id": 20100818,
+			"type": "photo",
+			"title": "Retrato",
+			"description": "Fotografía digital.",
+			"year": 2010,
+			"src": "../src/assets/gallery/2010/20100818-02.jpg",
+			"images": [
+				"../src/assets/gallery/2010/20100818-02.jpg",
+				"../src/assets/gallery/2010/20100818-03.jpg",
+				"../src/assets/gallery/2010/20100818-01.jpg"
+			]
+		},
+		{
+			"id": 20100607,
+			"type": "photo",
+			"title": "Retrato",
+			"description": "Fotografía analógica.",
+			"year": 2010,
+			"src": "../src/assets/gallery/2010/20100607-02.jpg",
+			"images": [
+				"../src/assets/gallery/2010/20100607-02.jpg",
+				"../src/assets/gallery/2010/20100607-01.jpg",
+				"../src/assets/gallery/2010/20100607-03.jpg"
+			]
+		},
+		{
+			"id": 20100522,
+			"type": "photo",
+			"title": "BMX",
+			"description": "Fotografía deportiva.",
+			"year": 2010,
+			"src": "../src/assets/gallery/2010/20100522.jpg",
+			"images": [
+				"../src/assets/gallery/2010/20100522.jpg"
+			]
+		},
+		{
+			"id": 20100422,
+			"type": "photo",
+			"title": "Ávila",
+			"description": "Fotografía rural.",
+			"year": 2010,
+			"src": "../src/assets/gallery/2010/20100422-01.jpg",
+			"images": [
+				"../src/assets/gallery/2010/20100422-01.jpg",
+				"../src/assets/gallery/2010/20100422-02.jpg"
+			]
+		}
+	],
+	"2009": [
+		{
+			"id": 20090607,
+			"type": "photo",
+			"title": "BMX",
+			"description": "Fotografía deportiva.",
+			"year": 2009,
+			"src": "../src/assets/gallery/2009/20090607-01.jpg",
+			"images": [
+				"../src/assets/gallery/2009/20090607-01.jpg",
+				"../src/assets/gallery/2009/20090607-02.jpg",
+				"../src/assets/gallery/2009/20090607-03.jpg"
+			]
+		}
+	],
+	"2008": [
+		{
+			"id": 20081204,
+			"type": "photo",
+			"title": "Naturaleza",
+			"description": "Fotografía urbana.",
+			"year": 2008,
+			"src": "../src/assets/gallery/2008/20081204-01.jpg",
+			"images": [
+				"../src/assets/gallery/2008/20081204-01.jpg",
+				"../src/assets/gallery/2008/20081204-02.jpg"
+			]
+		}
+	],
+	"2007": [
+		{
+			"id": 20071113,
+			"type": "photo",
+			"title": "Malta",
+			"description": "Fotografía urbana.",
+			"year": 2007,
+			"src": "../src/assets/gallery/2007/20071113.jpg",
+			"images": [
+				"../src/assets/gallery/2007/20071113.jpg"
+			]
+		},
+		{
+			"id": 20070824,
+			"type": "photo",
+			"title": "Londres",
+			"description": "Fotografía urbana.",
+			"year": 2007,
+			"src": "../src/assets/gallery/2007/20070824.jpg",
+			"images": [
+				"../src/assets/gallery/2007/20070824.jpg"
+			]
+		}
+	],
+	"2005": [
+		{
+			"id": 20050607,
+			"type": "photo",
+			"title": "Hip Hop",
+			"description": "Fotografía analógica.",
+			"year": 2005,
+			"src": "../src/assets/gallery/2005/20050607.jpg",
+			"images": [
+				"../src/assets/gallery/2005/20050607.jpg"
+			]
+		}
+	]
+}
+
