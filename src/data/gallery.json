@@ -6,12 +6,12 @@
 			"title": "Iberian Festival Awards",
 			"description": "Fotografía de prensa.",
 			"year": 2016,
-			"src": "../src/assets/gallery/2016/20160402-01.jpg",
+			"src": "../public/gallery/2016/20160402-01.jpg",
 			"images": [
-				"../src/assets/gallery/2016/20160402-01.jpg",
-				"../src/assets/gallery/2016/20160402-02.png",
-				"../src/assets/gallery/2016/20160402-03.jpg",
-				"../src/assets/gallery/2016/20160402-04.jpg"
+				"../public/gallery/2016/20160402-01.jpg",
+				"../public/gallery/2016/20160402-02.png",
+				"../public/gallery/2016/20160402-03.jpg",
+				"../public/gallery/2016/20160402-04.jpg"
 			]
 		},
 		{
@@ -20,13 +20,13 @@
 			"title": "Festival flamenco: Chiara Marqués",
 			"description": "Fotografía analógica.",
 			"year": 2016,
-			"src": "../src/assets/gallery/2016/20160302-02.jpg",
+			"src": "../public/gallery/2016/20160302-02.jpg",
 			"images": [
-				"../src/assets/gallery/2016/20160302-01.jpg",
-				"../src/assets/gallery/2016/20160302-02.jpg",
-				"../src/assets/gallery/2016/20160302-03.jpg",
-				"../src/assets/gallery/2016/20160302-04.jpg",
-				"../src/assets/gallery/2016/20160302-05.jpg"
+				"../public/gallery/2016/20160302-01.jpg",
+				"../public/gallery/2016/20160302-02.jpg",
+				"../public/gallery/2016/20160302-03.jpg",
+				"../public/gallery/2016/20160302-04.jpg",
+				"../public/gallery/2016/20160302-05.jpg"
 			]
 		}
 	],
@@ -37,17 +37,17 @@
 			"title": "Concierto Skatalites",
 			"description": "Fotografía de eventos.",
 			"year": 2015,
-			"src": "../src/assets/gallery/2015/20151210-05.jpg",
+			"src": "../public/gallery/2015/20151210-05.jpg",
 			"images": [
-				"../src/assets/gallery/2015/20151210-01.jpg",
-				"../src/assets/gallery/2015/20151210-02.jpg",
-				"../src/assets/gallery/2015/20151210-03.jpg",
-				"../src/assets/gallery/2015/20151210-04.jpg",
-				"../src/assets/gallery/2015/20151210-05.jpg",
-				"../src/assets/gallery/2015/20151210-06.jpg",
-				"../src/assets/gallery/2015/20151210-07.jpg",
-				"../src/assets/gallery/2015/20151210-08.jpg",
-				"../src/assets/gallery/2015/20151210-09.jpg"
+				"../public/gallery/2015/20151210-01.jpg",
+				"../public/gallery/2015/20151210-02.jpg",
+				"../public/gallery/2015/20151210-03.jpg",
+				"../public/gallery/2015/20151210-04.jpg",
+				"../public/gallery/2015/20151210-05.jpg",
+				"../public/gallery/2015/20151210-06.jpg",
+				"../public/gallery/2015/20151210-07.jpg",
+				"../public/gallery/2015/20151210-08.jpg",
+				"../public/gallery/2015/20151210-09.jpg"
 			]
 		},
 		{
@@ -56,24 +56,24 @@
 			"title": "Iboga Summer Festival",
 			"description": "Fotografía de eventos.",
 			"year": 2015,
-			"src": "../src/assets/gallery/2015/20150724-14.jpg",
+			"src": "../public/gallery/2015/20150724-14.jpg",
 			"images": [
-				"../src/assets/gallery/2015/20150724-01.jpg",
-				"../src/assets/gallery/2015/20150724-02.jpg",
-				"../src/assets/gallery/2015/20150724-03.jpg",
-				"../src/assets/gallery/2015/20150724-04.jpg",
-				"../src/assets/gallery/2015/20150724-05.jpg",
-				"../src/assets/gallery/2015/20150724-06.jpg",
-				"../src/assets/gallery/2015/20150724-07.jpg",
-				"../src/assets/gallery/2015/20150724-08.jpg",
-				"../src/assets/gallery/2015/20150724-09.jpg",
-				"../src/assets/gallery/2015/20150724-10.jpg",
-				"../src/assets/gallery/2015/20150724-11.jpg",
-				"../src/assets/gallery/2015/20150724-12.jpg",
-				"../src/assets/gallery/2015/20150724-13.jpg",
-				"../src/assets/gallery/2015/20150724-14.jpg",
-				"../src/assets/gallery/2015/20150724-15.jpg",
-				"../src/assets/gallery/2015/20150724-16.jpg"
+				"../public/gallery/2015/20150724-01.jpg",
+				"../public/gallery/2015/20150724-02.jpg",
+				"../public/gallery/2015/20150724-03.jpg",
+				"../public/gallery/2015/20150724-04.jpg",
+				"../public/gallery/2015/20150724-05.jpg",
+				"../public/gallery/2015/20150724-06.jpg",
+				"../public/gallery/2015/20150724-07.jpg",
+				"../public/gallery/2015/20150724-08.jpg",
+				"../public/gallery/2015/20150724-09.jpg",
+				"../public/gallery/2015/20150724-10.jpg",
+				"../public/gallery/2015/20150724-11.jpg",
+				"../public/gallery/2015/20150724-12.jpg",
+				"../public/gallery/2015/20150724-13.jpg",
+				"../public/gallery/2015/20150724-14.jpg",
+				"../public/gallery/2015/20150724-15.jpg",
+				"../public/gallery/2015/20150724-16.jpg"
 			]
 		},
 		{
@@ -82,11 +82,11 @@
 			"title": "Lucky",
 			"description": "Fotografía animal.",
 			"year": 2015,
-			"src": "../src/assets/gallery/2015/20150703-03.jpg",
+			"src": "../public/gallery/2015/20150703-03.jpg",
 			"images": [
-				"../src/assets/gallery/2015/20150703-03.jpg",
-				"../src/assets/gallery/2015/20150703-02.jpg",
-				"../src/assets/gallery/2015/20150703-01.jpg"
+				"../public/gallery/2015/20150703-03.jpg",
+				"../public/gallery/2015/20150703-02.jpg",
+				"../public/gallery/2015/20150703-01.jpg"
 			]
 		}
 	],
@@ -97,28 +97,28 @@
 			"title": "Ansgar Fighting League",
 			"description": "Fotografía de eventos.",
 			"year": 2014,
-			"src": "../src/assets/gallery/2014/20141130-09.jpg",
+			"src": "../public/gallery/2014/20141130-09.jpg",
 			"images": [
-				"../src/assets/gallery/2014/20141130-20.jpg",
-				"../src/assets/gallery/2014/20141130-19.jpg",
-				"../src/assets/gallery/2014/20141130-18.jpg",
-				"../src/assets/gallery/2014/20141130-17.jpg",
-				"../src/assets/gallery/2014/20141130-16.jpg",
-				"../src/assets/gallery/2014/20141130-15.jpg",
-				"../src/assets/gallery/2014/20141130-14.jpg",
-				"../src/assets/gallery/2014/20141130-13.jpg",
-				"../src/assets/gallery/2014/20141130-12.jpg",
-				"../src/assets/gallery/2014/20141130-11.jpg",
-				"../src/assets/gallery/2014/20141130-10.jpg",
-				"../src/assets/gallery/2014/20141130-09.jpg",
-				"../src/assets/gallery/2014/20141130-08.jpg",
-				"../src/assets/gallery/2014/20141130-07.jpg",
-				"../src/assets/gallery/2014/20141130-06.jpg",
-				"../src/assets/gallery/2014/20141130-05.jpg",
-				"../src/assets/gallery/2014/20141130-04.jpg",
-				"../src/assets/gallery/2014/20141130-03.jpg",
-				"../src/assets/gallery/2014/20141130-02.jpg",
-				"../src/assets/gallery/2014/20141130-01.jpg"
+				"../public/gallery/2014/20141130-20.jpg",
+				"../public/gallery/2014/20141130-19.jpg",
+				"../public/gallery/2014/20141130-18.jpg",
+				"../public/gallery/2014/20141130-17.jpg",
+				"../public/gallery/2014/20141130-16.jpg",
+				"../public/gallery/2014/20141130-15.jpg",
+				"../public/gallery/2014/20141130-14.jpg",
+				"../public/gallery/2014/20141130-13.jpg",
+				"../public/gallery/2014/20141130-12.jpg",
+				"../public/gallery/2014/20141130-11.jpg",
+				"../public/gallery/2014/20141130-10.jpg",
+				"../public/gallery/2014/20141130-09.jpg",
+				"../public/gallery/2014/20141130-08.jpg",
+				"../public/gallery/2014/20141130-07.jpg",
+				"../public/gallery/2014/20141130-06.jpg",
+				"../public/gallery/2014/20141130-05.jpg",
+				"../public/gallery/2014/20141130-04.jpg",
+				"../public/gallery/2014/20141130-03.jpg",
+				"../public/gallery/2014/20141130-02.jpg",
+				"../public/gallery/2014/20141130-01.jpg"
 			]
 		},
 		{
@@ -127,10 +127,10 @@
 			"title": "Hip Hop Life: Supernafamacho para Kraken",
 			"description": "Fotografía de prensa.",
 			"year": 2014,
-			"src": "../src/assets/gallery/2014/20140731-01.jpg",
+			"src": "../public/gallery/2014/20140731-01.jpg",
 			"images": [
-				"../src/assets/gallery/2014/20140731-01.jpg",
-				"../src/assets/gallery/2014/20140731-02.jpg"
+				"../public/gallery/2014/20140731-01.jpg",
+				"../public/gallery/2014/20140731-02.jpg"
 			]
 		},
 		{
@@ -139,22 +139,22 @@
 			"title": "Festival flamenco: Chiara Marqués",
 			"description": "Fotografía de eventos.",
 			"year": 2014,
-			"src": "../src/assets/gallery/2014/20140315-01.jpg",
+			"src": "../public/gallery/2014/20140315-01.jpg",
 			"images": [
-				"../src/assets/gallery/2014/20140315-01.jpg",
-				"../src/assets/gallery/2014/20140315-02.jpg",
-				"../src/assets/gallery/2014/20140315-03.jpg",
-				"../src/assets/gallery/2014/20140315-04.jpg",
-				"../src/assets/gallery/2014/20140315-05.jpg",
-				"../src/assets/gallery/2014/20140315-06.jpg",
-				"../src/assets/gallery/2014/20140315-07.jpg",
-				"../src/assets/gallery/2014/20140315-08.jpg",
-				"../src/assets/gallery/2014/20140315-09.jpg",
-				"../src/assets/gallery/2014/20140315-10.jpg",
-				"../src/assets/gallery/2014/20140315-11.jpg",
-				"../src/assets/gallery/2014/20140315-12.jpg",
-				"../src/assets/gallery/2014/20140315-13.jpg",
-				"../src/assets/gallery/2014/20140315-14.jpg"
+				"../public/gallery/2014/20140315-01.jpg",
+				"../public/gallery/2014/20140315-02.jpg",
+				"../public/gallery/2014/20140315-03.jpg",
+				"../public/gallery/2014/20140315-04.jpg",
+				"../public/gallery/2014/20140315-05.jpg",
+				"../public/gallery/2014/20140315-06.jpg",
+				"../public/gallery/2014/20140315-07.jpg",
+				"../public/gallery/2014/20140315-08.jpg",
+				"../public/gallery/2014/20140315-09.jpg",
+				"../public/gallery/2014/20140315-10.jpg",
+				"../public/gallery/2014/20140315-11.jpg",
+				"../public/gallery/2014/20140315-12.jpg",
+				"../public/gallery/2014/20140315-13.jpg",
+				"../public/gallery/2014/20140315-14.jpg"
 			]
 		}
 	],
@@ -165,12 +165,12 @@
 			"title": "LaBelle",
 			"description": "Fotografía de eventos.",
 			"year": 2013,
-			"src": "../src/assets/gallery/2013/20130222-04.jpg",
+			"src": "../public/gallery/2013/20130222-04.jpg",
 			"images": [
-				"../src/assets/gallery/2013/20130222-04.jpg",
-				"../src/assets/gallery/2013/20130222-03.jpg",
-				"../src/assets/gallery/2013/20130222-02.jpg",
-				"../src/assets/gallery/2013/20130222-01.jpg"
+				"../public/gallery/2013/20130222-04.jpg",
+				"../public/gallery/2013/20130222-03.jpg",
+				"../public/gallery/2013/20130222-02.jpg",
+				"../public/gallery/2013/20130222-01.jpg"
 			]
 		},
 		{
@@ -179,15 +179,15 @@
 			"title": "Rodajes",
 			"description": "Fotografía fija.",
 			"year": 2013,
-			"src": "../src/assets/gallery/2013/20130213-01.jpg",
+			"src": "../public/gallery/2013/20130213-01.jpg",
 			"images": [
-				"../src/assets/gallery/2013/20130213-01.jpg",
-				"../src/assets/gallery/2013/20130213-02.jpg",
-				"../src/assets/gallery/2013/20130213-03.jpg",
-				"../src/assets/gallery/2013/20130213-04.jpg",
-				"../src/assets/gallery/2013/20130213-05.jpg",
-				"../src/assets/gallery/2013/20130213-06.jpg",
-				"../src/assets/gallery/2013/20130213-07.jpg"
+				"../public/gallery/2013/20130213-01.jpg",
+				"../public/gallery/2013/20130213-02.jpg",
+				"../public/gallery/2013/20130213-03.jpg",
+				"../public/gallery/2013/20130213-04.jpg",
+				"../public/gallery/2013/20130213-05.jpg",
+				"../public/gallery/2013/20130213-06.jpg",
+				"../public/gallery/2013/20130213-07.jpg"
 			]
 		}
 	],
@@ -198,10 +198,10 @@
 			"title": "Cielos",
 			"description": "Fotografía urbana.",
 			"year": 2005,
-			"src": "../src/assets/gallery/2011/20110615-02.jpg",
+			"src": "../public/gallery/2011/20110615-02.jpg",
 			"images": [
-				"../src/assets/gallery/2011/20110615-02.jpg",
-				"../src/assets/gallery/2011/20110615-01.jpg"
+				"../public/gallery/2011/20110615-02.jpg",
+				"../public/gallery/2011/20110615-01.jpg"
 			]
 		},
 		{
@@ -210,9 +210,9 @@
 			"title": "BMX",
 			"description": "Fotografía deportiva.",
 			"year": 2005,
-			"src": "../src/assets/gallery/2011/20110319.jpg",
+			"src": "../public/gallery/2011/20110319.jpg",
 			"images": [
-				"../src/assets/gallery/2011/20110319.jpg"
+				"../public/gallery/2011/20110319.jpg"
 			]
 		}
 	],
@@ -223,10 +223,10 @@
 			"title": "Estudio fotográfico",
 			"description": "Fotografía de objetos.",
 			"year": 2010,
-			"src": "../src/assets/gallery/2010/20101213-02.jpg",
+			"src": "../public/gallery/2010/20101213-02.jpg",
 			"images": [
-				"../src/assets/gallery/2010/20101213-02.jpg",
-				"../src/assets/gallery/2010/20101213-01.jpg"
+				"../public/gallery/2010/20101213-02.jpg",
+				"../public/gallery/2010/20101213-01.jpg"
 			]
 		},
 		{
@@ -235,11 +235,11 @@
 			"title": "Retrato",
 			"description": "Fotografía digital.",
 			"year": 2010,
-			"src": "../src/assets/gallery/2010/20100818-02.jpg",
+			"src": "../public/gallery/2010/20100818-02.jpg",
 			"images": [
-				"../src/assets/gallery/2010/20100818-02.jpg",
-				"../src/assets/gallery/2010/20100818-03.jpg",
-				"../src/assets/gallery/2010/20100818-01.jpg"
+				"../public/gallery/2010/20100818-02.jpg",
+				"../public/gallery/2010/20100818-03.jpg",
+				"../public/gallery/2010/20100818-01.jpg"
 			]
 		},
 		{
@@ -248,11 +248,11 @@
 			"title": "Retrato",
 			"description": "Fotografía analógica.",
 			"year": 2010,
-			"src": "../src/assets/gallery/2010/20100607-02.jpg",
+			"src": "../public/gallery/2010/20100607-02.jpg",
 			"images": [
-				"../src/assets/gallery/2010/20100607-02.jpg",
-				"../src/assets/gallery/2010/20100607-01.jpg",
-				"../src/assets/gallery/2010/20100607-03.jpg"
+				"../public/gallery/2010/20100607-02.jpg",
+				"../public/gallery/2010/20100607-01.jpg",
+				"../public/gallery/2010/20100607-03.jpg"
 			]
 		},
 		{
@@ -261,9 +261,9 @@
 			"title": "BMX",
 			"description": "Fotografía deportiva.",
 			"year": 2010,
-			"src": "../src/assets/gallery/2010/20100522.jpg",
+			"src": "../public/gallery/2010/20100522.jpg",
 			"images": [
-				"../src/assets/gallery/2010/20100522.jpg"
+				"../public/gallery/2010/20100522.jpg"
 			]
 		},
 		{
@@ -272,10 +272,10 @@
 			"title": "Ávila",
 			"description": "Fotografía rural.",
 			"year": 2010,
-			"src": "../src/assets/gallery/2010/20100422-01.jpg",
+			"src": "../public/gallery/2010/20100422-01.jpg",
 			"images": [
-				"../src/assets/gallery/2010/20100422-01.jpg",
-				"../src/assets/gallery/2010/20100422-02.jpg"
+				"../public/gallery/2010/20100422-01.jpg",
+				"../public/gallery/2010/20100422-02.jpg"
 			]
 		}
 	],
@@ -286,11 +286,11 @@
 			"title": "BMX",
 			"description": "Fotografía deportiva.",
 			"year": 2009,
-			"src": "../src/assets/gallery/2009/20090607-01.jpg",
+			"src": "../public/gallery/2009/20090607-01.jpg",
 			"images": [
-				"../src/assets/gallery/2009/20090607-01.jpg",
-				"../src/assets/gallery/2009/20090607-02.jpg",
-				"../src/assets/gallery/2009/20090607-03.jpg"
+				"../public/gallery/2009/20090607-01.jpg",
+				"../public/gallery/2009/20090607-02.jpg",
+				"../public/gallery/2009/20090607-03.jpg"
 			]
 		}
 	],
@@ -301,10 +301,10 @@
 			"title": "Naturaleza",
 			"description": "Fotografía urbana.",
 			"year": 2008,
-			"src": "../src/assets/gallery/2008/20081204-01.jpg",
+			"src": "../public/gallery/2008/20081204-01.jpg",
 			"images": [
-				"../src/assets/gallery/2008/20081204-01.jpg",
-				"../src/assets/gallery/2008/20081204-02.jpg"
+				"../public/gallery/2008/20081204-01.jpg",
+				"../public/gallery/2008/20081204-02.jpg"
 			]
 		}
 	],
@@ -315,9 +315,9 @@
 			"title": "Malta",
 			"description": "Fotografía urbana.",
 			"year": 2007,
-			"src": "../src/assets/gallery/2007/20071113.jpg",
+			"src": "../public/gallery/2007/20071113.jpg",
 			"images": [
-				"../src/assets/gallery/2007/20071113.jpg"
+				"../public/gallery/2007/20071113.jpg"
 			]
 		},
 		{
@@ -326,9 +326,9 @@
 			"title": "Londres",
 			"description": "Fotografía urbana.",
 			"year": 2007,
-			"src": "../src/assets/gallery/2007/20070824.jpg",
+			"src": "../public/gallery/2007/20070824.jpg",
 			"images": [
-				"../src/assets/gallery/2007/20070824.jpg"
+				"../public/gallery/2007/20070824.jpg"
 			]
 		}
 	],
@@ -339,9 +339,9 @@
 			"title": "Hip Hop",
 			"description": "Fotografía analógica.",
 			"year": 2005,
-			"src": "../src/assets/gallery/2005/20050607.jpg",
+			"src": "../public/gallery/2005/20050607.jpg",
 			"images": [
-				"../src/assets/gallery/2005/20050607.jpg"
+				"../public/gallery/2005/20050607.jpg"
 			]
 		}
 	]
