@@ -10,7 +10,7 @@ import Blog from "@/components/Blog";
 import Footer from "@/components/Footer";
 
 const Index = () => {
-  const location = useLocation();
+	const location = useLocation();
 
 	useEffect(() => {
 		if (location.hash) {
@@ -27,7 +27,7 @@ const Index = () => {
 			<TechBanner />
 			<Experience />
 			<Education />
-			{/* <Blog /> */}
+			<Blog />
 		</main>
 		<Footer />
 		</div>

@@ -1,34 +1,69 @@
 [
 	{
 		"id": 1,
-		"title": "Awesome Profile Cards",
-		"description": "Creador de tarjetas de contacto.",
-		"preview": "/projects-images/awesome-profile-cards.png",
-		"url": "https://awesome-profile-cards.netlify.app/",
-		"tags": ["HTML", "CSS", "JavaScript"]
+		"title": "Anonymous proxy",
+		"description": "Lnading page.",
+		"preview": "/projects/201903_anonumous-proxy.png",
+		"url": "https://anonymous-proxy.netlify.app/",
+		"year": 2019,
+		"tags": ["HTML", "CSS"]
 	},
 	{
 		"id": 2,
-		"title": "",
-		"description": "",
-		"preview": "",
-		"url": "",
-		"tags": [""]
+		"title": "Gris",
+		"description": "Panel de control interactivo con gráficos en tiempo real y visualización de datos.",
+		"preview": "/projects/201904_gris.png",
+		"url": "https://gris.netlify.app/",
+		"year": 2019,
+		"tags": ["HTML", "CSS", "Bootstrap"]
 	},
 	{
 		"id": 3,
-		"title": "",
-		"description": "",
-		"preview": "",
-		"url": "",
-		"tags": []
+		"title": "Example Aangular Popup",
+		"description": "Ejemplo de un popup implementado con Angular.",
+		"preview": "/projects/202010_example-angular-popup.png",
+		"url": "https://example-angular-popup.netlify.app/",
+		"year": 2020,
+		"tags": ["HTML", "CSS", "Sass", "JavaScript", "Angular"]
 	},
 	{
 		"id": 4,
-		"title": "",
-		"description": "",
-		"preview": "",
-		"url": "",
-		"tags": []
+		"title": "Phone Company",
+		"description": "Página de contratación de servicios telefónicos.",
+		"preview": "/projects/202009_phone-company.png",
+		"url": "https://phone-company.netlify.app/",
+		"year": 2020,
+		"tags": ["HTML", "CSS", "Sass", "JavaScript", "ReactJs"]
+	},
+	{
+		"id": 5,
+		"title": "Sygris Sostenibilidad SCINF",
+		"description": "Página de gestión de gráficos y visualización de datos.",
+		"preview": "/projects/202010_sygris-sostenibilidad-scinf.png",
+		"url": "https://cbi-sygris.netlify.app/",
+		"year": 2020,
+		"tags": ["HTML", "CSS", "Sass", "JavaScript"]
+	},
+	{
+		"id": 6,
+		"title": "Patient Manager",
+		"description": "Sistema de gestión de pacientes veterinarios con funcionalidades de registro y seguimiento.",
+		"preview": "/projects/202010_patient-manager.png",
+		"url": "https://patient-manager.netlify.app/",
+		"year": 2020,
+		"tags": ["HTML", "CSS", "Sass", "JavaScript"]
+	},
+	{
+		"id": 7,
+		"title": "Vino Selección",
+		"description": "Web de compras de vinos y artículos de gastronomía.",
+		"preview": "/projects/202106_vino-seleccion.png",
+		"url": "https://vinoseleccion.netlify.app/",
+		"year": 2021,
+		"tags": ["HTML", "CSS", "Sass", "JavaScript"]
 	}
+	
 ]
+
+
+

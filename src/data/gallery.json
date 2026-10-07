@@ -1,10 +1,67 @@
 {
+    "2018": [
+        {
+            "id": 20181215,
+            "type": "video",
+            "title": "Locus - Las flores muertas ft. Hada Guldris",
+            "description": "Videoclip",
+            "year": 2018,
+            "youtubeId": "lp1KLOodRGw",
+            "thumbnail": [
+                "/gallery/2018/20180214-01.png"
+            ]
+        }
+    ],
     "2016": [
+        {
+            "id": 20161220,
+            "type": "video",
+            "title": "#ElVideojuegoEsArte #PlayStation The Last Guardian",
+            "description": "Video promocional marca - Operadora de cámara",
+            "year": 2016,
+            "youtubeId": "E7GQWsRnEq8",
+            "thumbnail": [
+                "/gallery/2016/20161220-01.png"
+            ]
+        },
+        {
+            "id": 20161216,
+            "type": "video",
+            "title": "Locus - Depredador",
+            "description": "Videoclip",
+            "year": 2016,
+            "youtubeId": "0Mz1GUBFuN4",
+            "thumbnail": [
+                "/gallery/2016/20161216-01.png"
+            ]
+        },
+        {
+            "id": 20161202,
+            "type": "video",
+            "title": "Locus - Ánimo Valiente",
+            "description": "Videoclip",
+            "year": 2016,
+            "youtubeId": "uHfT3bo0xq8",
+            "thumbnail": [
+                "/gallery/2016/20161202-01.png"
+            ]
+        },
+        {
+            "id": 20160816,
+            "type": "video",
+            "title": "Dickies x O'Marisquiño 2016",
+            "description": "Video promocional marca - Operadora de cámara",
+            "year": 2016,
+            "youtubeId": "fgUdQzvisxY",
+            "thumbnail": [
+                "/gallery/2016/20160816-01.png"
+            ]
+        },
         {
             "id": 20160402,
             "type": "photo",
             "title": "Iberian Festival Awards",
-            "description": "Fotografía de prensa.",
+            "description": "Fotografía de prensa",
             "year": 2016,
             "src": "/gallery/2016/20160402-01.jpg",
             "images": [
@@ -15,18 +72,29 @@
             ]
         },
         {
+            "id": 20160326,
+            "type": "video",
+            "title": "Nacion De Necios (Hermano L, Putolargo, Legendario, Piezas, Locus & Sho Hai)",
+            "description": "Videoclip - Operadora de cámara y edición de la parte de Locus y Sho Hai",
+            "year": 2016,
+            "youtubeId": "vEEU17Gzrvw",
+            "thumbnail": [
+                "/gallery/2016/20160326-01.png"
+            ]
+        },
+        {
             "id": 20160302,
             "type": "photo",
             "title": "Festival flamenco: Chiara Marqués",
-            "description": "Fotografía analógica.",
+            "description": "Fotografía de prensa",
             "year": 2016,
-            "src": "/gallery/2016/20160302-02.jpg",
+            "src": "/gallery/2016/20160302-02.JPG",
             "images": [
-                "/gallery/2016/20160302-01.jpg",
-                "/gallery/2016/20160302-02.jpg",
-                "/gallery/2016/20160302-03.jpg",
-                "/gallery/2016/20160302-04.jpg",
-                "/gallery/2016/20160302-05.jpg"
+                "/gallery/2016/20160302-01.JPG",
+                "/gallery/2016/20160302-02.JPG",
+                "/gallery/2016/20160302-03.JPG",
+                "/gallery/2016/20160302-04.JPG",
+                "/gallery/2016/20160302-05.JPG"
             ]
         }
     ],
@@ -35,26 +103,37 @@
             "id": 20151210,
             "type": "photo",
             "title": "Concierto Skatalites",
-            "description": "Fotografía de eventos.",
+            "description": "Fotografía de prensa",
             "year": 2015,
-            "src": "/gallery/2015/20151210-05.jpg",
+            "src": "/gallery/2015/20151210-05.JPG",
             "images": [
-                "/gallery/2015/20151210-01.jpg",
-                "/gallery/2015/20151210-02.jpg",
-                "/gallery/2015/20151210-03.jpg",
-                "/gallery/2015/20151210-04.jpg",
-                "/gallery/2015/20151210-05.jpg",
-                "/gallery/2015/20151210-06.jpg",
-                "/gallery/2015/20151210-07.jpg",
-                "/gallery/2015/20151210-08.jpg",
-                "/gallery/2015/20151210-09.jpg"
+                "/gallery/2015/20151210-01.JPG",
+                "/gallery/2015/20151210-02.JPG",
+                "/gallery/2015/20151210-03.JPG",
+                "/gallery/2015/20151210-04.JPG",
+                "/gallery/2015/20151210-05.JPG",
+                "/gallery/2015/20151210-06.JPG",
+                "/gallery/2015/20151210-07.JPG",
+                "/gallery/2015/20151210-08.JPG",
+                "/gallery/2015/20151210-09.JPG"
+            ]
+        },
+        {
+            "id": 20150816,
+            "type": "video",
+            "title": "Dickies x O'Marisquiño 2015",
+            "description": "Video promocional marca - Operadora de cámara",
+            "year": 2015,
+            "youtubeId": "fgUdQzvisxY",
+            "thumbnail": [
+                "/gallery/2015/20150816-01.png"
             ]
         },
         {
             "id": 20150724,
             "type": "photo",
             "title": "Iboga Summer Festival",
-            "description": "Fotografía de eventos.",
+            "description": "Fotografía de prensa",
             "year": 2015,
             "src": "/gallery/2015/20150724-14.jpg",
             "images": [
@@ -80,13 +159,13 @@
             "id": 20150703,
             "type": "photo",
             "title": "Lucky",
-            "description": "Fotografía animal.",
+            "description": "Fotografía animal",
             "year": 2015,
-            "src": "/gallery/2015/20150703-03.jpg",
+            "src": "/gallery/2015/20150703-03.JPG",
             "images": [
-                "/gallery/2015/20150703-03.jpg",
-                "/gallery/2015/20150703-02.jpg",
-                "/gallery/2015/20150703-01.jpg"
+                "/gallery/2015/20150703-03.JPG",
+                "/gallery/2015/20150703-02.JPG",
+                "/gallery/2015/20150703-01.JPG"
             ]
         }
     ],
@@ -95,30 +174,30 @@
             "id": 20141130,
             "type": "photo",
             "title": "Ansgar Fighting League",
-            "description": "Fotografía de eventos.",
+            "description": "Fotografía deportiva",
             "year": 2014,
-            "src": "/gallery/2014/20141130-09.jpg",
+            "src": "/gallery/2014/20141130-09.JPG",
             "images": [
-                "/gallery/2014/20141130-20.jpg",
-                "/gallery/2014/20141130-19.jpg",
-                "/gallery/2014/20141130-18.jpg",
-                "/gallery/2014/20141130-17.jpg",
-                "/gallery/2014/20141130-16.jpg",
-                "/gallery/2014/20141130-15.jpg",
-                "/gallery/2014/20141130-14.jpg",
-                "/gallery/2014/20141130-13.jpg",
-                "/gallery/2014/20141130-12.jpg",
-                "/gallery/2014/20141130-11.jpg",
-                "/gallery/2014/20141130-10.jpg",
-                "/gallery/2014/20141130-09.jpg",
-                "/gallery/2014/20141130-08.jpg",
-                "/gallery/2014/20141130-07.jpg",
-                "/gallery/2014/20141130-06.jpg",
-                "/gallery/2014/20141130-05.jpg",
-                "/gallery/2014/20141130-04.jpg",
-                "/gallery/2014/20141130-03.jpg",
-                "/gallery/2014/20141130-02.jpg",
-                "/gallery/2014/20141130-01.jpg"
+                "/gallery/2014/20141130-20.JPG",
+                "/gallery/2014/20141130-19.JPG",
+                "/gallery/2014/20141130-18.JPG",
+                "/gallery/2014/20141130-17.JPG",
+                "/gallery/2014/20141130-16.JPG",
+                "/gallery/2014/20141130-15.JPG",
+                "/gallery/2014/20141130-14.JPG",
+                "/gallery/2014/20141130-13.JPG",
+                "/gallery/2014/20141130-12.JPG",
+                "/gallery/2014/20141130-11.JPG",
+                "/gallery/2014/20141130-10.JPG",
+                "/gallery/2014/20141130-09.JPG",
+                "/gallery/2014/20141130-08.JPG",
+                "/gallery/2014/20141130-07.JPG",
+                "/gallery/2014/20141130-06.JPG",
+                "/gallery/2014/20141130-05.JPG",
+                "/gallery/2014/20141130-04.JPG",
+                "/gallery/2014/20141130-03.JPG",
+                "/gallery/2014/20141130-02.JPG",
+                "/gallery/2014/20141130-01.JPG"
             ]
         },
         {
@@ -137,7 +216,7 @@
             "id": 20140315,
             "type": "photo",
             "title": "Festival flamenco: Chiara Marqués",
-            "description": "Fotografía de eventos.",
+            "description": "Fotografía de prensa",
             "year": 2014,
             "src": "/gallery/2014/20140315-01.jpg",
             "images": [
@@ -160,34 +239,58 @@
     ],
     "2013": [
         {
+            "id": 20131215,
+            "type": "video",
+            "title": "Sesión de Fotos Kraken con JeosM y Locus",
+            "description": "Making of",
+            "year": 2013,
+            "youtubeId": "x5vsIBbNo18",
+            "thumbnail": [
+                "/gallery/2013/20131215-01.png"
+            ]
+        },
+        {
+            "id": 20131212,
+            "type": "video",
+            "title": "Presentación de Kraken en Triburbana Hip Hop Store",
+            "description": "Video de prensa",
+            "year": 2013,
+            "youtubeId": "YpkFvNxH0DY",
+            "thumbnail": [
+                "/gallery/2013/20131212-01.png"
+            ]
+        },
+
+        
+        {
             "id": 20130222,
             "type": "photo",
             "title": "LaBelle",
-            "description": "Fotografía de eventos.",
+            "description": "Fotografía de prensa",
             "year": 2013,
             "src": "/gallery/2013/20130222-04.jpg",
             "images": [
                 "/gallery/2013/20130222-04.jpg",
                 "/gallery/2013/20130222-03.jpg",
                 "/gallery/2013/20130222-02.jpg",
-                "/gallery/2013/20130222-01.jpg"
+                "/gallery/2013/20130222-01.JPG"
             ]
         },
         {
             "id": 20130213,
             "type": "photo",
             "title": "Rodajes",
-            "description": "Fotografía fija.",
+            "description": "Fotografía fija",
             "year": 2013,
-            "src": "/gallery/2013/20130213-01.jpg",
+            "src": "/gallery/2013/20130213-01.JPG",
             "images": [
-                "/gallery/2013/20130213-01.jpg",
-                "/gallery/2013/20130213-02.jpg",
-                "/gallery/2013/20130213-03.jpg",
-                "/gallery/2013/20130213-04.jpg",
-                "/gallery/2013/20130213-05.jpg",
-                "/gallery/2013/20130213-06.jpg",
-                "/gallery/2013/20130213-07.jpg"
+                "/gallery/2013/20130213-01.JPG",
+                "/gallery/2013/20130213-02.JPG",
+                "/gallery/2013/20130213-03.JPG",
+                "/gallery/2013/20130213-04.JPG",
+                "/gallery/2013/20130213-05.JPG",
+                "/gallery/2013/20130213-06.JPG",
+                "/gallery/2013/20130213-07.JPG"
             ]
         }
     ],
@@ -196,7 +299,7 @@
             "id": 20110615,
             "type": "photo",
             "title": "Cielos",
-            "description": "Fotografía urbana.",
+            "description": "Fotografía urbana",
             "year": 2005,
             "src": "/gallery/2011/20110615-02.jpg",
             "images": [
@@ -208,7 +311,7 @@
             "id": 20110319,
             "type": "photo",
             "title": "BMX",
-            "description": "Fotografía deportiva.",
+            "description": "Fotografía deportiva",
             "year": 2005,
             "src": "/gallery/2011/20110319.jpg",
             "images": [
@@ -221,7 +324,7 @@
             "id": 20101213,
             "type": "photo",
             "title": "Estudio fotográfico",
-            "description": "Fotografía de objetos.",
+            "description": "Fotografía de objetos",
             "year": 2010,
             "src": "/gallery/2010/20101213-02.jpg",
             "images": [
@@ -233,7 +336,7 @@
             "id": 20100818,
             "type": "photo",
             "title": "Retrato",
-            "description": "Fotografía digital.",
+            "description": "Fotografía dde retrato",
             "year": 2010,
             "src": "/gallery/2010/20100818-02.jpg",
             "images": [
@@ -246,7 +349,7 @@
             "id": 20100607,
             "type": "photo",
             "title": "Retrato",
-            "description": "Fotografía analógica.",
+            "description": "Fotografía analógica",
             "year": 2010,
             "src": "/gallery/2010/20100607-02.jpg",
             "images": [
@@ -259,7 +362,7 @@
             "id": 20100522,
             "type": "photo",
             "title": "BMX",
-            "description": "Fotografía deportiva.",
+            "description": "Fotografía deportiva",
             "year": 2010,
             "src": "/gallery/2010/20100522.jpg",
             "images": [
@@ -270,7 +373,7 @@
             "id": 20100422,
             "type": "photo",
             "title": "Ávila",
-            "description": "Fotografía rural.",
+            "description": "Fotografía urbana",
             "year": 2010,
             "src": "/gallery/2010/20100422-01.jpg",
             "images": [
@@ -284,7 +387,7 @@
             "id": 20090607,
             "type": "photo",
             "title": "BMX",
-            "description": "Fotografía deportiva.",
+            "description": "Fotografía deportiva",
             "year": 2009,
             "src": "/gallery/2009/20090607-01.jpg",
             "images": [
@@ -299,11 +402,11 @@
             "id": 20081204,
             "type": "photo",
             "title": "Naturaleza",
-            "description": "Fotografía urbana.",
+            "description": "Fotografía urbana",
             "year": 2008,
-            "src": "/gallery/2008/20081204-01.jpg",
+            "src": "/gallery/2008/20081204-01.JPG",
             "images": [
-                "/gallery/2008/20081204-01.jpg",
+                "/gallery/2008/20081204-01.JPG",
                 "/gallery/2008/20081204-02.jpg"
             ]
         }
@@ -313,22 +416,22 @@
             "id": 20071113,
             "type": "photo",
             "title": "Malta",
-            "description": "Fotografía urbana.",
+            "description": "Fotografía urbana",
             "year": 2007,
-            "src": "/gallery/2007/20071113.jpg",
+            "src": "/gallery/2007/20071113.JPG",
             "images": [
-                "/gallery/2007/20071113.jpg"
+                "/gallery/2007/20071113.JPG"
             ]
         },
         {
             "id": 20070824,
             "type": "photo",
             "title": "Londres",
-            "description": "Fotografía urbana.",
+            "description": "Fotografía urbana",
             "year": 2007,
-            "src": "/gallery/2007/20070824.jpg",
+            "src": "/gallery/2007/20070824.JPG",
             "images": [
-                "/gallery/2007/20070824.jpg"
+                "/gallery/2007/20070824.JPG"
             ]
         }
     ],
@@ -337,7 +440,7 @@
             "id": 20050607,
             "type": "photo",
             "title": "Hip Hop",
-            "description": "Fotografía analógica.",
+            "description": "Fotografía analógica",
             "year": 2005,
             "src": "/gallery/2005/20050607.jpg",
             "images": [

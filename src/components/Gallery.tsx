@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { Camera, Play } from "lucide-react";
+import { Camera, Play, Calendar } from "lucide-react";
 import { Dialog, DialogContent } from "@/components/ui/dialog";
 import {
 	Carousel,
@@ -10,18 +10,6 @@ import {
 	CarouselPrevious,
 } from "@/components/ui/carousel";
 import galleryData from "@/data/gallery.json";
-
-// {
-// 	"id": 20131215,
-// 	"type": "video",
-// 	"title": "Sesión de Fotos Kraken con JeosM y Locus",
-// 	"description": "Making of.",
-// 	"year": 2013,
-// 	"youtubeId": "x5vsIBbNo18",
-// 	"thumbnail": [
-// 		"../src/assets/gallery/2013/20131215-01.jpg"
-// 	]
-// },
 
 type GalleryItem = {
 	id: number;
@@ -88,7 +76,7 @@ const Gallery = () => {
 					)}
 				</div>
 				<span className="absolute left-3 top-3 flex items-center gap-1 rounded-md bg-background/80 px-2 py-1 text-xs font-medium text-foreground backdrop-blur-sm">
-					{item.type === "photo" ? <Camera size={12} /> : <Play size={12} />}
+					{item.type === "photo" ? <Calendar size={12} /> : <Calendar size={12} />}
 					{item.year}
 				</span>
 				{item.type === "photo" && getImages(item).length > 1 && (
