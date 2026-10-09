@@ -12,7 +12,6 @@ const Footer = () => {
 					{[
 						{ icon: Github, href: "https://github.com/VictoriaDiro", label: "GitHub" },
 						{ icon: Linkedin, href: "https://www.linkedin.com/in/victoriadiro/", label: "LinkedIn" },
-						{ icon: Mail, href: "mailto:victoriadiro01@gmail.com", label: "Email" },
 					].map(({ icon: Icon, href, label }) => (
 						<a
 							key={label}
