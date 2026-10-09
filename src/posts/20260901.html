@@ -1,0 +1,740 @@
+<p>
+	Markdown se ha convertido en un estándar de facto para la escritura en la web, utilizado en plataformas como GitHub, Reddit y Stack Overflow.
+</p>
+
+<h4 id="que-es-markdown">¿Qué es Markdown?</h4>
+<p>
+	Markdown es un lenguaje de marcado ligero que permite dar formato a un texto usando solo caracteres normales del teclado. El texto se puede leer sin problema tal cual está escrito y, cuando se procesa, se convierte en HTML.
+</p>
+<p>
+	Lo creó John Gruber en 2004, con la colaboración de Aaron Swartz, con una idea muy clara: que un documento escrito en Markdown fuera legible incluso sin convertir, sin etiquetas que estorbaran la lectura. Hasta su nombre es un juego de palabras con <em>markup</em>, el término inglés para los lenguajes de marcado como HTML.
+</p>
+<p>A día de hoy está presente en muchas de las herramientas que usamos cada día:</p>
+<ul>
+	<li><strong>GitHub</strong>, donde los <code>README.md</code> son la portada de cada proyecto y se usa en issues, pull requests y comentarios.</li>
+	<li><strong>Reddit</strong> y <strong>Stack Overflow</strong>, para escribir publicaciones y respuestas con código, listas y enlaces.</li>
+	<li><strong>Discord</strong>, <strong>Slack</strong> y otras apps de mensajería, que aceptan parte de su sintaxis para dar formato a los mensajes.</li>
+	<li><strong>Notion</strong>, <strong>Obsidian</strong> y otras apps de notas, que lo usan para escribir con atajos o directamente como formato de archivo.</li>
+	<li><strong>Documentación y blogs</strong>, generados con herramientas como Astro, Hugo, Jekyll o Docusaurus a partir de archivos <code>.md</code>.</li>
+	<li><strong>Asistentes de inteligencia artificial</strong>, que responden con Markdown para dar formato a sus respuestas y se configuran con archivos <code>.md</code> de instrucciones dentro de los proyectos.</li>
+</ul>
+
+<h4 id="por-que-usarlo">¿Por qué usarlo?</h4>
+<ul>
+	<li><strong>Se aprende en minutos.</strong> Con media docena de símbolos cubres casi todo lo que necesitas.</li>
+	<li><strong>Te deja centrarte en el contenido.</strong> Escribes sin levantar las manos del teclado ni pelearte con menús de formato.</li>
+	<li><strong>Es texto plano.</strong> Se abre con cualquier editor, ocupa muy poco y funciona de maravilla con Git, que muestra los cambios línea a línea.</li>
+	<li><strong>Es portable.</strong> El mismo archivo puede convertirse en una página web, un PDF o una presentación.</li>
+	<li><strong>Admite HTML.</strong> Cuando la sintaxis se queda corta, puedes escribir HTML dentro del documento.</li>
+</ul>
+
+<h4 id="sabores-de-markdown">Sabores de Markdown</h4>
+<p>
+	El Markdown original de Gruber dejaba muchos casos sin definir, así que cada plataforma acabó interpretándolo a su manera. Para poner orden nació <strong>CommonMark</strong>, una especificación que define con precisión la sintaxis básica. Sobre ella se construye <strong>GitHub Flavored Markdown</strong> (GFM), que añade tablas, listas de tareas, texto tachado y enlaces automáticos.
+</p>
+<p>
+	En esta guía repasamos toda la sintaxis con ejemplos: cada apartado incluye el código que debes escribir y una vista previa del resultado. Las secciones marcadas como <strong>extensión</strong> no forman parte del estándar y solo funcionan en las plataformas que las admiten, como GitHub.
+</p>
+
+<!-- Encabezados -->
+
+<h4 id="encabezados">Encabezados</h4>
+<pre>
+	<code class="language-markdown">
+		# Encabezado 1
+		## Encabezado 2
+		### Encabezado 3
+		#### Encabezado 4
+		##### Encabezado 5
+		###### Encabezado 6
+	</code>
+</pre>
+<div class="markdown-preview">
+	<h1>Encabezado 1</h1>
+	<h2>Encabezado 2</h2>
+	<h3>Encabezado 3</h3>
+	<h4>Encabezado 4</h4>
+	<h5>Encabezado 5</h5>
+	<h6>Encabezado 6</h6>
+</div>
+<blockquote>
+	<p>Deja siempre un espacio entre las almohadillas y el texto: <code>#Título</code> no se convierte en encabezado. Y usa un solo <code>#</code> por documento, para el título principal.</p>
+</blockquote>
+
+<!-- Párrafos y saltos de línea -->
+
+<h4 id="parrafos-y-saltos-de-linea">Párrafos y saltos de línea</h4>
+<pre>
+	<code class="language-markdown">
+		Esto es un párrafo.
+
+		Una línea en blanco separa un párrafo del siguiente.
+
+		Para saltar de línea sin cambiar de párrafo,\
+		termina la línea con una barra invertida.
+	</code>
+</pre>
+<div class="markdown-preview">
+	<p>Esto es un párrafo.</p>
+	<p>Una línea en blanco separa un párrafo del siguiente.</p>
+	<p>Para saltar de línea sin cambiar de párrafo,<br>termina la línea con una barra invertida.</p>
+</div>
+<blockquote>
+	<p>Un simple salto de línea no hace nada: Markdown une las dos líneas en una. Para forzar el salto también puedes dejar dos espacios al final de la línea, pero como no se ven, es fácil borrarlos sin querer.</p>
+</blockquote>
+
+<!-- Tipos de texto -->
+
+<h4 id="tipos-de-texto">Tipos de texto</h4>
+<pre>
+	<code class="language-markdown">
+		*cursiva*
+		_cursiva_
+
+		**negrita**
+		__negrita__
+
+		***cursiva y negrita***
+		___cursiva y negrita___
+
+		~~tachado~~
+	</code>
+</pre>
+<div class="markdown-preview">
+	<p><em>cursiva</em><br><em>cursiva</em></p>
+	<p><strong>negrita</strong><br><strong>negrita</strong></p>
+	<p><em><strong>cursiva y negrita</strong></em><br><em><strong>cursiva y negrita</strong></em></p>
+	<p><del>tachado</del></p>
+</div>
+<blockquote>
+	<p>Para dar formato a una parte de una palabra, usa asteriscos: <code>super**importante**</code> funciona, pero <code>super__importante__</code> no.</p>
+</blockquote>
+
+<!-- Citas -->
+
+<h4 id="citas">Citas</h4>
+<pre>
+	<code class="language-markdown">
+		&gt; Si no me podéis dar poesía, ¿me podéis dar ciencia poética? — Ada Lovelace
+	</code>
+</pre>
+<div class="markdown-preview">
+	<blockquote>
+		<p>Si no me podéis dar poesía, ¿me podéis dar ciencia poética? — Ada Lovelace</p>
+	</blockquote>
+</div>
+
+<!-- Citas anidadas -->
+
+<h4 id="citas-anidadas">Citas anidadas</h4>
+<pre>
+	<code class="language-markdown">
+		&gt; Si no me podéis dar poesía, ¿me podéis dar ciencia poética?
+		&gt;&gt; Ada Lovelace
+	</code>
+</pre>
+<div class="markdown-preview">
+	<blockquote>
+		<p>Si no me podéis dar poesía, ¿me podéis dar ciencia poética?</p>
+		<blockquote>
+			<p>Ada Lovelace</p>
+		</blockquote>
+	</blockquote>
+</div>
+
+<!-- Alertas -->
+
+<h4 id="alertas">Alertas (extensión de GitHub)</h4>
+<p>GitHub convierte en avisos destacados las citas que empiezan con un tipo de alerta entre corchetes. Hay cinco tipos: <code>NOTE</code>, <code>TIP</code>, <code>IMPORTANT</code>, <code>WARNING</code> y <code>CAUTION</code>.</p>
+<pre>
+	<code class="language-markdown">
+		&gt; [!NOTE]
+		&gt; Información útil que conviene tener en cuenta.
+
+		&gt; [!TIP]
+		&gt; Un consejo para hacer las cosas mejor o más fácilmente.
+
+		&gt; [!WARNING]
+		&gt; Algo que requiere atención para evitar problemas.
+	</code>
+</pre>
+<div class="markdown-preview">
+	<div class="markdown-alert markdown-alert-note">
+		<p class="markdown-alert-title">Note</p>
+		<p>Información útil que conviene tener en cuenta.</p>
+	</div>
+	<div class="markdown-alert markdown-alert-tip">
+		<p class="markdown-alert-title">Tip</p>
+		<p>Un consejo para hacer las cosas mejor o más fácilmente.</p>
+	</div>
+	<div class="markdown-alert markdown-alert-warning">
+		<p class="markdown-alert-title">Warning</p>
+		<p>Algo que requiere atención para evitar problemas.</p>
+	</div>
+</div>
+<blockquote>
+	<p>En plataformas que no admiten alertas, se muestran como una cita normal con el texto <code>[!NOTE]</code> al principio.</p>
+</blockquote>
+
+<!-- Listas no ordenadas -->
+
+<h4 id="listas-no-ordenadas">Listas no ordenadas</h4>
+<pre>
+	<code class="language-markdown">
+		- Elemento de lista 1
+		- Elemento de lista 2
+
+		* Elemento de lista 3
+		* Elemento de lista 4
+
+		+ Elemento de lista 5
+		+ Elemento de lista 6
+	</code>
+</pre>
+<div class="markdown-preview">
+	<ul>
+		<li>Elemento de lista 1</li>
+		<li>Elemento de lista 2</li>
+	</ul>
+	<ul>
+		<li>Elemento de lista 3</li>
+		<li>Elemento de lista 4</li>
+	</ul>
+	<ul>
+		<li>Elemento de lista 5</li>
+		<li>Elemento de lista 6</li>
+	</ul>
+</div>
+<blockquote>
+	<p>Los tres símbolos funcionan igual, pero cambiar de símbolo empieza una lista nueva. Elige uno y úsalo siempre; el guion es el más habitual.</p>
+</blockquote>
+
+<!-- Listas ordenadas -->
+
+<h4 id="listas-ordenadas">Listas ordenadas</h4>
+<pre>
+	<code class="language-markdown">
+		1. Elemento de lista
+		2. Elemento de lista
+		3. Elemento de lista
+	</code>
+</pre>
+<div class="markdown-preview">
+	<ol>
+		<li>Elemento de lista</li>
+		<li>Elemento de lista</li>
+		<li>Elemento de lista</li>
+	</ol>
+</div>
+<blockquote>
+	<p>Solo importa el primer número, que marca dónde empieza la lista; el resto se numera solo. Puedes escribir <code>1.</code> en todas las líneas y no tendrás que renumerar al añadir o quitar elementos.</p>
+</blockquote>
+
+<!-- Listas anidadas -->
+
+<h4 id="listas-anidadas">Listas anidadas</h4>
+<pre>
+	<code class="language-markdown">
+		- Elemento de lista 1
+		- Elemento de lista 2
+			- Elemento de lista 3
+			- Elemento de lista 4
+				- Elemento de lista 5
+				- Elemento de lista 6
+	</code>
+</pre>
+<div class="markdown-preview">
+	<ul>
+		<li>Elemento de lista 1</li>
+		<li>
+			Elemento de lista 2
+			<ul>
+				<li>Elemento de lista 3</li>
+				<li>
+					Elemento de lista 4
+					<ul>
+						<li>Elemento de lista 5</li>
+						<li>Elemento de lista 6</li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+	</ul>
+</div>
+<blockquote>
+	<p>Cada nivel se indenta respecto al anterior. Lo más compatible es usar 4 espacios (o un tabulador) por nivel.</p>
+</blockquote>
+
+<!-- Listas de tareas -->
+
+<h4 id="listas-de-tareas">Listas de tareas</h4>
+<pre>
+	<code class="language-markdown">
+		### Exploración del sistema solar, 1950-1960
+
+		- [ ] Mercurio
+		- [x] Venus
+		- [x] Tierra (órbita y Luna)
+		- [x] Marte
+		- [ ] Júpiter
+		- [ ] Saturno
+		- [ ] Urano
+		- [ ] Neptuno
+		- [ ] Cometa Halley
+	</code>
+</pre>
+<div class="markdown-preview">
+	<h3>Exploración del sistema solar, 1950-1960</h3>
+	<ul>
+		<li><input disabled="" type="checkbox"> Mercurio</li>
+		<li><input checked="" disabled="" type="checkbox"> Venus</li>
+		<li><input checked="" disabled="" type="checkbox"> Tierra (órbita y Luna)</li>
+		<li><input checked="" disabled="" type="checkbox"> Marte</li>
+		<li><input disabled="" type="checkbox"> Júpiter</li>
+		<li><input disabled="" type="checkbox"> Saturno</li>
+		<li><input disabled="" type="checkbox"> Urano</li>
+		<li><input disabled="" type="checkbox"> Neptuno</li>
+		<li><input disabled="" type="checkbox"> Cometa Halley</li>
+	</ul>
+</div>
+
+<!-- Líneas horizontales -->
+
+<h4 id="lineas-horizontales">Líneas horizontales</h4>
+<pre>
+	<code class="language-markdown">
+		***
+		---
+		___
+	</code>
+</pre>
+<div class="markdown-preview">
+	<hr>
+	<hr>
+	<hr>
+</div>
+<blockquote>
+	<p>Deja una línea en blanco antes de <code>---</code>: justo debajo de un texto, lo convierte en un encabezado en lugar de una línea.</p>
+</blockquote>
+
+<!-- Enlaces -->
+
+<h4 id="enlaces">Enlaces</h4>
+<pre>
+	<code class="language-markdown">
+		[Enlace en línea](https://example.com)
+
+		[Enlace con título](https://example.com "Texto que aparece al pasar el ratón")
+
+		&lt;https://example.com&gt;
+
+		[Enlace por referencia][ejemplo]
+
+		[ejemplo]: https://example.com
+	</code>
+</pre>
+<div class="markdown-preview">
+	<p><a href="https://example.com">Enlace en línea</a></p>
+	<p><a href="https://example.com" title="Texto que aparece al pasar el ratón">Enlace con título</a></p>
+	<p><a href="https://example.com">https://example.com</a></p>
+	<p><a href="https://example.com">Enlace por referencia</a></p>
+</div>
+<blockquote>
+	<p>Los enlaces por referencia mantienen el texto limpio cuando una misma URL se repite varias veces: la defines una vez, normalmente al final del documento, y la usas por su nombre.</p>
+</blockquote>
+
+<!-- Imágenes -->
+
+<h4 id="imagenes">Imágenes</h4>
+<pre>
+	<code class="language-markdown">
+		![Gato con gafas de sol](/blog/2021220_markdown/glasses-cat.png)
+	</code>
+</pre>
+<div class="markdown-preview">
+	<img src="/blog/20260901_01.png" alt="Gato con gafas de sol">
+</div>
+<blockquote>
+	<p>El texto entre corchetes es el texto alternativo: lo leen los lectores de pantalla y aparece si la imagen no carga. Describe lo que se ve en ella.</p>
+</blockquote>
+
+<!-- Imágenes con enlace -->
+
+<h4 id="imagenes-con-enlace">Imágenes con enlace</h4>
+<pre>
+	<code class="language-markdown">
+		[![Gato con gafas de sol](/blog/2021220_markdown/glasses-cat.png)](https://example.com)
+	</code>
+</pre>
+<div class="markdown-preview">
+	<a href="https://example.com">
+		<img src="/blog/20260901_01.png" alt="Gato con gafas de sol">
+	</a>
+</div>
+
+<!-- Tablas -->
+
+<h4 id="tablas">Tablas</h4>
+<pre>
+	<code class="language-markdown">
+		| Cabecera 1  | Cabecera 2  |
+		| ----------- | ----------- |
+		| Contenido 1 | Contenido 2 |
+		| Contenido 1 | Contenido 2 |
+		| Contenido 1 | Contenido 2 |
+	</code>
+</pre>
+<div class="markdown-preview">
+	<table>
+		<thead>
+			<tr>
+				<th>Cabecera 1</th>
+				<th>Cabecera 2</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Contenido 1</td>
+				<td>Contenido 2</td>
+			</tr>
+			<tr>
+				<td>Contenido 1</td>
+				<td>Contenido 2</td>
+			</tr>
+			<tr>
+				<td>Contenido 1</td>
+				<td>Contenido 2</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<blockquote>
+	<p>No hace falta alinear las columnas, pero hace la tabla mucho más legible en el código. Usa al menos tres guiones en la fila separadora para que funcione en cualquier plataforma.</p>
+</blockquote>
+
+<!-- Tablas con alineación -->
+
+<h4 id="tablas-con-alineacion">Tablas con alineación</h4>
+<pre>
+	<code class="language-markdown">
+		| Izquierda | Centro | Derecha |
+		| :-------- | :----: | ------: |
+		| Texto     | Texto  |    10 € |
+		| Texto     | Texto  |   250 € |
+	</code>
+</pre>
+<div class="markdown-preview">
+	<table>
+		<thead>
+			<tr>
+				<th align="left">Izquierda</th>
+				<th align="center">Centro</th>
+				<th align="right">Derecha</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td align="left">Texto</td>
+				<td align="center">Texto</td>
+				<td align="right">10 €</td>
+			</tr>
+			<tr>
+				<td align="left">Texto</td>
+				<td align="center">Texto</td>
+				<td align="right">250 €</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<blockquote>
+	<p>Los dos puntos de la fila separadora indican la alineación: a la izquierda (<code>:---</code>), centrada (<code>:---:</code>) o a la derecha (<code>---:</code>).</p>
+</blockquote>
+
+<!-- Tablas con elementos listados internos -->
+
+<h4 id="tablas-con-elementos-listados-internos">Tablas con elementos listados internos</h4>
+<pre>
+	<code class="language-markdown">
+		| Proyecto   | Dificultad | Tareas                                        |
+		| ---------- | :--------: | --------------------------------------------- |
+		| Proyecto 1 |  ♥ ♥ ♥ ♥   | &lt;ul&gt;&lt;li&gt;Item1&lt;/li&gt;&lt;li&gt;Item2&lt;/li&gt;&lt;/ul&gt; |
+		| Proyecto 2 |   ♥ ♥ ♥    | &lt;ul&gt;&lt;li&gt;Item1&lt;/li&gt;&lt;li&gt;Item2&lt;/li&gt;&lt;/ul&gt; |
+	</code>
+</pre>
+<div class="markdown-preview">
+	<table>
+		<thead>
+			<tr>
+				<th>Proyecto</th>
+				<th align="center">Dificultad</th>
+				<th>Tareas</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Proyecto 1</td>
+				<td align="center">♥ ♥ ♥ ♥</td>
+				<td>
+					<ul>
+						<li>Item1</li>
+						<li>Item2</li>
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<td>Proyecto 2</td>
+				<td align="center">♥ ♥ ♥</td>
+				<td>
+					<ul>
+						<li>Item1</li>
+						<li>Item2</li>
+					</ul>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<blockquote>
+	<p>Markdown no permite listas dentro de una celda, pero sí HTML. Ten en cuenta que algunas plataformas no aceptan HTML por seguridad y lo mostrarán como texto.</p>
+</blockquote>
+
+<!-- Código -->
+
+<h4 id="codigo">Código</h4>
+
+<h5 id="linea-de-codigo">Línea de código</h5>
+<pre>
+	<code class="language-markdown">
+		Usa `console.log()` para mostrar mensajes en la consola.
+	</code>
+</pre>
+<div class="markdown-preview">
+	<p>Usa <code>console.log()</code> para mostrar mensajes en la consola.</p>
+</div>
+<blockquote>
+	<p>Si el código contiene una comilla invertida, rodéalo con dos: <code>``const texto = `hola`;``</code>.</p>
+</blockquote>
+
+<h5 id="bloque-de-codigo">Bloque de código</h5>
+<pre>
+	<code class="language-markdown">
+		```css
+		/* Esto es un comentario dentro de un bloque de código */
+		.titulo {
+			font-family: "Space Grotesk", sans-serif;
+			color: rebeccapurple;
+		}
+	</code>
+</pre>
+<div class="markdown-preview">
+	<pre>
+		<code class="language-css">
+			/* Esto es un comentario dentro de un bloque de código */
+			.titulo {
+				font-family: "Space Grotesk", sans-serif;
+				color: rebeccapurple;
+			}
+		</code>
+	</pre>
+</div>
+<blockquote>
+	<p>Después de las comillas triples se indica el lenguaje (<code>css</code>, <code>js</code>, <code>html</code>, <code>bash</code>…) para que se resalte la sintaxis. Si quieres mostrar un bloque de código dentro de otro, rodea el exterior con cuatro comillas invertidas o con virgulillas (<code>~~~</code>).</p>
+</blockquote>
+
+<!-- Notas al pie -->
+
+<h4 id="notas-al-pie">Notas al pie (extensión)</h4>
+<pre>
+	<code class="language-markdown">
+		Markdown lo creó John Gruber en 2004.[^1]
+
+		[^1]: Con la colaboración de Aaron Swartz.
+	</code>
+</pre>
+<div class="markdown-preview">
+	<p>Markdown lo creó John Gruber en 2004.<sup><a href="#nota-1" id="ref-nota-1">1</a></sup></p>
+	<ol class="footnotes">
+		<li id="nota-1">Con la colaboración de Aaron Swartz. <a href="#ref-nota-1" aria-label="Volver al texto">↩</a></li>
+	</ol>
+</div>
+<blockquote>
+	<p>Las notas se numeran solas y se colocan al final del documento, escribas donde escribas su contenido. Funcionan en GitHub, Obsidian y la mayoría de generadores de sitios.</p>
+</blockquote>
+
+<!-- Contenido desplegable -->
+
+<h4 id="contenido-desplegable">Contenido desplegable</h4>
+<p>No tiene sintaxis propia en Markdown, pero como admite HTML, puedes usar las etiquetas <code>&lt;details&gt;</code> y <code>&lt;summary&gt;</code>:</p>
+<pre>
+	<code class="language-markdown">
+		&lt;details&gt;
+			&lt;summary&gt;Ver la solución&lt;/summary&gt;
+			La respuesta es **42**.
+		&lt;/details&gt;
+	</code>
+</pre>
+<div class="markdown-preview">
+	<details>
+		<summary>Ver la solución</summary>
+		<p>La respuesta es <strong>42</strong>.</p>
+	</details>
+</div>
+<blockquote>
+	<p>Deja una línea en blanco después de <code>&lt;summary&gt;</code> para que el Markdown de dentro se siga interpretando.</p>
+</blockquote>
+
+<!-- Diagramas -->
+
+<h4 id="diagramas">Diagramas con Mermaid (extensión)</h4>
+<p>GitHub, GitLab, Obsidian y muchos generadores de documentación dibujan diagramas a partir de bloques de código con el lenguaje <code>mermaid</code>:</p>
+<pre>
+	<code class="language-markdown">
+		```mermaid
+			flowchart LR
+			A[Archivo .md] --&gt; B[Procesador] --&gt; C[Página HTML]
+		```
+	</code>
+</pre>
+<div class="markdown-preview">
+	<div class="markdown-diagram" role="img" aria-label="Diagrama: Archivo .md, flecha a Procesador, flecha a Página HTML">
+		<span>Archivo .md</span>
+		<span aria-hidden="true">→</span>
+		<span>Procesador</span>
+		<span aria-hidden="true">→</span>
+		<span>Página HTML</span>
+	</div>
+</div>
+<blockquote>
+	<p>Mermaid admite diagramas de flujo, de secuencia, de Gantt, de clases y más. Donde no está soportado, se muestra como un bloque de código normal.</p>
+</blockquote>
+
+<!-- Fórmulas matemáticas -->
+
+<h4 id="formulas-matematicas">Fórmulas matemáticas (extensión)</h4>
+<pre>
+	<code class="language-markdown">
+		La famosa ecuación de Einstein es $E = mc^2$.
+
+		$$
+		a^2 + b^2 = c^2
+		$$
+	</code>
+</pre>
+<div class="markdown-preview">
+	<p>La famosa ecuación de Einstein es <em>E</em> = <em>mc</em><sup>2</sup>.</p>
+	<p class="markdown-math"><em>a</em><sup>2</sup> + <em>b</em><sup>2</sup> = <em>c</em><sup>2</sup></p>
+</div>
+<blockquote>
+	<p>Entre <code>$</code> la fórmula va dentro del texto; entre <code>$$</code>, en su propia línea. Usa la sintaxis de LaTeX y la admiten GitHub, Obsidian, Notion y Jupyter, entre otros.</p>
+</blockquote>
+
+<!-- Emojis -->
+
+<h4 id="emojis">Emojis (extensión)</h4>
+<pre>
+	<code class="language-markdown">¡Publicado! :rocket: :tada:</code>
+</pre>
+<div class="markdown-preview">
+	<p>¡Publicado! 🚀 🎉</p>
+</div>
+<blockquote>
+	<p>Los códigos entre dos puntos funcionan en GitHub, Slack o Discord. En cualquier otro sitio, pega el emoji directamente: Markdown admite cualquier carácter Unicode.</p>
+</blockquote>
+
+<!-- Comentarios -->
+
+<h4 id="comentarios">Comentarios</h4>
+<pre>
+	<code class="language-markdown">
+		Este texto se ve.
+
+		&lt;!-- Este texto no aparece en el resultado --&gt;
+	</code>
+</pre>
+<div class="markdown-preview">
+	<p>Este texto se ve.</p>
+</div>
+<blockquote>
+	<p>Son útiles para dejar notas o desactivar un trozo sin borrarlo. Ojo: siguen estando en el HTML generado, así que no escribas nada privado en ellos.</p>
+</blockquote>
+
+<!-- Índice con anclas -->
+
+<h4 id="indice-con-anclas">Índice con anclas</h4>
+<p>Cada encabezado recibe automáticamente un identificador a partir de su texto, así que puedes enlazarlo con <code>#</code> para crear un índice clicable:</p>
+<pre>
+	<code class="language-markdown">
+		- [Introducción](#introduccion)
+			- [Instalación](#instalacion)
+				- [Requisitos](#requisitos)
+
+		## Introducción
+			Este es un encabezado h2.
+		### Instalación
+			Este es un encabezado h3.
+		#### Requisitos
+			Este es un encabezado h4.
+	</code>
+</pre>
+<div class="markdown-preview">
+	<ul>
+		<li>
+			<a href="#introduccion">Introducción</a>
+			<ul>
+				<li>
+					<a href="#instalacion">Instalación</a>
+					<ul>
+						<li><a href="#requisitos">Requisitos</a></li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+	</ul>
+	<h2 id="introduccion">Introducción</h2>
+	<p>Este es un encabezado h2.</p>
+	<h3 id="instalacion">Instalación</h3>
+	<p>Este es un encabezado h3.</p>
+	<h4 id="requisitos">Requisitos</h4>
+	<p>Este es un encabezado h4.</p>
+</div>
+<blockquote>
+	<p>El identificador se genera en minúsculas, con los espacios convertidos en guiones y sin signos de puntuación. Cada plataforma trata las tildes a su manera: GitHub las mantiene (<code>#introducción</code>) y otras las eliminan, así que comprueba el resultado.</p>
+</blockquote>
+
+<!-- Metadatos -->
+
+<h4 id="metadatos">Metadatos (front matter)</h4>
+<p>Muchos generadores de blogs, como Astro, Hugo o Jekyll, y apps como Obsidian leen un bloque de datos al principio del archivo, escrito en YAML entre dos líneas de guiones:</p>
+<pre>
+	<code class="language-markdown">
+		---
+		title: Guía completa de Markdown
+		date: 2025-10-01
+		tags: [markdown, documentación, web]
+		---
+
+		# Guía completa de Markdown
+	</code>
+</pre>
+<blockquote>
+	<p>Este bloque no se muestra en la página: lo usa la herramienta para generar el título, la fecha, las etiquetas o el listado de artículos.</p>
+</blockquote>
+
+<!-- Escapar caracteres -->
+
+<h4 id="escapar-caracteres">Escapar caracteres</h4>
+<p>Para escribir un símbolo de Markdown sin que se aplique su formato, añade una barra invertida (<code>\</code>) delante:</p>
+<pre>
+	<code class="language-markdown">
+		\*Esto no está en cursiva\*
+
+		\# Esto no es un encabezado
+	</code>
+</pre>
+<div class="markdown-preview">
+	<p>*Esto no está en cursiva*</p>
+	<p># Esto no es un encabezado</p>
+</div>
+<blockquote>
+	<p>Se pueden escapar estos caracteres: <code>\ ` * _ { } [ ] ( ) # + - . ! |</code></p>
+</blockquote>

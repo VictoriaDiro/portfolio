@@ -1,0 +1,128 @@
+<h4 id="que-son-las-extensiones">¿Qué son las extensiones de VS Code?</h4>
+<p>
+    Visual Studio Code es, de base, un editor ligero. Lo que lo convierte en una herramienta capaz de
+    adaptarse a casi cualquier lenguaje o flujo de trabajo son sus <strong>extensiones</strong>: pequeños
+    complementos que añaden funciones nuevas al editor. Formatear el código al guardar, avisar de errores
+    mientras escribes, autocompletar clases de Tailwind o mostrar quién cambió cada línea de un archivo:
+    casi todo lo que echas en falta en VS Code existe ya como extensión.
+</p>
+<p>
+    Se instalan desde el propio editor, en el panel de extensiones (<code>Ctrl + Shift + X</code>, o
+    <code>Cmd + Shift + X</code> en Mac), que se conecta al Marketplace de Visual Studio. Basta con buscar
+    el nombre y pulsar <em>Install</em>.
+</p>
+
+<h4 id="por-que-son-tan-utiles">¿Por qué son tan útiles?</h4>
+<ul>
+    <li><strong>Ahorran tiempo.</strong> Automatizan tareas repetitivas como dar formato, ordenar imports o cerrar etiquetas.</li>
+    <li><strong>Reducen errores.</strong> Detectan fallos mientras escribes, antes de ejecutar el código o abrir el navegador.</li>
+    <li><strong>Unifican el estilo.</strong> Todo el equipo escribe el código con el mismo formato, sin discusiones sobre comillas o tabulaciones.</li>
+    <li><strong>Te ayudan a aprender.</strong> El autocompletado y la documentación al pasar el ratón te enseñan una librería mientras la usas.</li>
+    <li><strong>Personalizan tu entorno.</strong> Temas, iconos y fuentes hacen que pasar horas delante del editor sea más agradable.</li>
+</ul>
+
+<h4 id="calidad-del-codigo">Calidad del código y formato</h4>
+<ul>
+    <li><strong>Prettier</strong>: formatea automáticamente tu código (HTML, CSS, JavaScript, TypeScript, JSON, Markdown) al guardar para mantenerlo limpio y uniforme.</li>
+    <li><strong>ESLint</strong>: detecta errores, malas prácticas y problemas de sintaxis en tiempo real en JavaScript y TypeScript.</li>
+    <li><strong>Prettier ESLint</strong>: combina las dos anteriores, formateando con Prettier y aplicando después las correcciones de ESLint.</li>
+    <li><strong>Stylelint</strong>: el equivalente de ESLint para CSS, que avisa de propiedades erróneas, selectores duplicados y errores de estilo.</li>
+    <li><strong>EditorConfig</strong>: aplica las reglas del archivo <code>.editorconfig</code> del proyecto (indentación, saltos de línea, codificación), sea cual sea el editor de cada persona.</li>
+    <li><strong>Error Lens</strong>: muestra los mensajes de error y advertencias de los linters directamente en la misma línea del código, sin pasar el ratón por encima.</li>
+    <li><strong>Pretty TypeScript Errors</strong>: reformatea los errores complejos de TypeScript para que sean mucho más fáciles de leer.</li>
+    <li><strong>Code Spell Checker</strong> y <strong>Spanish - Code Spell Checker</strong>: detectan faltas de ortografía en el código y los comentarios, también en español.</li>
+</ul>
+
+<h4 id="html-css-maquetacion">HTML, CSS y maquetación</h4>
+<ul>
+    <li><strong>Live Server (o Live Preview)</strong>: levanta un servidor local con recarga automática en el navegador cada vez que guardas cambios.</li>
+    <li><strong>Auto Rename Tag</strong>: al cambiar el nombre de una etiqueta HTML de apertura, actualiza automáticamente la de cierre. VS Code ya trae algo parecido de serie con la opción <code>editor.linkedEditing</code>.</li>
+    <li><strong>Tailwind CSS IntelliSense</strong>: autocompleta clases, muestra el CSS que genera cada una y detecta conflictos si trabajas con Tailwind CSS.</li>
+    <li><strong>CSS Peek</strong>: permite ver y saltar a la definición de las reglas CSS directamente desde las clases del HTML.</li>
+    <li><strong>BEM Helper</strong>: facilita escribir clases siguiendo la metodología BEM (bloque, elemento, modificador).</li>
+</ul>
+
+<h4 id="archivos-imagenes-recursos">Archivos, imágenes y recursos</h4>
+<ul>
+    <li><strong>Path Intellisense</strong>: autocompleta las rutas de archivos al importar imágenes, scripts o estilos.</li>
+    <li><strong>Image Preview</strong>: muestra una vista previa de la imagen al pasar el cursor por encima de su ruta.</li>
+    <li><strong>SVG Preview</strong> y <strong>Better SVG</strong>: permiten previsualizar archivos SVG dentro del editor y, en el caso de Better SVG, optimizarlos con un clic.</li>
+    <li><strong>Icomoon Viewer</strong>: muestra los iconos de Icomoon directamente en tus archivos de estilos.</li>
+    <li><strong>PDF Preview</strong>: abre archivos PDF sin salir del editor.</li>
+    <li><strong>Figma for VS Code</strong>: trae Figma al editor para inspeccionar diseños, consultar medidas y recibir notificaciones de los comentarios.</li>
+</ul>
+
+<h4 id="javascript-dependencias-apis">JavaScript, dependencias y APIs</h4>
+<ul>
+    <li><strong>Console Ninja</strong>: muestra los resultados de <code>console.log</code> y los errores en tiempo real junto a la línea de código que los genera.</li>
+    <li><strong>Import Cost</strong>: indica cuánto ocupa cada dependencia que importas, para no inflar el tamaño de tu aplicación sin darte cuenta.</li>
+    <li><strong>Version Lens</strong>: te indica en el <code>package.json</code> si hay versiones más nuevas de tus dependencias y te permite actualizarlas desde ahí.</li>
+    <li><strong>REST Client</strong>: permite enviar peticiones HTTP y ver la respuesta directamente desde el editor, sin necesidad de Postman.</li>
+</ul>
+
+<h4 id="control-de-versiones">Control de versiones</h4>
+<ul>
+    <li><strong>GitLens</strong>: lleva la integración con Git a otro nivel, mostrando quién modificó cada línea, cuándo y en qué commit.</li>
+    <li><strong>Git Graph</strong>: dibuja un gráfico con las ramas y commits del repositorio, desde el que también puedes hacer acciones de Git.</li>
+</ul>
+
+<h4 id="markdown">Markdown</h4>
+<ul>
+    <li><strong>Markdown All in One</strong>: atajos de teclado, vista previa, autocompletado e índices automáticos para que escribir Markdown suba de nivel.</li>
+    <li><strong>Markdown PDF</strong>: convierte tus archivos Markdown a PDF, HTML o imagen.</li>
+</ul>
+
+<h4 id="legibilidad-apariencia">Legibilidad y apariencia</h4>
+<ul>
+    <li><strong>Indent-rainbow</strong>: colorea cada nivel de indentación para que la estructura del código se lea de un vistazo.</li>
+    <li><strong>Highlight on Copy</strong>: resalta brevemente el texto que acabas de copiar, para confirmar que has copiado lo que querías.</li>
+    <li><strong>Material Icon Theme</strong>: colección de iconos para identificar cada tipo de archivo y carpeta en el explorador.</li>
+</ul>
+
+<h4 id="inteligencia-artificial">Inteligencia artificial</h4>
+<ul>
+    <li><strong>GitHub Copilot</strong>: asistente de inteligencia artificial que sugiere código, genera pruebas y documentación y responde preguntas sobre tu proyecto.</li>
+    <li><strong>GitHub Copilot modernization</strong>: ayuda a actualizar aplicaciones antiguas y a migrarlas a la nube de Azure.</li>
+</ul>
+
+<h4 id="configurarlas-bien">Configurarlas bien</h4>
+<p>
+    Muchas extensiones funcionan nada más instalarlas, pero sacarles partido suele requerir algún ajuste
+    en <code>settings.json</code>. Por ejemplo, para que Prettier formatee cada archivo al guardarlo:
+</p>
+<pre><code class="language-json">{
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+}</code></pre>
+<p>
+    Si trabajas en equipo, puedes recomendar extensiones a todo el que abra el proyecto creando el archivo
+    <code>.vscode/extensions.json</code>. VS Code mostrará un aviso para instalarlas:
+</p>
+<pre><code class="language-json">{
+    "recommendations": [
+        "esbenp.prettier-vscode",
+        "dbaeumer.vscode-eslint",
+        "bradlc.vscode-tailwindcss"
+    ]
+}</code></pre>
+
+<h4 id="con-moderacion">Con moderación</h4>
+<p>
+    Las extensiones son tan fáciles de instalar que es tentador acumularlas, pero cada una consume memoria
+    y puede ralentizar el arranque del editor. Algunas recomendaciones:
+</p>
+<ul>
+    <li><strong>Comprueba si ya viene integrado.</strong> VS Code incorpora con el tiempo funciones que antes requerían extensiones, como colorear las parejas de corchetes o renombrar etiquetas HTML.</li>
+    <li><strong>Fíjate en quién la publica.</strong> Una extensión tiene acceso a tus archivos, así que conviene elegir las de editores verificados y con muchas descargas.</li>
+    <li><strong>Instala solo lo que uses.</strong> Revisa tu lista de vez en cuando y desinstala lo que ya no necesites.</li>
+    <li><strong>Desactívalas por proyecto.</strong> Desde el panel de extensiones puedes desactivar una solo en el espacio de trabajo actual.</li>
+    <li><strong>Usa perfiles.</strong> Los perfiles de VS Code te permiten tener conjuntos de extensiones distintos, por ejemplo uno para frontend, otro para Java y otro para Python.</li>
+    <li><strong>Vigila su impacto.</strong> El panel de extensiones muestra cuánto tarda cada una en activarse; si alguna tarda segundos, plantéate si la necesitas siempre activa.</li>
+</ul>
+
+<h4 id="conclusion">Conclusión</h4>
+<p>
+    Las extensiones convierten VS Code en un editor hecho a tu medida. Con unas pocas bien elegidas
+    escribirás más rápido y con menos errores. Empieza por las básicas de calidad de código, como Prettier y
+    ESLint, y ve añadiendo las demás a medida que las necesites.
+</p>

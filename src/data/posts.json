@@ -1,0 +1,18 @@
+{
+	"2026": [
+		{
+            "id": "20261009",
+            "title": "Extensiones para VS Code",
+            "date": "2026-10-09",
+            "excerpt": "Lo que lo convierte a Visual Studio Code en una herramienta capaz de adaptarse a casi cualquier flujo de trabajo son sus extensiones: complementos que añaden funciones nuevas al editor.",
+            "tags": ["extensiones", "visual-studio-code"]
+        },
+        {
+            "id": "20260901",
+            "title": "Guía completa de Markdown",
+            "date": "2026-09-01",
+            "excerpt": "Markdown se ha convertido en un estándar de facto para la escritura en la web, utilizado en plataformas como GitHub, Reddit, y Stack Overflow.",
+            "tags": ["markdown", "documentación"]
+        }
+	]
+}
