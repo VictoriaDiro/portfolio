@@ -1,8 +1,19 @@
 const experiences = [
+        {
+        "company": "Plexus Tech",
+        "role": "Desarrollo Frontend",
+        "period": "may. 2026 - ACTUALIDAD",
+        "description": [
+            "HTML, CSS, Less", 
+            "Javascript", 
+            "Adobe Experience Manager",  
+            "Scrum, Agile" 
+        ]
+    },
     {
         "company": "Vass Company",
         "role": "Desarrollo Frontend",
-        "period": "oct. 2021 - ACTUALIDAD",
+        "period": "oct. 2021 - may. 2026",
         "description": [
             "HTML, CSS, Less", 
             "Javascript", 

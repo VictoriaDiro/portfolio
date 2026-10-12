@@ -51,13 +51,14 @@ const Hero = () => {
 					className="inicio__summary-cards space-y-4"
 				>
 					<SummaryCard title="Experiencia" items={[
-						"Desarrollo Frontend — Vass Company (2021 – presente)",
+						"Desarrollo Frontend — Plexus (2026 – presente)",
+						"Desarrollo Frontend — Vass Company (2021 – 2026)",
 						"Desarrollo Frontend — Sygris (2020 – 2021)",
-						"Desarrollo Frontend — Telefónica Edicación Digital (2020)",
 					]} />
 					<SummaryCard title="Formación" items={[
-						"FP Superior de Desarrollo en Aplicaciones Web — IES Arcipreste de Hita",
-						"Desarrollo Frontend — Adalab",
+						"FP Desarrollo en Aplicaciones Web — IES Arcipreste de Hita (2024 – presente)",
+						"Desarrollo Frontend — Adalab (2019)",
+						"Administración y Relación con el Cliente - CAM (2017 – 2018)"
 					]} />
 				</motion.div>
 			</div>
