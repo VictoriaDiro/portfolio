@@ -8,39 +8,39 @@ const Hero = () => {
 			<div className="grid items-center gap-12 lg:grid-cols-2">
 				{/* Left — Intro */}
 				<motion.div
-				initial={{ opacity: 0, y: 30 }}
-				animate={{ opacity: 1, y: 0 }}
-				transition={{ duration: 0.7 }}
-				>
-				<p className="mb-2 font-mono text-sm text-primary">Hola, soy</p>
-				<h1 className="mb-4 font-['Space_Grotesk'] text-5xl font-bold leading-tight text-foreground lg:text-6xl">
-					Victoria Díaz
-				</h1>
-				<p className="mb-6 text-xl text-primary">Desarrolladora Web Frontend</p>
-				<p className="inicio__intro-description mb-8 max-w-lg text-base leading-relaxed text-muted-foreground">
-					Apasionada por crear experiencias web accesibles, performantes y visualmente atractivas.
-					Especializada en HTML, CSS/Sass/LESS y JavaScript con más de 6 años de experiencia
-					construyendo interfaces modernas y responsive.
-				</p>
-
-				{/* Social links */}
-				<div className="flex gap-4">
-					{[
-					{ icon: Github, href: "https://github.com/VictoriaDiro", label: "GitHub" },
-					{ icon: Linkedin, href: "https://www.linkedin.com/in/victoriadiro/", label: "LinkedIn" },
-					].map(({ icon: Icon, href, label }) => (
-					<a
-						key={label}
-						href={href}
-						target="_blank"
-						rel="noopener noreferrer"
-						aria-label={label}
-						className="flex h-10 w-10 items-center justify-center rounded-lg border border-border bg-secondary text-muted-foreground transition-all hover:border-primary hover:text-primary"
+					initial={{ opacity: 0, y: 30 }}
+					animate={{ opacity: 1, y: 0 }}
+					transition={{ duration: 0.7 }}
 					>
-						<Icon size={18} />
-					</a>
-					))}
-				</div>
+					<p className="mb-2 font-mono text-sm text-primary">Hola, soy</p>
+					<h1 className="mb-4 font-['Space_Grotesk'] text-5xl font-bold leading-tight text-foreground lg:text-6xl">
+						Victoria Díaz
+					</h1>
+					<p className="mb-6 text-xl text-primary">Desarrolladora Web Frontend</p>
+					<p className="inicio__intro-description mb-8 max-w-lg text-base leading-relaxed text-muted-foreground">
+						Apasionada por crear experiencias web accesibles, performantes y visualmente atractivas.
+						Especializada en HTML, CSS/Sass/LESS y JavaScript con más de 6 años de experiencia
+						construyendo interfaces modernas y responsive.
+					</p>
+
+					{/* Social links */}
+					<div className="flex gap-4">
+						{[
+						{ icon: Github, href: "https://github.com/VictoriaDiro", label: "GitHub" },
+						{ icon: Linkedin, href: "https://www.linkedin.com/in/victoriadiro/", label: "LinkedIn" },
+						].map(({ icon: Icon, href, label }) => (
+						<a
+							key={label}
+							href={href}
+							target="_blank"
+							rel="noopener noreferrer"
+							aria-label={label}
+							className="flex h-10 w-10 items-center justify-center rounded-lg border border-border bg-secondary text-muted-foreground transition-all hover:border-primary hover:text-primary"
+						>
+							<Icon size={18} />
+						</a>
+						))}
+					</div>
 				</motion.div>
 
 				{/* Right — Summary cards */}
