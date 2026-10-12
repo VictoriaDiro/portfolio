@@ -3,70 +3,70 @@ import { Github, Linkedin, Mail } from "lucide-react";
 
 const Hero = () => {
 	return (
-	<section id="inicio" className="relative min-h-screen pt-24">
+	<section id="inicio" className="relative min-h-full pt-12">
 		<div className="container mx-auto px-6 py-20">
-		<div className="grid items-center gap-12 lg:grid-cols-2">
-			{/* Left — Intro */}
-			<motion.div
-			initial={{ opacity: 0, y: 30 }}
-			animate={{ opacity: 1, y: 0 }}
-			transition={{ duration: 0.7 }}
-			>
-			<p className="mb-2 font-mono text-sm text-primary">Hola, soy</p>
-			<h1 className="mb-4 font-['Space_Grotesk'] text-5xl font-bold leading-tight text-foreground lg:text-6xl">
-				Victoria Díaz
-			</h1>
-			<p className="mb-6 text-xl text-primary">Desarrolladora Web Frontend</p>
-			<p className="mb-8 max-w-lg text-base leading-relaxed text-muted-foreground">
-				Apasionada por crear experiencias web accesibles, performantes y visualmente atractivas.
-				Especializada en HTML, CSS/Sass/LESS y JavaScript con más de 6 años de experiencia
-				construyendo interfaces modernas y responsive.
-			</p>
-
-			{/* Social links */}
-			<div className="flex gap-4">
-				{[
-				{ icon: Github, href: "https://github.com/VictoriaDiro", label: "GitHub" },
-				{ icon: Linkedin, href: "https://www.linkedin.com/in/victoriadiro/", label: "LinkedIn" },
-				].map(({ icon: Icon, href, label }) => (
-				<a
-					key={label}
-					href={href}
-					target="_blank"
-					rel="noopener noreferrer"
-					aria-label={label}
-					className="flex h-10 w-10 items-center justify-center rounded-lg border border-border bg-secondary text-muted-foreground transition-all hover:border-primary hover:text-primary"
+			<div className="grid items-center gap-12 lg:grid-cols-2">
+				{/* Left — Intro */}
+				<motion.div
+				initial={{ opacity: 0, y: 30 }}
+				animate={{ opacity: 1, y: 0 }}
+				transition={{ duration: 0.7 }}
 				>
-					<Icon size={18} />
-				</a>
-				))}
-			</div>
-			</motion.div>
+				<p className="mb-2 font-mono text-sm text-primary">Hola, soy</p>
+				<h1 className="mb-4 font-['Space_Grotesk'] text-5xl font-bold leading-tight text-foreground lg:text-6xl">
+					Victoria Díaz
+				</h1>
+				<p className="mb-6 text-xl text-primary">Desarrolladora Web Frontend</p>
+				<p className="inicio__intro-description mb-8 max-w-lg text-base leading-relaxed text-muted-foreground">
+					Apasionada por crear experiencias web accesibles, performantes y visualmente atractivas.
+					Especializada en HTML, CSS/Sass/LESS y JavaScript con más de 6 años de experiencia
+					construyendo interfaces modernas y responsive.
+				</p>
 
-			{/* Right — Summary cards */}
-			<motion.div
-			initial={{ opacity: 0, y: 30 }}
-			animate={{ opacity: 1, y: 0 }}
-			transition={{ duration: 0.7, delay: 0.2 }}
-			className="space-y-4"
-			>
-			<SummaryCard title="Experiencia" items={[
-				"Desarrollo Frontend — Vass Company (2021 – presente)",
-				"Desarrollo Frontend — Sygris (2020 – 2021)",
-				"Desarrollo Frontend — Telefónica Edicación Digital (2020)",
-			]} />
-			<SummaryCard title="Formación" items={[
-				"FP Superior de Desarrollo en Aplicaciones Web — IES Arcipreste de Hita",
-				"Desarrollo Front-End — Adalab",
-			]} />
-			</motion.div>
-		</div>
+				{/* Social links */}
+				<div className="flex gap-4">
+					{[
+					{ icon: Github, href: "https://github.com/VictoriaDiro", label: "GitHub" },
+					{ icon: Linkedin, href: "https://www.linkedin.com/in/victoriadiro/", label: "LinkedIn" },
+					].map(({ icon: Icon, href, label }) => (
+					<a
+						key={label}
+						href={href}
+						target="_blank"
+						rel="noopener noreferrer"
+						aria-label={label}
+						className="flex h-10 w-10 items-center justify-center rounded-lg border border-border bg-secondary text-muted-foreground transition-all hover:border-primary hover:text-primary"
+					>
+						<Icon size={18} />
+					</a>
+					))}
+				</div>
+				</motion.div>
+
+				{/* Right — Summary cards */}
+				<motion.div
+					initial={{ opacity: 0, y: 30 }}
+					animate={{ opacity: 1, y: 0 }}
+					transition={{ duration: 0.7, delay: 0.2 }}
+					className="inicio__summary-cards space-y-4"
+				>
+					<SummaryCard title="Experiencia" items={[
+						"Desarrollo Frontend — Vass Company (2021 – presente)",
+						"Desarrollo Frontend — Sygris (2020 – 2021)",
+						"Desarrollo Frontend — Telefónica Edicación Digital (2020)",
+					]} />
+					<SummaryCard title="Formación" items={[
+						"FP Superior de Desarrollo en Aplicaciones Web — IES Arcipreste de Hita",
+						"Desarrollo Frontend — Adalab",
+					]} />
+				</motion.div>
+			</div>
 		</div>
 
 		{/* Decorative gradient */}
 		<div className="pointer-events-none absolute inset-0 -z-10 overflow-hidden">
-		<div className="absolute -top-40 right-0 h-[500px] w-[500px] rounded-full bg-primary/5 blur-[120px]" />
-		<div className="absolute bottom-0 left-0 h-[400px] w-[400px] rounded-full bg-primary/3 blur-[100px]" />
+			<div className="absolute -top-40 right-0 h-[500px] w-[500px] rounded-full bg-primary/5 blur-[120px]" />
+			<div className="absolute bottom-0 left-0 h-[400px] w-[400px] rounded-full bg-primary/3 blur-[100px]" />
 		</div>
 	</section>
 	);

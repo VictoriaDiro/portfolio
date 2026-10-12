@@ -82,3 +82,12 @@
 .animate-scroll-left:hover {
 	animation-play-state: paused;
 }
+
+@media screen and (max-width: 1023px) {
+	#inicio .inicio__intro-description {
+		max-width: 100%;
+	}
+	#inicio .inicio__summary-cards {
+		display: none;
+	}
+}

@@ -6,7 +6,7 @@ export interface Experience {
 	company: string;
 	role: string;
 	period: string;
-	description: string;
+	description: string[];
 }
 
 const Experience = () => {
@@ -27,17 +27,20 @@ const Experience = () => {
 					>
 						{/* Timeline dot */}
 						<div className="absolute -left-[41px] top-1 flex h-6 w-6 items-center justify-center rounded-full border-2 border-primary bg-background">
-						<div className="h-2 w-2 rounded-full bg-primary" />
-						</div>
-						<div className="rounded-xl border border-border bg-card p-6 transition-colors hover:border-primary/30">
-						<div className="mb-2 flex flex-wrap items-center gap-3">
-							<h3 className="font-['Space_Grotesk'] text-lg font-semibold text-foreground">{exp.role}</h3>
-							<span className="rounded-full bg-primary/10 px-3 py-0.5 text-xs font-medium text-primary">
-							{exp.period}
-							</span>
-						</div>
-						<p className="mb-3 text-sm font-medium text-primary/80">{exp.company}</p>
-						<p className="text-sm leading-relaxed text-muted-foreground">{exp.description}</p>
+							<div className="h-2 w-2 rounded-full bg-primary" /></div>
+							<div className="rounded-xl border border-border bg-card p-6 transition-colors hover:border-primary/30">
+							<div className="mb-2 flex flex-wrap items-center gap-3">
+								<h3 className="font-['Space_Grotesk'] text-lg font-semibold text-foreground">{exp.role}</h3>
+								<span className="rounded-full bg-primary/10 px-3 py-0.5 text-xs font-medium text-primary">
+								{exp.period}
+								</span>
+							</div>
+							<p className="mb-3 text-sm font-medium text-primary/80">{exp.company}</p>
+							<ul className="list-disc space-y-1.5 pl-5 text-sm leading-relaxed text-muted-foreground marker:text-primary">
+								{exp.description.map((item, j) => (
+									<li key={j}>{item}</li>
+								))}
+							</ul>
 						</div>
 					</motion.div>
 				))}
