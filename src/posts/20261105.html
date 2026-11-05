@@ -1,0 +1,373 @@
+<h4>Introducción</h4>
+<p>
+	Durante más de veinte años, CSS solo supo mirar hacia abajo: un selector podía estilar a los hijos o descendientes de un elemento, pero nunca al elemento en función de lo que contenía. Con <code>:has()</code> eso cambia: ahora podemos decir “estila este contenedor <strong>si</strong> dentro tiene tal cosa”.
+</p>
+<p>
+	La petición era tan antigua que se convirtió en un clásico de los foros: “¿cómo selecciono el padre de un elemento?”. La respuesta siempre era la misma: no se puede, usa JavaScript o añade una clase extra al HTML.
+</p>
+<p>
+	El motivo era el rendimiento. Los navegadores evalúan los selectores de derecha a izquierda y aplican estilos mientras el documento se va construyendo. Un selector padre obliga a reevaluar ancestros cada vez que cambia un descendiente, algo que durante años se consideró demasiado costoso. Los motores han encontrado formas de acotar ese coste, y hoy <code>:has()</code> funciona en todos los navegadores modernos.
+</p>
+
+<h4>Qué es <code>:has()</code> y cómo se escribe</h4>
+<p>
+	<code>:has()</code> es una pseudoclase relacional: selecciona un elemento si al menos uno de los selectores relativos que recibe encuentra coincidencia <strong>a partir de ese elemento</strong>. La sintaxis es <code>A:has(B)</code>, y se lee “un A que tiene un B”.
+</p>
+<p>
+	El ejemplo canónico: estilar una tarjeta solo cuando contiene una imagen.
+</p>
+<pre>
+	<code class="language-html">
+&lt;article class="card"&gt;
+	&lt;img src="portada.jpg" alt=""&gt;
+	&lt;h2&gt;Con imagen&lt;/h2&gt;
+&lt;/article&gt;
+
+&lt;article class="card"&gt;
+	&lt;h2&gt;Sin imagen&lt;/h2&gt;
+&lt;/article&gt;
+	</code>
+</pre>
+<pre>
+	<code class="language-css">
+/* Solo la primera tarjeta cumple la condición */
+.card:has(img) {
+	display: grid;
+	grid-template-columns: 200px 1fr;
+	gap: 1rem;
+}
+	</code>
+</pre>
+<p>
+	Fíjate en que el estilo se aplica a <code>.card</code>, no a la imagen. Eso es exactamente lo que antes era imposible.
+</p>
+<p>
+	Por defecto, el argumento busca entre <strong>todos los descendientes</strong>. Si quieres limitarlo a los hijos directos, usa el combinador <code>&gt;</code> dentro del paréntesis:
+</p>
+<pre>
+	<code class="language-css">
+/* Solo si la imagen es hija directa de .card */
+.card:has(&gt; img) {
+	padding: 0;
+}
+	</code>
+</pre>
+
+<h4>Más que un selector padre</h4>
+<p>
+	Llamarlo “selector padre” se queda corto: <code>:has()</code> acepta cualquier selector relativo, así que también sirve para mirar <strong>hacia atrás entre hermanos</strong>, otra cosa que CSS no podía hacer.
+</p>
+<div class="table-wrap">
+	<table>
+		<thead>
+			<tr>
+				<th>Selector</th>
+				<th>Selecciona</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td><code>a:has(b)</code></td>
+				<td>un <code>a</code> con algún descendiente <code>b</code></td>
+			</tr>
+			<tr>
+				<td><code>a:has(&gt; b)</code></td>
+				<td>un <code>a</code> con un hijo directo <code>b</code></td>
+			</tr>
+			<tr>
+				<td><code>a:has(+ b)</code></td>
+				<td>un <code>a</code> seguido inmediatamente de un hermano <code>b</code></td>
+			</tr>
+			<tr>
+				<td><code>a:has(~ b)</code></td>
+				<td>un <code>a</code> con algún hermano posterior <code>b</code></td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<p>
+	El combinador <code>+</code> permite, por ejemplo, ajustar el margen de un título solo cuando lo sigue un subtítulo:
+</p>
+<pre>
+	<code class="language-css">
+/* El h2 que va justo antes de un .subtitle */
+h2:has(+ .subtitle) {
+	margin-bottom: 0.25rem;
+}
+	</code>
+</pre>
+<p>
+	También admite una lista de selectores separada por comas. La condición se cumple si coincide <strong>cualquiera</strong> de ellos (lógica OR):
+</p>
+<pre>
+	<code class="language-css">
+/* Un aviso que contenga un icono o un botón */
+.alert:has(svg, button) {
+	padding-inline-start: 3rem;
+}
+	</code>
+</pre>
+<p>
+	Para exigir varias condiciones a la vez (lógica AND), encadena varios <code>:has()</code>:
+</p>
+<pre>
+	<code class="language-css">
+/* Una tarjeta con imagen Y con vídeo */
+.card:has(img):has(video) {
+	outline: 2px solid tomato;
+}
+	</code>
+</pre>
+
+<h4>Casos prácticos</h4>
+<p>
+	Estos patrones sustituyen JavaScript o clases auxiliares que antes eran inevitables.
+</p>
+
+<h5>1. Formularios que reaccionan a su estado</h5>
+<p>
+	Marca en rojo el grupo entero de un campo inválido, pero solo después de que el usuario haya escrito algo:
+</p>
+<pre>
+	<code class="language-css">
+.field:has(input:user-invalid) {
+	border-color: crimson;
+}
+
+.field:has(input:user-invalid) .error-message {
+	display: block;
+}
+	</code>
+</pre>
+<p>
+	Y deshabilita visualmente el botón de envío mientras haya campos obligatorios vacíos:
+</p>
+<pre>
+	<code class="language-css">
+form:has(:required:invalid) button[type="submit"] {
+	opacity: 0.5;
+	pointer-events: none;
+}
+	</code>
+</pre>
+
+<h5>2. Mostrar campos según una opción elegida</h5>
+<p>
+	Sin una sola línea de JavaScript, un checkbox puede desplegar un bloque del formulario:
+</p>
+<pre>
+	<code class="language-html">
+&lt;form class="checkout"&gt;
+	&lt;label&gt;
+		&lt;input type="checkbox" id="factura"&gt;
+		Necesito factura
+	&lt;/label&gt;
+	&lt;fieldset class="datos-fiscales"&gt;
+		&lt;!-- NIF, razón social... --&gt;
+	&lt;/fieldset&gt;
+&lt;/form&gt;
+	</code>
+</pre>
+<pre>
+	<code class="language-css">
+.datos-fiscales {
+	display: none;
+}
+
+.checkout:has(#factura:checked) .datos-fiscales {
+	display: block;
+}
+	</code>
+</pre>
+
+<h5>3. Estados vacíos</h5>
+<p>
+	Muestra un mensaje cuando una lista no tiene elementos:
+</p>
+<pre>
+	<code class="language-css">
+.empty-message {
+	display: none;
+}
+
+.list-wrapper:not(:has(li)) .empty-message {
+	display: block;
+}
+	</code>
+</pre>
+
+<h5>4. Layouts según la cantidad de hijos</h5>
+<p>
+	Combinado con <code>:nth-child()</code>, <code>:has()</code> permite “contar” elementos y adaptar la rejilla:
+</p>
+<pre>
+	<code class="language-css">
+/* Tres columnas cuando hay 3 o más elementos */
+.gallery:has(&gt; :nth-child(3)) {
+	grid-template-columns: repeat(3, 1fr);
+}
+
+/* Exactamente un elemento: ocupa todo el ancho */
+.gallery:has(&gt; :only-child) {
+	grid-template-columns: 1fr;
+}
+	</code>
+</pre>
+
+<h5>5. Cambiar el tema desde cualquier punto de la página</h5>
+<p>
+	Un interruptor colocado en cualquier sitio puede modificar variables en la raíz del documento:</p>
+<pre>
+	<code class="language-css">
+:root:has(#modo-oscuro:checked) {
+	--bg: #111;
+	--text: #eee;
+}
+
+body {
+	background: var(--bg, #fff);
+	color: var(--text, #111);
+}
+	</code>
+</pre>
+<p>
+	El mismo truco sirve para bloquear el scroll cuando hay un modal abierto:
+</p>
+<pre>
+	<code class="language-css">
+body:has(dialog[open]) {
+	overflow: hidden;
+}
+	</code>
+</pre>
+
+<h5>6. Resaltar el elemento activo y atenuar el resto</h5>
+<pre>
+	<code class="language-css">
+/* Atenúa todas las tarjetas cuando una tiene el cursor encima... */
+.grid:has(.card:hover) .card:not(:hover) {
+	opacity: 0.6;
+	scale: 0.98;
+}
+	</code>
+</pre>
+
+<h4>Combinarlo con <code>:not()</code> e <code>:is()</code>, y la especificidad</h4>
+<p>
+	La posición de <code>:not()</code> cambia por completo el significado. Conviene tenerlo claro porque es la confusión más habitual:
+</p>
+<pre>
+	<code class="language-css">
+/* Tarjetas que NO contienen ninguna imagen */
+.card:not(:has(img)) {
+	padding: 2rem;
+}
+
+/* Tarjetas que contienen algo que no es una imagen */
+.card:has(:not(img)) {
+	/* casi siempre coincide: cualquier otro hijo cumple */
+}
+	</code>
+</pre>
+<p>
+	<code>:has()</code> también se combina bien con <code>:is()</code> para agrupar condiciones sin repetir el selector exterior:
+</p>
+<pre>
+	<code class="language-css">
+.post:has(:is(h2, h3) + table) {
+	max-width: 100%;
+}
+	</code>
+</pre>
+<p>
+	En cuanto a la <strong>especificidad</strong>, <code>:has()</code> se comporta como <code>:is()</code> y <code>:not()</code>: no suma nada por sí misma y toma la del selector más específico de su lista de argumentos.
+</p>
+<pre>
+	<code class="language-css">
+/* Especificidad (0, 2, 0): .card + .featured */
+.card:has(.featured) { }
+
+/* Especificidad (1, 1, 0): .card + #hero, aunque coincida por img */
+.card:has(img, #hero) { }
+	</code>
+</pre>
+<p>
+	Ese segundo caso sorprende a menudo: basta con que un ID aparezca en la lista para que todo el selector pese como si lo usara.
+</p>
+
+<h4>Soporte, rendimiento y limitaciones</h4>
+<p>
+	<code>:has()</code> funciona en todos los navegadores modernos desde finales de 2023, cuando Firefox fue el último en incorporarlo. Para proyectos nuevos se puede usar sin miedo.
+</p>
+<div class="table-wrap">
+	<table>
+		<thead>
+			<tr>
+				<th>Navegador</th>
+				<th>Versión con soporte</th>
+				<th>Fecha aproximada</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Firefox</td>
+				<td>121</td>
+				<td>diciembre de 2023</td>
+			</tr>
+			<tr>
+				<td>Chrome / Edge</td>
+				<td>105</td>
+				<td>agosto–septiembre de 2022</td>
+			</tr>
+			<tr>
+				<td>Safari (macOS e iOS)</td>
+				<td>15.4</td>
+				<td>marzo de 2022</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<p>
+	Si aún tienes que dar soporte a navegadores antiguos, detecta la función con <code>@supports selector()</code> y deja un estilo por defecto razonable:
+</p>
+<pre>
+	<code class="language-css">
+/* Estilo base para todos */
+.card {
+	display: block;
+}
+
+/* Mejora progresiva */
+@supports selector(:has(*)) {
+	.card:has(img) {
+		display: grid;
+		grid-template-columns: 200px 1fr;
+	}
+}
+	</code>
+</pre>
+<p>
+	<strong>Rendimiento.</strong> Los motores optimizan <code>:has()</code>, pero el coste crece con el alcance del selector. Algunas pautas:
+</p>
+<ul>
+	<li>Ancla el selector a un contenedor concreto (<code>.card:has(img)</code>) en lugar de a <code>body</code> o <code>:root</code>, salvo que realmente lo necesites.</li>
+	<li>Prefiere <code>:has(&gt; img)</code> frente a <code>:has(img)</code> cuando sepas que el elemento es hijo directo: limita la búsqueda.</li>
+	<li>Evita <code>:has()</code> muy genéricos en páginas con miles de nodos que cambian a menudo, como tablas o listas virtualizadas.</li>
+</ul>
+<p>
+	<strong>Limitaciones que conviene conocer:</strong>
+</p>
+<ul>
+	<li>No se puede anidar: <code>:has(:has(...))</code> no es válido.</li>
+	<li>No acepta pseudoelementos como argumento: <code>:has(::before)</code> no funciona.</li>
+	<li>La lista de argumentos no es tolerante a errores: si uno de los selectores es inválido, se descarta toda la regla.</li>
+	<li>No sustituye a la lógica de la aplicación: es perfecto para estilos que dependen del estado del DOM, no para gestionar datos.</li>
+</ul>
+
+<h4>Conclusión</h4>
+<p>
+	<code>:has()</code> no es solo el selector padre que llevábamos años pidiendo: es una forma de que el CSS reaccione al contenido y al estado del documento. Formularios, estados vacíos, layouts que se adaptan al número de elementos o temas activados con un checkbox ya no necesitan JavaScript.
+</p>
+<p>
+	Empieza por un caso pequeño, como la tarjeta con imagen o el campo inválido, y verás cuántas clases auxiliares y scripts puedes borrar de tu proyecto.
+</p>

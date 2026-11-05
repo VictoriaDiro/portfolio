@@ -1,5 +1,12 @@
 {
 	"2026": [
+        {
+            "id": "20261105",
+            "title": ":has( ), el “selector padre” que por fin existe",
+            "date": "2026-11-05",
+            "excerpt": "Durante más de veinte años, CSS solo supo mirar hacia abajo: un selector podía estilar a los hijos o descendientes de un elemento, pero nunca al elemento en función de lo que contenía.",
+            "tags": ["css", "maquetación"]
+        },
 		{
             "id": "20261009",
             "title": "Extensiones para VS Code",
